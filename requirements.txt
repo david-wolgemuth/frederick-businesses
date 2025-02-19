@@ -1,0 +1,4 @@
+Django==5.1.2
+django-extensions==3.2.3
+PyYAML==6.0.2
+Scrapy==2.11.2
