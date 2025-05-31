@@ -82,7 +82,7 @@ make runserver
 
 ## Scrapers / Sites to Add
 
-- [ ] [https://www.discoverfrederickmd.com/186/Major-Employers](https://www.discoverfrederickmd.com/186/Major-Employers) - Major Employers | Frederick County Economic Development, MD
+- [x] [https://www.discoverfrederickmd.com/186/Major-Employers](https://www.discoverfrederickmd.com/186/Major-Employers) - Major Employers | Frederick County Economic Development, MD
 - [ ] [https://www.discoverfrederickmd.com/BusinessDirectoryII.aspx](https://www.discoverfrederickmd.com/BusinessDirectoryII.aspx)
 - [ ] [https://madeinfrederickmd.com/directory/](https://madeinfrederickmd.com/directory/) - Directory - MadeInFrederick View and search our directory of manufacturers here in Frederick County.
 - [ ] [https://www.frederickworks.com/labor-market-dashboard](https://www.frederickworks.com/labor-market-dashboard)

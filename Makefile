@@ -2,7 +2,12 @@
 
 scrape_frederick_chamber:
 	# Scrape Frederick Chamber of Commerce Members
-	python manage.py run_scraper
+	python manage.py run_scraper frederick_chamber
+
+
+scrape_discover_frederick:
+	# Scrape Discover Frederick
+	python manage.py run_scraper discover_frederick
 
 
 runserver:
