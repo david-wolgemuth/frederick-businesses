@@ -10,6 +10,11 @@ scrape_discover_frederick:
 	python manage.py run_scraper discover_frederick
 
 
+scrape_discover_frederick_major_employers:
+	# Scrape Discover Frederick
+	python manage.py run_scraper discover_frederick_major_employers
+
+
 runserver:
 	python manage.py runserver
 

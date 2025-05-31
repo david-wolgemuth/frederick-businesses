@@ -5,11 +5,15 @@ from scrapy.utils.project import get_project_settings
 
 from scraper.spiders.frederick_chamber import FrederickChamberSpider
 from scraper.spiders.discover_frederick import DiscoverFrederickSpider
+from scraper.spiders.discover_frederick_major_employers import (
+    DiscoverFrederickMajorEmployersSpider,
+)
 
 
 class ScraperName(StrEnum):
     FREDERICK_CHAMBER = auto()
     DISCOVER_FREDERICK = auto()
+    DISCOVER_FREDERICK_MAJOR_EMPLOYERS = auto()
 
 
 class Command(BaseCommand):
@@ -35,6 +39,10 @@ class Command(BaseCommand):
             case ScraperName.DISCOVER_FREDERICK:
                 self.stdout.write("Running Discover Frederick scraper")
                 process.crawl(DiscoverFrederickSpider)
+                process.start()
+            case ScraperName.DISCOVER_FREDERICK_MAJOR_EMPLOYERS:
+                self.stdout.write("Running Discover Frederick scraper")
+                process.crawl(DiscoverFrederickMajorEmployersSpider)
                 process.start()
             case _:
                 self.stderr.write("Unknown scraper option")

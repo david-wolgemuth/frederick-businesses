@@ -29,6 +29,7 @@ class Business:
     categories: list[BusinessCategory] = None
     chamber_of_commerce_id: str | None = None
     address: str = ""
+    address2: str = ""
     city: str = ""
     state: str = ""
     zip: str = ""
