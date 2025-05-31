@@ -6,6 +6,7 @@ class TimestampsMixin:
     """
     Timestamps Mixin
     """
+
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -14,6 +15,7 @@ class Address(TimestampsMixin, models.Model):
     """
     Address model
     """
+
     street_1 = models.CharField(max_length=255)
     street_2 = models.CharField(max_length=255)
     city = models.CharField(max_length=255)
@@ -25,12 +27,19 @@ class BusinessCategory(TimestampsMixin, models.Model):
     """
     Business Category model
     """
+
     name = models.CharField(max_length=255)
     slug = models.SlugField(unique=True, db_index=True)
     description = models.TextField(blank=True, null=True)
 
     # External links / ids
-    chamber_of_commerce_id = models.CharField(max_length=255, db_index=True, unique=True)
+    chamber_of_commerce_id = models.CharField(
+        max_length=255,
+        db_index=True,
+        unique=True,
+        null=True,
+        blank=True,
+    )
 
     def save(self, *args, **kwargs):
         if not self.slug:
@@ -45,6 +54,7 @@ class Business(TimestampsMixin, models.Model):
     """
     Business model
     """
+
     name = models.CharField(
         null=False,
         blank=False,
@@ -70,6 +80,7 @@ class Business(TimestampsMixin, models.Model):
 
     # External links / ids
     chamber_of_commerce_id = models.CharField(
+        blank=True,
         null=True,
         max_length=255,
         db_index=True,
@@ -80,6 +91,9 @@ class Business(TimestampsMixin, models.Model):
     )
     google_maps_url = models.URLField(
         null=True,
+    )
+    number_of_employees = models.IntegerField(
+        null=True, blank=True, help_text="Number of employees (if known)"
     )
 
     def save(self, *args, **kwargs):
@@ -96,7 +110,7 @@ class SocialMediaLink(models.Model):
     """
     Social Media Link model
     """
+
     business = models.ForeignKey(Business, on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
     url = models.URLField()
-

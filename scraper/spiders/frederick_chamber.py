@@ -12,6 +12,7 @@ class FrederickChamberSpider(scrapy.Spider):
     Scrape the Frederick Chamber of Commerce website
     Members Directory: https://web.frederickchamber.org/allcategories
     """
+
     name = __name__
 
     def start_requests(self):
@@ -24,7 +25,9 @@ class FrederickChamberSpider(scrapy.Spider):
         """
         List of all categories, follow each category link
         """
-        category_links = response.css(".ListingCategories_AllCategories_CONTAINER .ListingCategories_AllCategories_CATEGORY a")
+        category_links = response.css(
+            ".ListingCategories_AllCategories_CONTAINER .ListingCategories_AllCategories_CATEGORY a"
+        )
 
         for category_link in category_links:
             category = items.BusinessCategory(
@@ -40,19 +43,24 @@ class FrederickChamberSpider(scrapy.Spider):
                 },
             )
 
-    def parse_category(self, response: scrapy.http.Response, category: items.BusinessCategory):
+    def parse_category(
+        self, response: scrapy.http.Response, category: items.BusinessCategory
+    ):
         """
         Example category: "IT, Software, Computer Services"
 
             https://web.frederickchamber.org/IT,-Software,-Computer-Services
         """
+
         def _clean_social_tracking_url(tracking_url):
             # Parse the URL and extract query parameters
             try:
                 parsed_url = urlparse(tracking_url)
                 query_params = parse_qs(parsed_url.query)
 
-                return unquote(query_params["URL"][0])  # Use [0] to get the first element if URL is present
+                return unquote(
+                    query_params["URL"][0]
+                )  # Use [0] to get the first element if URL is present
             except KeyError:
                 return None
 
@@ -61,14 +69,18 @@ class FrederickChamberSpider(scrapy.Spider):
             name = business.css("[itemprop=name] ::text").get()
             social_medias = []
             for social in business.css("[class*=SOCIALMEDIA] a"):
-                social_medias.append({
-                    "name": social.css(" ::attr(alt)").get(),
-                    "url": _clean_social_tracking_url(social.css(" ::attr(href)").get()),
-                })
+                social_medias.append(
+                    {
+                        "name": social.css(" ::attr(alt)").get(),
+                        "url": _clean_social_tracking_url(
+                            social.css(" ::attr(href)").get()
+                        ),
+                    }
+                )
 
             # Note - Businesses will be listed multiple times if they are in multiple categories
             yield items.Business(
-                category=category,
+                categories=category,
                 name=name,
                 chamber_of_commerce_id=Path(path).stem,
                 address=business.css("[itemprop=street-address] ::text").get(),
