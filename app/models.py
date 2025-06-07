@@ -2,13 +2,16 @@ from django.db import models
 from django.utils.text import slugify
 
 
-class TimestampsMixin:
+class TimestampsMixin(models.Model):
     """
     Timestamps Mixin
     """
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        abstract = True
 
 
 class Address(TimestampsMixin, models.Model):

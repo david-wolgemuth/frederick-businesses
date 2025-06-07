@@ -14,6 +14,7 @@ class ScraperName(StrEnum):
     FREDERICK_CHAMBER = auto()
     DISCOVER_FREDERICK = auto()
     DISCOVER_FREDERICK_MAJOR_EMPLOYERS = auto()
+    MADE_IN_FREDERICK = auto()
 
 
 class Command(BaseCommand):
@@ -41,8 +42,14 @@ class Command(BaseCommand):
                 process.crawl(DiscoverFrederickSpider)
                 process.start()
             case ScraperName.DISCOVER_FREDERICK_MAJOR_EMPLOYERS:
-                self.stdout.write("Running Discover Frederick scraper")
+                self.stdout.write("Running Discover Frederick Major Employers scraper")
                 process.crawl(DiscoverFrederickMajorEmployersSpider)
+                process.start()
+            case ScraperName.MADE_IN_FREDERICK:
+                from scraper.spiders.made_in_frederick import MadeInFrederickSpider
+
+                self.stdout.write("Running Made In Frederick scraper")
+                process.crawl(MadeInFrederickSpider)
                 process.start()
             case _:
                 self.stderr.write("Unknown scraper option")
