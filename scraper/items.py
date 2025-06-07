@@ -5,6 +5,7 @@ Intermediary data structures to store scraped data.
 from dataclasses import dataclass
 from typing import TYPE_CHECKING, Optional
 import re
+import scrapy
 
 if TYPE_CHECKING:
     from app.models import BusinessCategory as _BusinessCategory, Business as _Business
@@ -71,3 +72,21 @@ class Business:
             )
         except (ValueError, TypeError):
             return None
+
+
+class BusinessItem(scrapy.Item):
+    name = scrapy.Field()
+    categories = scrapy.Field()
+    chamber_of_commerce_id = scrapy.Field()
+    address = scrapy.Field()
+    address2 = scrapy.Field()
+    city = scrapy.Field()
+    state = scrapy.Field()
+    zip = scrapy.Field()
+    main_contact = scrapy.Field()
+    phone_numbers = scrapy.Field()
+    website = scrapy.Field()
+    google_maps = scrapy.Field()
+    social_medias = scrapy.Field()
+    number_of_employees = scrapy.Field()
+    description = scrapy.Field()

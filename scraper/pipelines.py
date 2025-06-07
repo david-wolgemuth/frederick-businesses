@@ -5,7 +5,7 @@ from django.db.models import Q
 
 from app import models
 from scraper import items
-import re
+from scraper.output.csv_logger import ScrapeCSVLogger
 
 logger = logging.getLogger(__name__)
 
@@ -14,6 +14,18 @@ class DjangoBusinessIngestionPipeline:
     """
     Convert from Scrapy items to Django models and save them to the database
     """
+
+    def __init__(self):
+        self.csv_logger = None
+        self.spider_name = None
+
+    def open_spider(self, spider):
+        self.spider_name = getattr(spider, "name", "scraper")
+        self.csv_logger = ScrapeCSVLogger(self.spider_name)
+
+    def close_spider(self, spider):
+        if self.csv_logger:
+            self.csv_logger.close()
 
     async def process_item(self, item, spider):
         await sync_to_async(self.process_item_sync)(item, spider)
@@ -200,4 +212,7 @@ class DjangoBusinessIngestionPipeline:
                 logger.info(f"Created SocialMediaLink: {social_media_link}")
 
         item._cache = business
+        # Log to CSV here, always passing the real model instance
+        if self.csv_logger:
+            self.csv_logger.log_business(business)
         return business

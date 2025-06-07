@@ -1,5 +1,3 @@
-
-
 scrape_frederick_chamber:
 	# Scrape Frederick Chamber of Commerce Members
 	python manage.py run_scraper frederick_chamber
@@ -25,3 +23,8 @@ django_shell:
 
 dump:
 	python manage.py dumpdata --format yaml > db.yaml
+
+
+scrape_made_in_frederick:
+	# Scrape Made In Frederick Directory
+	python manage.py run_scraper made_in_frederick
