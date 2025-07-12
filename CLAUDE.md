@@ -1,0 +1,68 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+This is a Django + Scrapy hybrid project for collecting and managing Frederick, MD business directory data. The project scrapes business information from multiple sources and stores it in a Django database with an admin interface for management.
+
+## Architecture
+
+**Django Application (`app/`)**
+- Minimal Django app primarily for data models and admin interface
+- `models.py` defines core entities: Business, BusinessCategory, Address, SocialMediaLink
+- Uses JSON fields for flexible data like contacts and phone numbers
+- Auto-generates slugs from names or external IDs
+
+**Scrapy Integration (`scraper/`)**
+- Standalone Scrapy project integrated with Django via custom management command
+- `pipelines.py` converts Scrapy items to Django models with deduplication logic
+- `items.py` defines intermediary data structures during scraping
+- Spiders target specific business directory sites (Frederick Chamber, Made in Frederick, etc.)
+- Output logging to timestamped CSV files in `scraper/output/`
+
+**Key Integration Points**
+- `scraper/management/commands/run_scraper.py` allows running Scrapy spiders as Django management commands
+- `DjangoBusinessIngestionPipeline` handles complex business matching and updates
+- Shared models between Django and Scrapy via direct imports
+
+## Development Commands
+
+Run scrapers:
+```bash
+make scrape_frederick_chamber
+make scrape_discover_frederick  
+make scrape_discover_frederick_major_employers
+make scrape_made_in_frederick
+```
+
+Django operations:
+```bash
+make runserver              # Start development server
+make django_shell          # Open Django shell
+make dump                   # Export database to db.yaml
+python manage.py migrate    # Apply database migrations
+```
+
+## Dependencies
+
+- Django 5.1.2 with django-extensions
+- Scrapy 2.11.2 for web scraping  
+- PyYAML for database exports
+- SQLite database (db.sqlite3)
+
+## Data Pipeline
+
+1. Scrapy spiders extract business data from target websites
+2. `DjangoBusinessIngestionPipeline` processes items and deduplicates against existing records
+3. Business data stored in Django models with relationships
+4. CSV output generated for each scrape run with timestamps
+5. Database can be exported to YAML format via `make dump`
+
+## Spider Development
+
+When adding new spiders, follow the pattern in existing spiders:
+- Yield `items.Business` and `items.BusinessCategory` objects
+- Include external IDs for deduplication (e.g., `chamber_of_commerce_id`)
+- Handle address parsing consistently
+- Extract social media links as list of name/url dicts

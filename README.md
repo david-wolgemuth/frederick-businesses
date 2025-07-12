@@ -86,7 +86,7 @@ make runserver
 - [x] [https://www.discoverfrederickmd.com/BusinessDirectoryII.aspx](https://www.discoverfrederickmd.com/BusinessDirectoryII.aspx)
 - [x] [https://madeinfrederickmd.com/directory/](https://madeinfrederickmd.com/directory/) - Directory - MadeInFrederick View and search our directory of manufacturers here in Frederick County.
 - [ ] [https://www.frederickworks.com/labor-market-dashboard](https://www.frederickworks.com/labor-market-dashboard)
-- [ ] [https://www.businessinfrederick.com/159/Top-Employers](https://www.businessinfrederick.com/159/Top-Employers) - Top Employers | Frederick Business, MD View data concerning the top 20 employers in the City of Frederick.
+- [x] [https://www.businessinfrederick.com/159/Top-Employers](https://www.businessinfrederick.com/159/Top-Employers) - Top Employers | Frederick Business, MD View data concerning the top 20 employers in the City of Frederick.
 - [ ] [https://www.businessinfrederick.com/BusinessDirectoryII.aspx?lngBusinessCategoryID=22](https://www.businessinfrederick.com/BusinessDirectoryII.aspx?lngBusinessCategoryID=22)
 - [ ] [https://fitci.org/members/](https://fitci.org/members/)
 - [ ] [https://goldenmilealliance.org/listings/retail/](https://goldenmilealliance.org/listings/retail/)
