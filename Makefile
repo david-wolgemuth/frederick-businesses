@@ -28,3 +28,8 @@ dump:
 scrape_made_in_frederick:
 	# Scrape Made In Frederick Directory
 	python manage.py run_scraper made_in_frederick
+
+
+scrape_business_in_frederick_top_employers:
+	# Scrape Business in Frederick Top Employers
+	python manage.py run_scraper business_in_frederick_top_employers
