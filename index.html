@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frederick Business Directory</title>
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@31.3.2/dist/ag-grid-community.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        .grid-container {
+            padding: 20px;
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .search-input {
+            width: 100%;
+            max-width: 400px;
+            padding: 12px 16px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        
+        .search-input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+            font-size: 1.2em;
+        }
+        
+        .ag-theme-alpine {
+            height: 600px;
+            border-radius: 4px;
+        }
+        
+        .cell-link {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .cell-link:hover {
+            text-decoration: underline;
+        }
+        
+        .category-tag {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin: 1px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Frederick Business Directory</h1>
+            <p>Comprehensive listing of businesses in Frederick, Maryland</p>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number" id="business-count">-</span>
+                    <span class="stat-label">Businesses</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="category-count">-</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid-container">
+            <div class="loading" id="loading">Loading business data...</div>
+            <div style="display: none;" id="grid-section">
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        id="quickFilter" 
+                        class="search-input" 
+                        placeholder="🔍 Search businesses, categories, addresses..."
+                        autocomplete="off"
+                    />
+                </div>
+                <div id="myGrid" class="ag-theme-alpine"></div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Data sourced from Frederick Chamber of Commerce, Discover Frederick, Made in Frederick, and other local business directories.</p>
+            <p>Last updated: <span id="last-updated">-</span></p>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let gridApi;
+        let businesses = [];
+        let businessCategories = [];
+        let addresses = [];
+
+        // Column definitions for AG Grid
+        const columnDefs = [
+            { 
+                field: "name", 
+                headerName: "Business Name",
+                filter: true,
+                sortable: true,
+                flex: 2,
+                cellRenderer: function(params) {
+                    if (params.data.website_url) {
+                        return `<a href="${params.data.website_url}" target="_blank" class="cell-link">${params.value}</a>`;
+                    }
+                    return params.value;
+                }
+            },
+            { 
+                field: "categoryNames", 
+                headerName: "Categories",
+                filter: true,
+                flex: 2,
+                cellRenderer: function(params) {
+                    if (params.value && params.value.length > 0) {
+                        return params.value.map(cat => 
+                            `<span class="category-tag">${cat}</span>`
+                        ).join(' ');
+                    }
+                    return '';
+                }
+            },
+            { 
+                field: "fullAddress", 
+                headerName: "Address",
+                filter: true,
+                flex: 2
+            },
+            { 
+                field: "number_of_employees", 
+                headerName: "Employees",
+                filter: 'agNumberColumnFilter',
+                sortable: true,
+                width: 120,
+                cellRenderer: function(params) {
+                    if (params.value) {
+                        return params.value.toLocaleString();
+                    }
+                    return '';
+                }
+            },
+            { 
+                field: "phone_numbers", 
+                headerName: "Phone",
+                filter: true,
+                width: 150,
+                cellRenderer: function(params) {
+                    if (params.value && params.value.length > 0) {
+                        return params.value[0];
+                    }
+                    return '';
+                }
+            }
+        ];
+
+        // Grid options
+        const gridOptions = {
+            columnDefs: columnDefs,
+            defaultColDef: {
+                resizable: true,
+                sortable: true,
+                filter: true
+            },
+            pagination: true,
+            paginationPageSize: 50,
+            paginationPageSizeSelector: [25, 50, 100, 200],
+            rowSelection: 'single',
+            animateRows: true
+        };
+
+        // Initialize the grid
+        document.addEventListener('DOMContentLoaded', function () {
+            const gridDiv = document.querySelector('#myGrid');
+            gridApi = agGrid.createGrid(gridDiv, gridOptions);
+            
+            // Load the data
+            loadData();
+        });
+
+        async function loadData() {
+            try {
+                // Fetch the YAML file
+                const response = await fetch('./db.yaml');
+                const yamlText = await response.text();
+                
+                // Parse YAML
+                const data = jsyaml.load(yamlText);
+                
+                // Process the data
+                processData(data);
+                
+                // Hide loading and show grid
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('grid-section').style.display = 'block';
+                
+                // Setup quick filter
+                setupQuickFilter();
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').textContent = 'Error loading data. Please try again later.';
+            }
+        }
+
+        function processData(data) {
+            // Separate data by model type
+            addresses = data.filter(item => item.model === 'app.address');
+            businessCategories = data.filter(item => item.model === 'app.businesscategory');
+            businesses = data.filter(item => item.model === 'app.business');
+            
+            // Create lookup maps for efficiency
+            const addressMap = {};
+            addresses.forEach(addr => {
+                addressMap[addr.pk] = addr.fields;
+            });
+            
+            const categoryMap = {};
+            businessCategories.forEach(cat => {
+                categoryMap[cat.pk] = cat.fields;
+            });
+            
+            // Process businesses data for the grid
+            const processedBusinesses = businesses.map(business => {
+                const fields = business.fields;
+                
+                // Get address information
+                let fullAddress = '';
+                if (fields.address && addressMap[fields.address]) {
+                    const addr = addressMap[fields.address];
+                    const parts = [addr.street_1, addr.city, addr.state, addr.zip].filter(Boolean);
+                    fullAddress = parts.join(', ');
+                }
+                
+                // Get category names
+                const categoryNames = [];
+                if (fields.categories && fields.categories.length > 0) {
+                    fields.categories.forEach(catId => {
+                        if (categoryMap[catId]) {
+                            categoryNames.push(categoryMap[catId].name);
+                        }
+                    });
+                }
+                
+                return {
+                    ...fields,
+                    id: business.pk,
+                    fullAddress: fullAddress,
+                    categoryNames: categoryNames
+                };
+            });
+            
+            // Set the grid data
+            gridApi.setGridOption('rowData', processedBusinesses);
+            
+            // Update stats
+            document.getElementById('business-count').textContent = businesses.length.toLocaleString();
+            document.getElementById('category-count').textContent = businessCategories.length.toLocaleString();
+            
+            // Find the most recent update date
+            const allDates = [...businesses, ...businessCategories, ...addresses]
+                .map(item => new Date(item.fields.updated_at || item.fields.created_at))
+                .filter(date => !isNaN(date));
+            
+            if (allDates.length > 0) {
+                const lastUpdate = new Date(Math.max(...allDates));
+                document.getElementById('last-updated').textContent = lastUpdate.toLocaleDateString();
+            }
+        }
+
+        function setupQuickFilter() {
+            const quickFilterInput = document.getElementById('quickFilter');
+            
+            quickFilterInput.addEventListener('input', function(e) {
+                gridApi.setGridOption('quickFilterText', e.target.value);
+            });
+            
+            // Clear search with Escape key
+            quickFilterInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    e.target.value = '';
+                    gridApi.setGridOption('quickFilterText', '');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
