@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "screenshot": "node screenshot.js",
+    "debug-console": "node console-debug.js",
+    "generate-favicon": "node generate-favicon.js",
+    "test-interactions": "node test-interactions.js",
+    "test-responsive": "node test-responsive.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.12.1",
+    "sharp": "^0.34.3"
+  }
+}
