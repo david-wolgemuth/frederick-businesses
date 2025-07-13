@@ -33,3 +33,8 @@ scrape_made_in_frederick:
 scrape_business_in_frederick_top_employers:
 	# Scrape Business in Frederick Top Employers
 	python manage.py run_scraper business_in_frederick_top_employers
+
+
+serve:
+	# Serve static files for frontend development
+	python -m http.server 8080

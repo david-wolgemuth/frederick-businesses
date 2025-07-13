@@ -11,6 +11,22 @@ Visual of what the data looks like in django admin interface:
 
 ![./docs/Screenshot.png](./docs/Screenshot.png)
 
+### Frontend Interface
+
+Interactive web interface with map and table view accessible at `index.html`:
+
+![./docs/frontend-screenshot-2.png](./docs/frontend-screenshot-2.png)
+
+Features:
+- **Interactive Map**: Leaflet.js map with business markers centered on Frederick, MD
+- **Data Table**: AG Grid with sorting, filtering, pagination, and quick search
+- **Synchronized Views**: Click table rows to highlight corresponding map markers
+- **Category Filtering**: Built-in AG Grid set column filter with Mac mode for real-time filtering
+- **Responsive Design**: Bootstrap 5 layout that works on desktop and mobile
+- **Business Details**: Click map markers to see popup with business info and website links
+
+Run `make serve` to preview the frontend locally at `http://localhost:8080`.
+
 ### Overview
 
 This repository contains a Django project integrated with Scrapy for web scraping and structured data ingestion.
