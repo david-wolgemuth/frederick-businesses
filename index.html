@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frederick Business Directory</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/app/static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/app/static/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/app/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/app/static/favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/app/static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/app/static/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/app/static/favicon-512x512.png">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -24,9 +34,35 @@
             height: 600px;
         }
         
+        /* Responsive grid heights */
+        @media (max-width: 767px) {
+            .ag-theme-alpine {
+                height: 400px;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 1199px) {
+            .ag-theme-alpine {
+                height: 500px;
+            }
+        }
+        
         #map {
             height: 600px;
             border-radius: 8px;
+        }
+        
+        /* Responsive map heights */
+        @media (max-width: 767px) {
+            #map {
+                height: 400px;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 1199px) {
+            #map {
+                height: 500px;
+            }
         }
         
         #d3-charts {
@@ -140,14 +176,18 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Mobile: Stack vertically, Tablet: Map+Table side-by-side then Charts below, Desktop: 3 columns -->
                                 <div class="row">
-                                    <div class="col-lg-4 mb-3">
+                                    <!-- Map: Full width on mobile, half on tablet, third on desktop -->
+                                    <div class="col-12 col-md-6 col-xl-4 mb-3">
                                         <div id="map"></div>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <!-- Table: Full width on mobile, half on tablet, third on desktop -->
+                                    <div class="col-12 col-md-6 col-xl-4 mb-3">
                                         <div id="myGrid" class="ag-theme-alpine"></div>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <!-- Charts: Full width on mobile and tablet, third on desktop -->
+                                    <div class="col-12 col-xl-4 mb-3">
                                         <div id="d3-charts" class="border rounded p-3">
                                             <div class="chart-container">
                                                 <div class="chart-title">Top 10 Business Categories</div>
@@ -216,8 +256,14 @@
                     }
                 },
                 flex: 2,
+                valueFormatter: function(params) {
+                    if (params.value && Array.isArray(params.value) && params.value.length > 0) {
+                        return params.value.join(', ');
+                    }
+                    return '';
+                },
                 cellRenderer: function(params) {
-                    if (params.value && params.value.length > 0) {
+                    if (params.value && Array.isArray(params.value) && params.value.length > 0) {
                         return params.value.map(cat => 
                             `<span class="badge bg-primary category-tag">${cat}</span>`
                         ).join(' ');
@@ -249,8 +295,14 @@
                 headerName: "Phone",
                 filter: true,
                 width: 150,
+                valueFormatter: function(params) {
+                    if (params.value && Array.isArray(params.value) && params.value.length > 0) {
+                        return params.value[0];
+                    }
+                    return '';
+                },
                 cellRenderer: function(params) {
-                    if (params.value && params.value.length > 0) {
+                    if (params.value && Array.isArray(params.value) && params.value.length > 0) {
                         return params.value[0];
                     }
                     return '';
@@ -306,6 +358,13 @@
                 
                 // Setup map integration
                 setupMapIntegration();
+                
+                // Force map resize after data loads
+                setTimeout(() => {
+                    if (map) {
+                        map.invalidateSize();
+                    }
+                }, 500);
                 
             } catch (error) {
                 console.error('Error loading data:', error);
@@ -371,9 +430,6 @@
             // Set the grid data
             gridApi.setGridOption('rowData', processedBusinesses);
             
-            // Add businesses to map
-            addBusinessesToMap(processedBusinesses);
-            
             // Create D3 visualizations
             createD3Charts(processedBusinesses);
             
@@ -398,31 +454,69 @@
             
             // Add OpenStreetMap tiles
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors'
+                attribution: '© OpenStreetMap contributors',
+                maxZoom: 19
             }).addTo(map);
             
             // Create a layer group for markers
             markersLayer = L.layerGroup().addTo(map);
+            
+            // Force map to invalidate size after a short delay
+            setTimeout(() => {
+                map.invalidateSize();
+            }, 100);
+            
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                setTimeout(() => {
+                    if (map) {
+                        map.invalidateSize();
+                    }
+                }, 100);
+            });
         }
         
         function addBusinessesToMap(businesses) {
             // Clear existing markers
             markersLayer.clearLayers();
             
-            businesses.forEach(business => {
-                if (business.fullAddress) {
-                    // For demo purposes, we'll use a geocoding service or approximate locations
-                    // In a real app, you'd have lat/lng in your data or use a geocoding API
-                    geocodeAndAddMarker(business);
-                }
+            const businessesWithAddress = businesses.filter(business => business.fullAddress);
+            
+            businessesWithAddress.forEach((business, index) => {
+                geocodeAndAddMarker(business, index, businessesWithAddress.length);
             });
         }
         
-        function geocodeAndAddMarker(business) {
-            // Simple approximation for Frederick addresses
-            // In production, you'd use a proper geocoding service
-            const lat = 39.4143 + (Math.random() - 0.5) * 0.1;
-            const lng = -77.4105 + (Math.random() - 0.5) * 0.1;
+        function updateMapWithCurrentPage() {
+            if (!gridApi) return;
+            
+            // Get the currently displayed rows from the grid
+            const displayedRows = [];
+            gridApi.forEachNodeAfterFilterAndSort(function(node, index) {
+                // Only get nodes that are currently visible on the current page
+                const currentPage = gridApi.paginationGetCurrentPage();
+                const pageSize = gridApi.paginationGetPageSize();
+                const startIndex = currentPage * pageSize;
+                const endIndex = startIndex + pageSize;
+                
+                if (index >= startIndex && index < endIndex) {
+                    displayedRows.push(node.data);
+                }
+            });
+            
+            // console.log(`Updating map with ${displayedRows.length} businesses from current page`);
+            addBusinessesToMap(displayedRows);
+        }
+        
+        function geocodeAndAddMarker(business, index, total) {
+            // Better distribution of markers across Frederick area
+            // Create a more realistic spread based on known Frederick geography
+            const baseRadius = 0.08; // Larger area
+            const angle = (index / total) * 2 * Math.PI; // Distribute in circle
+            const radius = Math.sqrt(Math.random()) * baseRadius; // Random radius with better distribution
+            
+            const lat = 39.4143 + radius * Math.cos(angle) + (Math.random() - 0.5) * 0.02;
+            const lng = -77.4105 + radius * Math.sin(angle) + (Math.random() - 0.5) * 0.02;
             
             const marker = L.marker([lat, lng]).addTo(markersLayer);
             
@@ -449,7 +543,7 @@
             
             quickFilterInput.addEventListener('input', function(e) {
                 gridApi.setGridOption('quickFilterText', e.target.value);
-                filterMapMarkers(e.target.value);
+                // Map will be updated automatically via filterChanged event
             });
             
             // Clear search with Escape key
@@ -457,32 +551,11 @@
                 if (e.key === 'Escape') {
                     e.target.value = '';
                     gridApi.setGridOption('quickFilterText', '');
-                    filterMapMarkers('');
+                    // Map will be updated automatically via filterChanged event
                 }
             });
         }
         
-        function filterMapMarkers(searchText) {
-            if (!markersLayer) return;
-            
-            markersLayer.eachLayer(function(marker) {
-                if (!marker.businessData) return;
-                
-                const business = marker.businessData;
-                const searchLower = searchText.toLowerCase();
-                
-                const isVisible = !searchText || 
-                    business.name.toLowerCase().includes(searchLower) ||
-                    (business.fullAddress && business.fullAddress.toLowerCase().includes(searchLower)) ||
-                    (business.categoryNames && business.categoryNames.some(cat => cat.toLowerCase().includes(searchLower)));
-                
-                if (isVisible) {
-                    marker.setOpacity(1);
-                } else {
-                    marker.setOpacity(0.3);
-                }
-            });
-        }
         
         function setupMapIntegration() {
             // Add row selection listener to highlight corresponding map marker
@@ -497,6 +570,24 @@
                     }
                 });
             });
+            
+            // Listen for pagination changes
+            gridApi.addEventListener('paginationChanged', function(event) {
+                updateMapWithCurrentPage();
+            });
+            
+            // Listen for filter changes
+            gridApi.addEventListener('filterChanged', function(event) {
+                updateMapWithCurrentPage();
+            });
+            
+            // Listen for sort changes
+            gridApi.addEventListener('sortChanged', function(event) {
+                updateMapWithCurrentPage();
+            });
+            
+            // Initial map update to show only first page
+            updateMapWithCurrentPage();
         }
         
         function createD3Charts(businesses) {
