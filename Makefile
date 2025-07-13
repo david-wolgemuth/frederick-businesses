@@ -38,3 +38,13 @@ scrape_business_in_frederick_top_employers:
 serve:
 	# Serve static files for frontend development
 	python -m http.server 8080
+
+
+test_duplicates:
+	# Run duplicate detection unit tests
+	python manage.py test app.tests_duplicate_detection -v 2
+
+
+detect_duplicates:
+	# Detect duplicate businesses in current data
+	python manage.py detect_duplicates --method=all --min-score=0.85
