@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "screenshot": "node screenshot.js",
-    "debug-console": "node console-debug.js",
-    "generate-favicon": "node generate-favicon.js",
-    "test-interactions": "node test-interactions.js",
-    "test-responsive": "node test-responsive.js"
+    "screenshot": "node scripts/tests/screenshot.js",
+    "debug-console": "node scripts/tests/console-debug.js",
+    "generate-favicon": "node scripts/generate-favicon.js",
+    "test-interactions": "node scripts/tests/test-interactions.js",
+    "test-responsive": "node scripts/tests/test-responsive.js"
   },
   "dependencies": {
     "puppeteer": "^24.12.1",

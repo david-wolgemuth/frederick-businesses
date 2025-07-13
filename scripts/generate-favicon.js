@@ -4,7 +4,7 @@ const fs = require('fs');
 async function generateFavicons() {
   try {
     // Read the SVG file
-    const svgBuffer = fs.readFileSync('favicon.svg');
+    const svgBuffer = fs.readFileSync('app/static/favicon.svg');
     
     // Generate different sizes
     const sizes = [16, 32, 48, 180, 192, 512];
@@ -16,23 +16,23 @@ async function generateFavicons() {
       await sharp(svgBuffer)
         .resize(size, size)
         .png()
-        .toFile(`favicon-${size}x${size}.png`);
-      console.log(`✓ Generated favicon-${size}x${size}.png`);
+        .toFile(`app/static/favicon-${size}x${size}.png`);
+      console.log(`✓ Generated app/static/favicon-${size}x${size}.png`);
     }
     
     // Generate the main favicon.ico (16x16)
     await sharp(svgBuffer)
       .resize(16, 16)
       .png()
-      .toFile('favicon.ico');
-    console.log('✓ Generated favicon.ico');
+      .toFile('app/static/favicon.ico');
+    console.log('✓ Generated app/static/favicon.ico');
     
     // Generate apple-touch-icon
     await sharp(svgBuffer)
       .resize(180, 180)
       .png()
-      .toFile('apple-touch-icon.png');
-    console.log('✓ Generated apple-touch-icon.png');
+      .toFile('app/static/apple-touch-icon.png');
+    console.log('✓ Generated app/static/apple-touch-icon.png');
     
     console.log('\nFavicon generation complete!');
     console.log('Files generated:');
