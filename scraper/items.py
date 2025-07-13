@@ -28,17 +28,21 @@ class Business:
     name: str
     categories: list[BusinessCategory] = None
     chamber_of_commerce_id: str | None = None
+    downtown_frederick_id: str | None = None
     address: str = ""
     address2: str = ""
     city: str = ""
     state: str = ""
     zip: str = ""
+    latitude: str = ""
+    longitude: str = ""
     main_contact: str = ""
     phone_numbers: list[str] = None
     website: str = ""
     google_maps: str = ""
     social_medias: list[dict] = None
     number_of_employees: str = ""
+    extra: dict = None
 
     # set during processing
     _cache: Optional["_Business"] = None

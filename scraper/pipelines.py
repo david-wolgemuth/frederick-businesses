@@ -93,14 +93,42 @@ class DjangoBusinessIngestionPipeline:
 
         # TODO - move Address creation to a separate pipeline
         if item.address:
+            address_defaults = {}
+            
+            # Add coordinates if available
+            if item.latitude:
+                try:
+                    address_defaults['latitude'] = float(item.latitude)
+                except (ValueError, TypeError):
+                    logger.warning(f"Invalid latitude value: {item.latitude}")
+            
+            if item.longitude:
+                try:
+                    address_defaults['longitude'] = float(item.longitude)
+                except (ValueError, TypeError):
+                    logger.warning(f"Invalid longitude value: {item.longitude}")
+            
             address, created = models.Address.objects.update_or_create(
                 street_1=item.address,
                 city=item.city,
                 state=item.state,
                 zip=item.zip,
+                defaults=address_defaults
             )
             if created:
                 logger.info(f"Created Address: {address}")
+            elif address_defaults:
+                # Update coordinates if they were provided and address already exists
+                updated = False
+                if 'latitude' in address_defaults and not address.latitude:
+                    address.latitude = address_defaults['latitude']
+                    updated = True
+                if 'longitude' in address_defaults and not address.longitude:
+                    address.longitude = address_defaults['longitude']
+                    updated = True
+                if updated:
+                    address.save()
+                    logger.info(f"Updated Address coordinates: {address}")
         else:
             address = None
 
@@ -110,6 +138,10 @@ class DjangoBusinessIngestionPipeline:
                 | Q(
                     chamber_of_commerce_id=item.chamber_of_commerce_id,
                     chamber_of_commerce_id__isnull=False,
+                )
+                | Q(
+                    downtown_frederick_id=item.downtown_frederick_id,
+                    downtown_frederick_id__isnull=False,
                 ),
             )
 
@@ -122,7 +154,8 @@ class DjangoBusinessIngestionPipeline:
             )
             business = models.Business.objects.filter(
                 Q(name=item.name)
-                | Q(chamber_of_commerce_id=item.chamber_of_commerce_id),
+                | Q(chamber_of_commerce_id=item.chamber_of_commerce_id)
+                | Q(downtown_frederick_id=item.downtown_frederick_id),
             ).first()
 
         except models.Business.DoesNotExist:
@@ -147,6 +180,22 @@ class DjangoBusinessIngestionPipeline:
             if item.google_maps and not business.google_maps_url:
                 business.google_maps_url = item.google_maps
                 updated_fields.append("google_maps_url")
+
+            if item.downtown_frederick_id and not business.downtown_frederick_id:
+                business.downtown_frederick_id = item.downtown_frederick_id
+                updated_fields.append("downtown_frederick_id")
+
+            # Handle extra field - merge dictionaries
+            if item.extra:
+                if not business.extra:
+                    business.extra = item.extra
+                    updated_fields.append("extra")
+                else:
+                    # Merge extra data, preferring new data
+                    merged_extra = {**business.extra, **item.extra}
+                    if merged_extra != business.extra:
+                        business.extra = merged_extra
+                        updated_fields.append("extra")
 
             if item.number_of_employees and not business.number_of_employees:
                 # Parse number_of_employees, allowing numbers like "10,000"
@@ -181,6 +230,7 @@ class DjangoBusinessIngestionPipeline:
         else:
             business = models.Business.objects.create(
                 chamber_of_commerce_id=item.chamber_of_commerce_id or None,
+                downtown_frederick_id=item.downtown_frederick_id or None,
                 name=item.name,
                 address=address,
                 website_url=item.website,
@@ -188,6 +238,7 @@ class DjangoBusinessIngestionPipeline:
                 number_of_employees=item.clean_number_of_employees(),
                 phone_numbers=item.clean_phone_numbers(),
                 contacts=[item.main_contact] if item.main_contact else [],
+                extra=item.extra or {},
             )
             logger.info(f"Created Business: {business}")
 

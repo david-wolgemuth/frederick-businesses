@@ -24,6 +24,22 @@ class Address(TimestampsMixin, models.Model):
     city = models.CharField(max_length=255)
     state = models.CharField(max_length=255)
     zip = models.CharField(max_length=255)
+    
+    # Geographic coordinates
+    latitude = models.DecimalField(
+        max_digits=10, 
+        decimal_places=8, 
+        null=True, 
+        blank=True,
+        help_text="Latitude coordinate (e.g., 39.41431480)"
+    )
+    longitude = models.DecimalField(
+        max_digits=11, 
+        decimal_places=8, 
+        null=True, 
+        blank=True,
+        help_text="Longitude coordinate (e.g., -77.41010073)"
+    )
 
 
 class BusinessCategory(TimestampsMixin, models.Model):
@@ -80,6 +96,14 @@ class Business(TimestampsMixin, models.Model):
     # Contact
     contacts = models.JSONField(null=False, blank=True, default=list)
     phone_numbers = models.JSONField(null=False, blank=True, default=list)
+    
+    # Additional flexible data storage
+    extra = models.JSONField(
+        null=False, 
+        blank=True, 
+        default=dict,
+        help_text="Additional metadata from various sources (images, hours, etc.)"
+    )
 
     # External links / ids
     chamber_of_commerce_id = models.CharField(
@@ -88,6 +112,14 @@ class Business(TimestampsMixin, models.Model):
         max_length=255,
         db_index=True,
         unique=True,
+    )
+    downtown_frederick_id = models.CharField(
+        blank=True,
+        null=True,
+        max_length=255,
+        db_index=True,
+        unique=True,
+        help_text="ID from Downtown Frederick directory (permalink slug)"
     )
     website_url = models.URLField(
         null=True,

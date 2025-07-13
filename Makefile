@@ -35,6 +35,11 @@ scrape_business_in_frederick_top_employers:
 	python manage.py run_scraper business_in_frederick_top_employers
 
 
+scrape_downtown_frederick:
+	# Scrape Downtown Frederick Directory
+	python manage.py run_scraper downtown_frederick
+
+
 serve:
 	# Serve static files for frontend development
 	python -m http.server 8080
