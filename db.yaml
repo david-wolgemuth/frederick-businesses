@@ -13561,9 +13561,10 @@
     chamber_of_commerce_id: Frederick-Health-Hospital-219
     website_url: https://www.frederickhealth.org/
     google_maps_url: https://maps.google.com?q=400+W+7th+St+Frederick+MD+21701+(Frederick+Health+Hospital)
-    number_of_employees: null
+    number_of_employees: 3360
     categories:
     - 44
+    - 69
 - model: app.business
   pk: 219
   fields:
