@@ -169,15 +169,13 @@ class VisitFrederickSpider(scrapy.Spider):
                 address=address,
                 city=city,
                 state=state,
-                zip_code=zip_code,
-                phone=phone,
-                email=email,
+                zip=zip_code,
+                latitude=str(latitude) if latitude else "",
+                longitude=str(longitude) if longitude else "",
                 website=website,
-                latitude=float(latitude) if latitude else None,
-                longitude=float(longitude) if longitude else None,
-                description=listing.get('description', '').strip() or None,
-                visit_frederick_id=str(listing.get('recid', '')),
-                external_data={
+                phone_numbers=[phone] if phone else [],
+                extra={
+                    'visit_frederick_id': str(listing.get('recid', '')),
                     'quality_score': listing.get('qualityScore'),
                     'is_downtown': listing.get('isDTN'),
                     'dtn_rank': listing.get('dtn.rank'),
@@ -187,7 +185,9 @@ class VisitFrederickSpider(scrapy.Spider):
                     'yelp_price': listing.get('yelp.price'),
                     'primary_image_url': listing.get('primary_image_url'),
                     'amenities': listing.get('amenities'),
-                    'category_id': category_id
+                    'category_id': category_id,
+                    'description': listing.get('description', '').strip() or None,
+                    'email': email
                 }
             )
             
@@ -202,13 +202,7 @@ class VisitFrederickSpider(scrapy.Spider):
                 if category_name:
                     category = BusinessCategory(
                         name=category_name,
-                        subcategory=subcategory_name or None,
-                        external_data={
-                            'catid': primary_category.get('catid'),
-                            'subcatid': primary_category.get('subcatid'),
-                            'visit_frederick_category_id': category_id,
-                            'is_primary': primary_category.get('primary', False)
-                        }
+                        chamber_of_commerce_id=f"visit_frederick_{category_id}_{primary_category.get('catid', '')}"
                     )
                     yield category
                     
