@@ -13,7 +13,9 @@ Visual of what the data looks like in django admin interface:
 
 ### Frontend Interface
 
-Interactive web interface with map and table view accessible at `index.html`:
+Interactive web interface with map and table view accessible at `index.html`.
+
+**🌐 Live Site**: [https://david-wolgemuth.github.io/frederick-businesses](https://david-wolgemuth.github.io/frederick-businesses)
 
 ![./docs/frontend-screenshot-2.png](./docs/frontend-screenshot-2.png)
 
@@ -24,6 +26,22 @@ Features:
 - **Category Filtering**: Built-in AG Grid set column filter with Mac mode for real-time filtering
 - **Responsive Design**: Bootstrap 5 layout that works on desktop and mobile
 - **Business Details**: Click map markers to see popup with business info and website links
+- **Color-Coded Categories**: Each business category is assigned a unique color from a curated palette
+
+#### Color Scheme
+
+The application uses a vibrant color palette for consistent visual identification of business categories:
+
+```
+["#f94144", "#f3722c", "#f8961e", "#f9c74f", "#90be6d", "#43aa8b", "#577590"]
+```
+
+Colors are randomly assigned to categories on page load and applied consistently across:
+- Category badges in the data grid
+- Map marker icons (SVG pins colored by primary category)
+- Interactive popups on map markers
+- D3.js chart visualizations
+- Site header gradient
 
 Run `make serve` to preview the frontend locally at `http://localhost:8080`.
 
