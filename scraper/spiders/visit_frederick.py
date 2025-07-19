@@ -201,8 +201,7 @@ class VisitFrederickSpider(scrapy.Spider):
                 
                 if category_name:
                     category = BusinessCategory(
-                        name=category_name,
-                        chamber_of_commerce_id=f"visit_frederick_{category_id}_{primary_category.get('catid', '')}"
+                        name=category_name
                     )
                     yield category
                     
