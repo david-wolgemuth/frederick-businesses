@@ -101,14 +101,13 @@ make runserver
 - [x] [https://www.discoverfrederickmd.com/186/Major-Employers](https://www.discoverfrederickmd.com/186/Major-Employers) - Major Employers | Frederick County Economic Development, MD
 - [x] [https://www.discoverfrederickmd.com/BusinessDirectoryII.aspx](https://www.discoverfrederickmd.com/BusinessDirectoryII.aspx)
 - [x] [https://madeinfrederickmd.com/directory/](https://madeinfrederickmd.com/directory/) - Directory - MadeInFrederick View and search our directory of manufacturers here in Frederick County.
-- [ ] [https://www.frederickworks.com/labor-market-dashboard](https://www.frederickworks.com/labor-market-dashboard)
 - [x] [https://www.businessinfrederick.com/159/Top-Employers](https://www.businessinfrederick.com/159/Top-Employers) - Top Employers | Frederick Business, MD View data concerning the top 20 employers in the City of Frederick.
+- [x] [https://downtownfrederick.org/directory/](https://downtownfrederick.org/directory/) - Downtown Frederick PartnershipDowntown Frederick Partnership
+- [ ] [https://www.frederickworks.com/labor-market-dashboard](https://www.frederickworks.com/labor-market-dashboard)
 - [ ] [https://www.businessinfrederick.com/BusinessDirectoryII.aspx?lngBusinessCategoryID=22](https://www.businessinfrederick.com/BusinessDirectoryII.aspx?lngBusinessCategoryID=22)
 - [ ] [https://fitci.org/members/](https://fitci.org/members/)
 - [ ] [https://goldenmilealliance.org/listings/retail/](https://goldenmilealliance.org/listings/retail/)
 - [ ] [https://goldenmilealliance.org/directory/](https://goldenmilealliance.org/directory/) - Golden Mile AllianceGolden Mile Alliance Directory
-- [ ] [https://downtownfrederick.org/directory/](https://downtownfrederick.org/directory/) - Downtown Frederick PartnershipDowntown Frederick Partnership
-- [ ] [https://downtownfrederick.org/directory/](https://downtownfrederick.org/directory/)
 - [ ] [https://eastfrederickrising.com/businesses/](https://eastfrederickrising.com/businesses/)  East Frederick Rising Businesses Archive - East Frederick Rising (160 kB)
 - [ ] [https://techfrederick.org/](https://techfrederick.org/)
 - [ ] [https://www.visitfrederick.org/](https://www.visitfrederick.org/) Official Tourism Website of Frederick County (170 kB)
