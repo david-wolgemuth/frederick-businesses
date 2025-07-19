@@ -26,7 +26,7 @@
         }
         
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #f94144 0%, #577590 100%);
             color: white;
         }
         
@@ -82,12 +82,11 @@
         }
         
         .bar-chart rect {
-            fill: #667eea;
             transition: fill 0.2s;
         }
         
         .bar-chart rect:hover {
-            fill: #5a6fd8;
+            opacity: 0.8;
         }
         
         .pie-chart path {
@@ -108,7 +107,7 @@
         }
         
         .cell-link {
-            color: #0d6efd;
+            color: #f94144;
             text-decoration: none;
         }
         
@@ -131,7 +130,15 @@
     <div class="container-fluid">
         <div class="header text-center py-5">
             <div class="container">
-                <h1 class="display-4 fw-light mb-3">Frederick Business Directory</h1>
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div></div>
+                    <h1 class="display-4 fw-light mb-0">Frederick Business Directory</h1>
+                    <a href="https://github.com/david-wolgemuth/frederick-businesses/" target="_blank" class="text-white" style="text-decoration: none; font-size: 1.5rem;" title="View on GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
                 <p class="lead mb-4">Comprehensive listing of businesses in Frederick, Maryland</p>
                 <div class="row justify-content-center">
                     <div class="col-6 col-md-3">
@@ -229,6 +236,10 @@
         let addresses = [];
         let allCategoryNames = [];
         let processedBusinesses = [];
+        
+        // Color palette
+        const colorPalette = ["#f94144","#f3722c","#f8961e","#f9c74f","#90be6d","#43aa8b","#577590"];
+        let categoryColors = {};
 
         // Column definitions for AG Grid
         const columnDefs = [
@@ -265,7 +276,7 @@
                 cellRenderer: function(params) {
                     if (params.value && Array.isArray(params.value) && params.value.length > 0) {
                         return params.value.map(cat => 
-                            `<span class="badge bg-primary category-tag">${cat}</span>`
+                            `<span class="badge category-tag" style="background-color: ${categoryColors[cat] || '#6c757d'}; color: white;">${cat}</span>`
                         ).join(' ');
                     }
                     return '';
@@ -371,6 +382,20 @@
                 document.getElementById('loading').textContent = 'Error loading data. Please try again later.';
             }
         }
+        
+        function assignColorsToCategories() {
+            // Shuffle the color palette to randomize assignment
+            const shuffledColors = [...colorPalette];
+            for (let i = shuffledColors.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledColors[i], shuffledColors[j]] = [shuffledColors[j], shuffledColors[i]];
+            }
+            
+            // Assign colors to categories, cycling through palette
+            allCategoryNames.forEach((category, index) => {
+                categoryColors[category] = shuffledColors[index % shuffledColors.length];
+            });
+        }
 
         function processData(data) {
             // Separate data by model type
@@ -426,6 +451,9 @@
             
             // Sort category names alphabetically
             allCategoryNames.sort();
+            
+            // Assign random colors to categories
+            assignColorsToCategories();
             
             // Set the grid data
             gridApi.setGridOption('rowData', processedBusinesses);
@@ -518,7 +546,25 @@
             const lat = 39.4143 + radius * Math.cos(angle) + (Math.random() - 0.5) * 0.02;
             const lng = -77.4105 + radius * Math.sin(angle) + (Math.random() - 0.5) * 0.02;
             
-            const marker = L.marker([lat, lng]).addTo(markersLayer);
+            // Get primary category color for marker
+            let markerColor = '#6c757d'; // default gray
+            if (business.categoryNames && business.categoryNames.length > 0) {
+                markerColor = categoryColors[business.categoryNames[0]] || '#6c757d';
+            }
+            
+            // Create custom colored SVG pin icon
+            const customIcon = L.divIcon({
+                className: 'custom-marker',
+                html: `<svg width="24" height="30" viewBox="0 0 24 30" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0C5.4 0 0 5.4 0 12c0 7.2 12 18 12 18s12-10.8 12-18C24 5.4 18.6 0 12 0z" 
+                          fill="${markerColor}" stroke="#fff" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="4" fill="#fff"/>
+                </svg>`,
+                iconSize: [24, 30],
+                iconAnchor: [12, 30]
+            });
+            
+            const marker = L.marker([lat, lng], { icon: customIcon }).addTo(markersLayer);
             
             // Create popup content
             const popupContent = `
@@ -526,7 +572,7 @@
                     <h6>${business.name}</h6>
                     ${business.fullAddress ? `<p><small>${business.fullAddress}</small></p>` : ''}
                     ${business.categoryNames && business.categoryNames.length > 0 ? 
-                        `<p>${business.categoryNames.map(cat => `<span class="badge bg-primary" style="font-size: 0.7em; margin: 1px;">${cat}</span>`).join(' ')}</p>` : 
+                        `<p>${business.categoryNames.map(cat => `<span class="badge" style="background-color: ${categoryColors[cat] || '#6c757d'}; color: white; font-size: 0.7em; margin: 1px;">${cat}</span>`).join(' ')}</p>` : 
                         ''}
                     ${business.website_url ? `<p><a href="${business.website_url}" target="_blank">Visit Website</a></p>` : ''}
                 </div>
@@ -644,7 +690,7 @@
                 .attr('width', xScale.bandwidth())
                 .attr('y', d => yScale(d[1]))
                 .attr('height', d => height - yScale(d[1]))
-                .style('fill', '#667eea');
+                .style('fill', d => categoryColors[d[0]] || colorPalette[0]);
             
             // Add x-axis
             svg.append('g')
@@ -709,7 +755,7 @@
             // Create color scale
             const color = d3.scaleOrdinal()
                 .domain(data.map(d => d[0]))
-                .range(['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#43e97b']);
+                .range(colorPalette);
             
             // Create pie generator
             const pie = d3.pie().value(d => d[1]);
@@ -785,7 +831,7 @@
                 .attr('width', xScale.bandwidth())
                 .attr('y', d => yScale(d[1]))
                 .attr('height', d => height - yScale(d[1]))
-                .style('fill', '#764ba2');
+                .style('fill', (d, i) => colorPalette[i % colorPalette.length]);
             
             // Add x-axis
             svg.append('g')
