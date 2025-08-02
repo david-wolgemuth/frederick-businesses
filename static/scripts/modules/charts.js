@@ -31,54 +31,46 @@ export class ChartsModule {
             .slice(0, 10);
         
         // Set dimensions
-        const margin = {top: 10, right: 10, bottom: 80, left: 40};
-        const width = 300 - margin.left - margin.right;
-        const height = 200 - margin.bottom - margin.top;
+        const width = 350;
+        const height = 320;
+        const radius = Math.min(width, height) / 2 - 20;
         
         // Create SVG
         const svg = d3.select('#category-chart')
             .append('svg')
-            .attr('width', width + margin.left + margin.right)
-            .attr('height', height + margin.top + margin.bottom)
+            .attr('width', width)
+            .attr('height', height)
             .append('g')
-            .attr('transform', `translate(${margin.left},${margin.top})`);
+            .attr('transform', `translate(${width/2},${height/2})`);
         
-        // Create scales
-        const xScale = d3.scaleBand()
+        // Create color scale using category colors
+        const color = d3.scaleOrdinal()
             .domain(topCategories.map(d => d[0]))
-            .range([0, width])
-            .padding(0.1);
+            .range(topCategories.map(d => this.categoryColors[d[0]] || this.colorPalette[0]));
         
-        const yScale = d3.scaleLinear()
-            .domain([0, d3.max(topCategories, d => d[1])])
-            .range([height, 0]);
+        // Create pie generator
+        const pie = d3.pie().value(d => d[1]);
+        const arc = d3.arc().innerRadius(0).outerRadius(radius);
         
-        // Create bars
-        svg.selectAll('.bar')
-            .data(topCategories)
-            .enter().append('rect')
-            .attr('class', 'bar')
-            .attr('x', d => xScale(d[0]))
-            .attr('width', xScale.bandwidth())
-            .attr('y', d => yScale(d[1]))
-            .attr('height', d => height - yScale(d[1]))
-            .style('fill', d => this.categoryColors[d[0]] || this.colorPalette[0]);
+        // Create pie slices
+        const arcs = svg.selectAll('.arc')
+            .data(pie(topCategories))
+            .enter().append('g')
+            .attr('class', 'arc');
         
-        // Add x-axis
-        svg.append('g')
-            .attr('class', 'axis')
-            .attr('transform', `translate(0,${height})`)
-            .call(d3.axisBottom(xScale))
-            .selectAll('text')
-            .style('text-anchor', 'end')
-            .attr('dx', '-.8em')
-            .attr('dy', '.15em')
-            .attr('transform', 'rotate(-45)');
+        arcs.append('path')
+            .attr('d', arc)
+            .style('fill', d => color(d.data[0]));
         
-        // Add y-axis
-        svg.append('g')
-            .attr('class', 'axis')
-            .call(d3.axisLeft(yScale));
+        // Add labels for larger slices
+        arcs.append('text')
+            .attr('transform', d => `translate(${arc.centroid(d)})`)
+            .attr('dy', '.35em')
+            .style('text-anchor', 'middle')
+            .style('font-size', '10px')
+            .style('fill', 'white')
+            .style('font-weight', 'bold')
+            .text(d => d.data[1] > 25 ? d.data[0].split(' ')[0] : ''); // Show first word for larger slices
     }
     
     createEmployeeChart(businesses) {
@@ -112,8 +104,8 @@ export class ChartsModule {
         const data = Object.entries(employeeRanges).filter(d => d[1] > 0);
         
         // Set dimensions
-        const width = 300;
-        const height = 200;
+        const width = 350;
+        const height = 320;
         const radius = Math.min(width, height) / 2 - 10;
         
         // Create SVG
@@ -172,9 +164,9 @@ export class ChartsModule {
             .slice(0, 8);
         
         // Set dimensions
-        const margin = {top: 10, right: 10, bottom: 60, left: 40};
-        const width = 300 - margin.left - margin.right;
-        const height = 150 - margin.bottom - margin.top;
+        const margin = {top: 20, right: 20, bottom: 80, left: 50};
+        const width = 350 - margin.left - margin.right;
+        const height = 250 - margin.bottom - margin.top;
         
         // Create SVG
         const svg = d3.select('#address-chart')

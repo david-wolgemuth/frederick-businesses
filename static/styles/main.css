@@ -85,13 +85,9 @@ body {
     }
 }
 
-#d3-charts {
-    height: 600px;
-    overflow-y: auto;
-}
-
 .chart-container {
-    margin-bottom: 30px;
+    height: 400px;
+    margin-bottom: 0;
 }
 
 .chart-title {
