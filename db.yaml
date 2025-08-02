@@ -5115,7 +5115,7 @@
   pk: 400
   fields:
     created_at: 2025-06-07 15:35:54.849145+00:00
-    updated_at: 2025-07-19 14:51:52.768298+00:00
+    updated_at: 2025-07-19 15:43:43.680596+00:00
     street_1: 50 Citizens Way
     street_2: ''
     city: Frederick
@@ -5199,7 +5199,7 @@
   pk: 407
   fields:
     created_at: 2025-06-07 15:35:54.849145+00:00
-    updated_at: 2025-07-19 14:51:30.683595+00:00
+    updated_at: 2025-07-19 15:43:18.080321+00:00
     street_1: 3630 Poffenberger Rd.
     street_2: ''
     city: Jefferson
@@ -5499,7 +5499,7 @@
   pk: 432
   fields:
     created_at: 2025-06-07 15:35:54.849145+00:00
-    updated_at: 2025-07-19 14:51:19.314037+00:00
+    updated_at: 2025-07-19 15:43:07.818312+00:00
     street_1: 50 Carroll Creek Way
     street_2: ''
     city: Frederick
@@ -12351,7 +12351,7 @@
   pk: 1003
   fields:
     created_at: 2025-07-19 14:51:11.270598+00:00
-    updated_at: 2025-07-19 14:51:11.270625+00:00
+    updated_at: 2025-07-19 15:42:58.306506+00:00
     street_1: 7420 Hayward Rd.  Suite 203
     street_2: ''
     city: Frederick
@@ -12363,7 +12363,7 @@
   pk: 1004
   fields:
     created_at: 2025-07-19 14:51:11.277839+00:00
-    updated_at: 2025-07-19 14:52:28.530782+00:00
+    updated_at: 2025-07-19 15:43:30.431182+00:00
     street_1: 125 East All Saints Street
     street_2: ''
     city: Frederick
@@ -12375,7 +12375,7 @@
   pk: 1005
   fields:
     created_at: 2025-07-19 14:51:11.280139+00:00
-    updated_at: 2025-07-19 14:51:11.280145+00:00
+    updated_at: 2025-07-19 15:42:58.316929+00:00
     street_1: 51 Maple Ave.
     street_2: ''
     city: Walkersville
@@ -12387,7 +12387,7 @@
   pk: 1006
   fields:
     created_at: 2025-07-19 14:51:11.282894+00:00
-    updated_at: 2025-07-19 14:51:11.282900+00:00
+    updated_at: 2025-07-19 15:42:58.318491+00:00
     street_1: 2 N. Market St.
     street_2: ''
     city: Frederick
@@ -12399,7 +12399,7 @@
   pk: 1007
   fields:
     created_at: 2025-07-19 14:51:11.285802+00:00
-    updated_at: 2025-07-19 14:51:11.285806+00:00
+    updated_at: 2025-07-19 15:42:58.321801+00:00
     street_1: 421 Aviation Way
     street_2: ''
     city: Frederick
@@ -12411,7 +12411,7 @@
   pk: 1008
   fields:
     created_at: 2025-07-19 14:51:11.287516+00:00
-    updated_at: 2025-07-19 14:51:11.287520+00:00
+    updated_at: 2025-07-19 15:42:58.323411+00:00
     street_1: 131 W Second St.
     street_2: ''
     city: Frederick
@@ -12423,7 +12423,7 @@
   pk: 1009
   fields:
     created_at: 2025-07-19 14:51:11.289473+00:00
-    updated_at: 2025-07-19 14:51:19.301737+00:00
+    updated_at: 2025-07-19 15:43:07.808122+00:00
     street_1: 121 N. Bentz St.
     street_2: ''
     city: Frederick
@@ -12435,7 +12435,7 @@
   pk: 1010
   fields:
     created_at: 2025-07-19 14:51:11.291140+00:00
-    updated_at: 2025-07-19 14:51:11.291144+00:00
+    updated_at: 2025-07-19 15:42:58.326741+00:00
     street_1: 122 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -12447,7 +12447,7 @@
   pk: 1011
   fields:
     created_at: 2025-07-19 14:51:11.293023+00:00
-    updated_at: 2025-07-19 14:51:11.293027+00:00
+    updated_at: 2025-07-19 15:42:58.328638+00:00
     street_1: 13600 Triadelphia Rd.
     street_2: ''
     city: Glenelg
@@ -12459,7 +12459,7 @@
   pk: 1012
   fields:
     created_at: 2025-07-19 14:51:11.295360+00:00
-    updated_at: 2025-07-19 14:51:11.295365+00:00
+    updated_at: 2025-07-19 15:42:58.330207+00:00
     street_1: Porter St. & Military Rd.
     street_2: ''
     city: Frederick
@@ -12471,7 +12471,7 @@
   pk: 1013
   fields:
     created_at: 2025-07-19 14:51:11.297206+00:00
-    updated_at: 2025-07-19 14:51:11.297210+00:00
+    updated_at: 2025-07-19 15:42:58.331735+00:00
     street_1: 7932 Opossumtown Pike
     street_2: ''
     city: Frederick
@@ -12483,7 +12483,7 @@
   pk: 1014
   fields:
     created_at: 2025-07-19 14:51:11.299062+00:00
-    updated_at: 2025-07-19 14:51:11.299067+00:00
+    updated_at: 2025-07-19 15:42:58.333721+00:00
     street_1: 118 N. Market St., Ste. 200
     street_2: ''
     city: Frederick
@@ -12495,7 +12495,7 @@
   pk: 1015
   fields:
     created_at: 2025-07-19 14:51:11.301217+00:00
-    updated_at: 2025-07-19 14:51:11.301222+00:00
+    updated_at: 2025-07-19 15:42:58.335251+00:00
     street_1: 355 Montevue Lane, Suite 100
     street_2: ''
     city: Frederick
@@ -12507,7 +12507,7 @@
   pk: 1016
   fields:
     created_at: 2025-07-19 14:51:11.303377+00:00
-    updated_at: 2025-07-19 14:51:11.303384+00:00
+    updated_at: 2025-07-19 15:42:58.336769+00:00
     street_1: 12 E. Church St.
     street_2: ''
     city: Frederick
@@ -12519,7 +12519,7 @@
   pk: 1017
   fields:
     created_at: 2025-07-19 14:51:11.305244+00:00
-    updated_at: 2025-07-19 14:51:41.806936+00:00
+    updated_at: 2025-07-19 15:43:30.451551+00:00
     street_1: 1110 Rosemont Ave.
     street_2: ''
     city: Frederick
@@ -12531,7 +12531,7 @@
   pk: 1018
   fields:
     created_at: 2025-07-19 14:51:11.306926+00:00
-    updated_at: 2025-07-19 14:51:11.308707+00:00
+    updated_at: 2025-07-19 15:42:58.341167+00:00
     street_1: 110 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -12543,7 +12543,7 @@
   pk: 1019
   fields:
     created_at: 2025-07-19 14:51:11.310917+00:00
-    updated_at: 2025-07-19 14:51:11.312659+00:00
+    updated_at: 2025-07-19 15:42:58.344796+00:00
     street_1: 400 W. 7th St.
     street_2: ''
     city: Frederick
@@ -12555,7 +12555,7 @@
   pk: 1020
   fields:
     created_at: 2025-07-19 14:51:11.314651+00:00
-    updated_at: 2025-07-19 14:51:11.314656+00:00
+    updated_at: 2025-07-19 15:42:58.346731+00:00
     street_1: 6 N. East Street, Suite 301
     street_2: ''
     city: Frederick
@@ -12567,7 +12567,7 @@
   pk: 1021
   fields:
     created_at: 2025-07-19 14:51:11.318002+00:00
-    updated_at: 2025-07-19 14:51:11.318007+00:00
+    updated_at: 2025-07-19 15:42:58.349326+00:00
     street_1: 218 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -12579,7 +12579,7 @@
   pk: 1022
   fields:
     created_at: 2025-07-19 14:51:11.320212+00:00
-    updated_at: 2025-07-19 14:51:11.320217+00:00
+    updated_at: 2025-07-19 15:42:58.351073+00:00
     street_1: PO Box 4146
     street_2: ''
     city: Frederick
@@ -12591,7 +12591,7 @@
   pk: 1023
   fields:
     created_at: 2025-07-19 14:51:11.321973+00:00
-    updated_at: 2025-07-19 14:51:11.321977+00:00
+    updated_at: 2025-07-19 15:42:58.352720+00:00
     street_1: 6620 Zittlestown Rd
     street_2: ''
     city: Middletown
@@ -12603,7 +12603,7 @@
   pk: 1024
   fields:
     created_at: 2025-07-19 14:51:11.323867+00:00
-    updated_at: 2025-07-19 14:51:11.323872+00:00
+    updated_at: 2025-07-19 15:42:58.354382+00:00
     street_1: 10209 Fountain School Rd.
     street_2: ''
     city: Union Bridge
@@ -12615,7 +12615,7 @@
   pk: 1025
   fields:
     created_at: 2025-07-19 14:51:11.325968+00:00
-    updated_at: 2025-07-19 14:51:11.325974+00:00
+    updated_at: 2025-07-19 15:42:58.356051+00:00
     street_1: 8420 Gas House Pike, Ste. DD
     street_2: ''
     city: Frederick
@@ -12627,7 +12627,7 @@
   pk: 1026
   fields:
     created_at: 2025-07-19 14:51:11.327688+00:00
-    updated_at: 2025-07-19 14:51:11.327693+00:00
+    updated_at: 2025-07-19 15:42:58.357817+00:00
     street_1: 16 E. South St.
     street_2: ''
     city: Frederick
@@ -12639,7 +12639,7 @@
   pk: 1027
   fields:
     created_at: 2025-07-19 14:51:11.329641+00:00
-    updated_at: 2025-07-19 14:51:11.329646+00:00
+    updated_at: 2025-07-19 15:42:58.359320+00:00
     street_1: 401 Rosemont Ave.
     street_2: ''
     city: Frederick
@@ -12651,7 +12651,7 @@
   pk: 1028
   fields:
     created_at: 2025-07-19 14:51:11.333531+00:00
-    updated_at: 2025-07-19 14:51:11.333538+00:00
+    updated_at: 2025-07-19 15:42:58.361826+00:00
     street_1: 565 E. Church St.
     street_2: ''
     city: Frederick
@@ -12663,7 +12663,7 @@
   pk: 1029
   fields:
     created_at: 2025-07-19 14:51:11.335749+00:00
-    updated_at: 2025-07-19 14:51:11.335753+00:00
+    updated_at: 2025-07-19 15:42:58.363449+00:00
     street_1: 103 S. Carroll St., Ste. 2B
     street_2: ''
     city: Frederick
@@ -12675,7 +12675,7 @@
   pk: 1030
   fields:
     created_at: 2025-07-19 14:51:11.339108+00:00
-    updated_at: 2025-07-19 14:51:11.339112+00:00
+    updated_at: 2025-07-19 15:42:58.365580+00:00
     street_1: 59 W. Washington St.
     street_2: ''
     city: Hagerstown
@@ -12687,7 +12687,7 @@
   pk: 1031
   fields:
     created_at: 2025-07-19 14:51:11.340933+00:00
-    updated_at: 2025-07-19 14:51:11.340938+00:00
+    updated_at: 2025-07-19 15:42:58.367227+00:00
     street_1: 17300 Catoctin Mountain Highway
     street_2: ''
     city: Emmitsburg
@@ -12699,7 +12699,7 @@
   pk: 1032
   fields:
     created_at: 2025-07-19 14:51:11.342707+00:00
-    updated_at: 2025-07-19 14:51:11.342711+00:00
+    updated_at: 2025-07-19 15:42:58.368882+00:00
     street_1: 31 W. Patrick St., Ste. 130
     street_2: ''
     city: Frederick
@@ -12711,7 +12711,7 @@
   pk: 1033
   fields:
     created_at: 2025-07-19 14:51:11.344564+00:00
-    updated_at: 2025-07-19 14:51:11.344569+00:00
+    updated_at: 2025-07-19 15:42:58.370842+00:00
     street_1: 305 W. Main St.
     street_2: ''
     city: Middletown
@@ -12723,7 +12723,7 @@
   pk: 1034
   fields:
     created_at: 2025-07-19 14:51:11.346576+00:00
-    updated_at: 2025-07-19 14:51:11.346580+00:00
+    updated_at: 2025-07-19 15:42:58.372429+00:00
     street_1: 16300 Old Emmitsburg Rd.
     street_2: ''
     city: Emmitsburg
@@ -12735,7 +12735,7 @@
   pk: 1035
   fields:
     created_at: 2025-07-19 14:51:11.348546+00:00
-    updated_at: 2025-07-19 14:51:11.348551+00:00
+    updated_at: 2025-07-19 15:42:58.374338+00:00
     street_1: 26 W. All Saints St.
     street_2: ''
     city: Frederick
@@ -12747,7 +12747,7 @@
   pk: 1036
   fields:
     created_at: 2025-07-19 14:51:11.358172+00:00
-    updated_at: 2025-07-19 14:51:11.358177+00:00
+    updated_at: 2025-07-19 15:42:58.384655+00:00
     street_1: 1201 N. Market St.
     street_2: ''
     city: Frederick
@@ -12759,7 +12759,7 @@
   pk: 1037
   fields:
     created_at: 2025-07-19 14:51:11.359883+00:00
-    updated_at: 2025-07-19 14:51:11.359887+00:00
+    updated_at: 2025-07-19 15:42:58.386226+00:00
     street_1: 5112 Pegasus Ct., Ste. V
     street_2: ''
     city: Frederick
@@ -12771,7 +12771,7 @@
   pk: 1038
   fields:
     created_at: 2025-07-19 14:51:11.361844+00:00
-    updated_at: 2025-07-19 14:51:11.361849+00:00
+    updated_at: 2025-07-19 15:42:58.388215+00:00
     street_1: 4991 New Design Rd., Suite 109
     street_2: ''
     city: Frederick
@@ -12783,7 +12783,7 @@
   pk: 1039
   fields:
     created_at: 2025-07-19 14:51:11.363847+00:00
-    updated_at: 2025-07-19 14:51:11.363852+00:00
+    updated_at: 2025-07-19 15:42:58.389656+00:00
     street_1: 116 Record St.
     street_2: ''
     city: Frederick
@@ -12795,7 +12795,7 @@
   pk: 1040
   fields:
     created_at: 2025-07-19 14:51:11.365609+00:00
-    updated_at: 2025-07-19 14:51:11.365614+00:00
+    updated_at: 2025-07-19 15:42:58.391105+00:00
     street_1: 200 Monroe Ave.
     street_2: ''
     city: Frederick
@@ -12807,7 +12807,7 @@
   pk: 1041
   fields:
     created_at: 2025-07-19 14:51:11.367353+00:00
-    updated_at: 2025-07-19 14:51:11.367358+00:00
+    updated_at: 2025-07-19 15:42:58.392572+00:00
     street_1: 27 E. Frederick St.
     street_2: ''
     city: Walkersville
@@ -12819,7 +12819,7 @@
   pk: 1042
   fields:
     created_at: 2025-07-19 14:51:11.369134+00:00
-    updated_at: 2025-07-19 14:52:00.841163+00:00
+    updated_at: 2025-07-19 15:43:51.772252+00:00
     street_1: 632 Contender Way
     street_2: ''
     city: Frederick
@@ -12831,7 +12831,7 @@
   pk: 1043
   fields:
     created_at: 2025-07-19 14:51:11.370788+00:00
-    updated_at: 2025-07-19 14:51:11.370793+00:00
+    updated_at: 2025-07-19 15:42:58.396245+00:00
     street_1: 'I 70 Eastbound, Between Exits 35 and 42, Mile Marker #39'
     street_2: ''
     city: Myersville
@@ -12843,7 +12843,7 @@
   pk: 1044
   fields:
     created_at: 2025-07-19 14:51:11.372453+00:00
-    updated_at: 2025-07-19 14:51:11.372457+00:00
+    updated_at: 2025-07-19 15:42:58.397723+00:00
     street_1: 'I 70 Eastbound, Between Exits 42 and 35, Mile Marker #39'
     street_2: ''
     city: Myersville
@@ -12855,7 +12855,7 @@
   pk: 1045
   fields:
     created_at: 2025-07-19 14:51:11.376255+00:00
-    updated_at: 2025-07-19 14:51:11.376260+00:00
+    updated_at: 2025-07-19 15:42:58.400505+00:00
     street_1: 27 S. Market St.
     street_2: ''
     city: Frederick
@@ -12867,7 +12867,7 @@
   pk: 1046
   fields:
     created_at: 2025-07-19 14:51:11.379225+00:00
-    updated_at: 2025-07-19 14:51:11.379230+00:00
+    updated_at: 2025-07-19 15:42:58.403756+00:00
     street_1: 5702 Industry Lane, A-41
     street_2: ''
     city: Frederick
@@ -12879,7 +12879,7 @@
   pk: 1047
   fields:
     created_at: 2025-07-19 14:51:11.381021+00:00
-    updated_at: 2025-07-19 14:51:11.381025+00:00
+    updated_at: 2025-07-19 15:42:58.405038+00:00
     street_1: 129 W. Patrick St., Unit 15
     street_2: ''
     city: Frederick
@@ -12891,7 +12891,7 @@
   pk: 1048
   fields:
     created_at: 2025-07-19 14:51:11.383013+00:00
-    updated_at: 2025-07-19 14:51:11.429085+00:00
+    updated_at: 2025-07-19 15:42:58.442641+00:00
     street_1: 17 W. Main St.
     street_2: ''
     city: Middletown
@@ -12903,7 +12903,7 @@
   pk: 1049
   fields:
     created_at: 2025-07-19 14:51:11.385260+00:00
-    updated_at: 2025-07-19 14:51:11.385265+00:00
+    updated_at: 2025-07-19 15:42:58.407874+00:00
     street_1: 202A E. Main St.
     street_2: ''
     city: Thurmont
@@ -12915,7 +12915,7 @@
   pk: 1050
   fields:
     created_at: 2025-07-19 14:51:11.387037+00:00
-    updated_at: 2025-07-19 14:51:11.387041+00:00
+    updated_at: 2025-07-19 15:42:58.409559+00:00
     street_1: 5 N. Bentz St.
     street_2: ''
     city: Frederick
@@ -12927,7 +12927,7 @@
   pk: 1051
   fields:
     created_at: 2025-07-19 14:51:11.388961+00:00
-    updated_at: 2025-07-19 14:51:11.388966+00:00
+    updated_at: 2025-07-19 15:42:58.411038+00:00
     street_1: 205 S. Church St., Suite 207-B
     street_2: ''
     city: Middletown
@@ -12939,7 +12939,7 @@
   pk: 1052
   fields:
     created_at: 2025-07-19 14:51:11.390646+00:00
-    updated_at: 2025-07-19 14:51:11.390650+00:00
+    updated_at: 2025-07-19 15:42:58.412479+00:00
     street_1: 43A S. Market St.
     street_2: ''
     city: Frederick
@@ -12951,7 +12951,7 @@
   pk: 1053
   fields:
     created_at: 2025-07-19 14:51:11.392569+00:00
-    updated_at: 2025-07-19 14:51:11.392574+00:00
+    updated_at: 2025-07-19 15:42:58.413803+00:00
     street_1: 407 N. Market St.
     street_2: ''
     city: Frederick
@@ -12963,7 +12963,7 @@
   pk: 1054
   fields:
     created_at: 2025-07-19 14:51:11.394575+00:00
-    updated_at: 2025-07-19 14:51:11.394580+00:00
+    updated_at: 2025-07-19 15:42:58.415124+00:00
     street_1: 113A E. Church St.
     street_2: ''
     city: Frederick
@@ -12975,7 +12975,7 @@
   pk: 1055
   fields:
     created_at: 2025-07-19 14:51:11.396366+00:00
-    updated_at: 2025-07-19 14:51:11.396371+00:00
+    updated_at: 2025-07-19 15:42:58.416635+00:00
     street_1: 125 S. Carroll St.
     street_2: ''
     city: Frederick
@@ -12987,7 +12987,7 @@
   pk: 1056
   fields:
     created_at: 2025-07-19 14:51:11.398225+00:00
-    updated_at: 2025-07-19 14:51:11.398230+00:00
+    updated_at: 2025-07-19 15:42:58.418070+00:00
     street_1: 31 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -12999,7 +12999,7 @@
   pk: 1057
   fields:
     created_at: 2025-07-19 14:51:11.400209+00:00
-    updated_at: 2025-07-19 14:51:11.400214+00:00
+    updated_at: 2025-07-19 15:42:58.419620+00:00
     street_1: 13 W. Potomac St.
     street_2: ''
     city: Brunswick
@@ -13011,7 +13011,7 @@
   pk: 1058
   fields:
     created_at: 2025-07-19 14:51:11.402067+00:00
-    updated_at: 2025-07-19 14:51:11.402071+00:00
+    updated_at: 2025-07-19 15:42:58.421261+00:00
     street_1: 1611 Rosemont Ave.
     street_2: ''
     city: Frederick
@@ -13023,7 +13023,7 @@
   pk: 1059
   fields:
     created_at: 2025-07-19 14:51:11.403760+00:00
-    updated_at: 2025-07-19 14:51:11.403765+00:00
+    updated_at: 2025-07-19 15:42:58.422586+00:00
     street_1: 10 W. Main St.
     street_2: ''
     city: Middletown
@@ -13035,7 +13035,7 @@
   pk: 1060
   fields:
     created_at: 2025-07-19 14:51:11.405769+00:00
-    updated_at: 2025-07-19 14:51:11.405773+00:00
+    updated_at: 2025-07-19 15:42:58.424045+00:00
     street_1: 4 W. Main St.
     street_2: ''
     city: Middletown
@@ -13047,7 +13047,7 @@
   pk: 1061
   fields:
     created_at: 2025-07-19 14:51:11.407367+00:00
-    updated_at: 2025-07-19 14:51:11.407372+00:00
+    updated_at: 2025-07-19 15:42:58.425437+00:00
     street_1: 58 Water St.
     street_2: ''
     city: Thurmont
@@ -13059,7 +13059,7 @@
   pk: 1062
   fields:
     created_at: 2025-07-19 14:51:11.409159+00:00
-    updated_at: 2025-07-19 14:51:11.409163+00:00
+    updated_at: 2025-07-19 15:42:58.426880+00:00
     street_1: 14-D W. Main St.
     street_2: ''
     city: Middletown
@@ -13071,7 +13071,7 @@
   pk: 1063
   fields:
     created_at: 2025-07-19 14:51:11.411032+00:00
-    updated_at: 2025-07-19 14:51:11.411036+00:00
+    updated_at: 2025-07-19 15:42:58.428542+00:00
     street_1: '11670 Old National Pike #102'
     street_2: ''
     city: New Market
@@ -13083,7 +13083,7 @@
   pk: 1064
   fields:
     created_at: 2025-07-19 14:51:11.412790+00:00
-    updated_at: 2025-07-19 14:51:11.412794+00:00
+    updated_at: 2025-07-19 15:42:58.430181+00:00
     street_1: 413 N. Market St.
     street_2: ''
     city: Frederick
@@ -13095,7 +13095,7 @@
   pk: 1065
   fields:
     created_at: 2025-07-19 14:51:11.415006+00:00
-    updated_at: 2025-07-19 14:51:11.415011+00:00
+    updated_at: 2025-07-19 15:42:58.431663+00:00
     street_1: 127 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -13107,7 +13107,7 @@
   pk: 1066
   fields:
     created_at: 2025-07-19 14:51:11.416705+00:00
-    updated_at: 2025-07-19 14:51:11.416710+00:00
+    updated_at: 2025-07-19 15:42:58.433051+00:00
     street_1: 71 W. Main St.
     street_2: ''
     city: New Market
@@ -13119,7 +13119,7 @@
   pk: 1067
   fields:
     created_at: 2025-07-19 14:51:11.418661+00:00
-    updated_at: 2025-07-19 14:51:11.418665+00:00
+    updated_at: 2025-07-19 15:42:58.434347+00:00
     street_1: 7 W. Main St.
     street_2: ''
     city: Middletown
@@ -13131,7 +13131,7 @@
   pk: 1068
   fields:
     created_at: 2025-07-19 14:51:11.420500+00:00
-    updated_at: 2025-07-19 14:51:11.420505+00:00
+    updated_at: 2025-07-19 15:42:58.435987+00:00
     street_1: 319 N. Market St.
     street_2: ''
     city: Frederick
@@ -13143,7 +13143,7 @@
   pk: 1069
   fields:
     created_at: 2025-07-19 14:51:11.422184+00:00
-    updated_at: 2025-07-19 14:51:11.422188+00:00
+    updated_at: 2025-07-19 15:42:58.437258+00:00
     street_1: 100 N. Church St.
     street_2: ''
     city: Middletown
@@ -13155,7 +13155,7 @@
   pk: 1070
   fields:
     created_at: 2025-07-19 14:51:11.424015+00:00
-    updated_at: 2025-07-19 14:51:26.346510+00:00
+    updated_at: 2025-07-19 15:43:15.232329+00:00
     street_1: 17 W. Potomac St.
     street_2: ''
     city: Brunswick
@@ -13167,7 +13167,7 @@
   pk: 1071
   fields:
     created_at: 2025-07-19 14:51:11.425671+00:00
-    updated_at: 2025-07-19 14:51:11.425676+00:00
+    updated_at: 2025-07-19 15:42:58.439979+00:00
     street_1: 8 S. Church St.
     street_2: ''
     city: Middletown
@@ -13179,7 +13179,7 @@
   pk: 1072
   fields:
     created_at: 2025-07-19 14:51:11.427281+00:00
-    updated_at: 2025-07-19 14:51:11.427285+00:00
+    updated_at: 2025-07-19 15:42:58.441319+00:00
     street_1: 256 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -13191,7 +13191,7 @@
   pk: 1073
   fields:
     created_at: 2025-07-19 14:51:11.431179+00:00
-    updated_at: 2025-07-19 14:51:11.431183+00:00
+    updated_at: 2025-07-19 15:42:58.444054+00:00
     street_1: 26 S. Market St.
     street_2: ''
     city: Frederick
@@ -13203,7 +13203,7 @@
   pk: 1074
   fields:
     created_at: 2025-07-19 14:51:11.433141+00:00
-    updated_at: 2025-07-19 14:51:11.433146+00:00
+    updated_at: 2025-07-19 15:42:58.445427+00:00
     street_1: 112 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -13215,7 +13215,7 @@
   pk: 1075
   fields:
     created_at: 2025-07-19 14:51:11.435182+00:00
-    updated_at: 2025-07-19 14:51:11.435187+00:00
+    updated_at: 2025-07-19 15:42:58.446767+00:00
     street_1: 48 N. Market St.
     street_2: ''
     city: Frederick
@@ -13227,7 +13227,7 @@
   pk: 1076
   fields:
     created_at: 2025-07-19 14:51:11.437106+00:00
-    updated_at: 2025-07-19 14:51:11.437110+00:00
+    updated_at: 2025-07-19 15:42:58.448601+00:00
     street_1: 236 N. Market St.
     street_2: ''
     city: Frederick
@@ -13239,7 +13239,7 @@
   pk: 1077
   fields:
     created_at: 2025-07-19 14:51:11.439785+00:00
-    updated_at: 2025-07-19 14:51:11.439789+00:00
+    updated_at: 2025-07-19 15:42:58.451004+00:00
     street_1: 306 N. Market St.
     street_2: ''
     city: Frederick
@@ -13251,19 +13251,19 @@
   pk: 1078
   fields:
     created_at: 2025-07-19 14:51:14.491969+00:00
-    updated_at: 2025-07-19 14:52:48.888481+00:00
+    updated_at: 2025-07-19 15:43:43.654096+00:00
     street_1: 124 N. Market St.
     street_2: ''
     city: Frederick
     state: MD
     zip: '21701'
-    latitude: '39.41611556'
-    longitude: '-77.41028979'
+    latitude: '39.41610991'
+    longitude: '-77.41059057'
 - model: app.address
   pk: 1079
   fields:
     created_at: 2025-07-19 14:51:14.495323+00:00
-    updated_at: 2025-07-19 14:51:52.750076+00:00
+    updated_at: 2025-07-19 15:43:43.660964+00:00
     street_1: 228 N. Market St.
     street_2: ''
     city: Frederick
@@ -13275,7 +13275,7 @@
   pk: 1080
   fields:
     created_at: 2025-07-19 14:51:14.497512+00:00
-    updated_at: 2025-07-19 14:51:14.497518+00:00
+    updated_at: 2025-07-19 15:43:01.564181+00:00
     street_1: 5605 Spectrum Dr.
     street_2: ''
     city: Frederick
@@ -13287,7 +13287,7 @@
   pk: 1081
   fields:
     created_at: 2025-07-19 14:51:14.499358+00:00
-    updated_at: 2025-07-19 14:51:52.754616+00:00
+    updated_at: 2025-07-19 15:43:43.667057+00:00
     street_1: 118 S. Market St.
     street_2: ''
     city: Frederick
@@ -13299,7 +13299,7 @@
   pk: 1082
   fields:
     created_at: 2025-07-19 14:51:14.501242+00:00
-    updated_at: 2025-07-19 14:51:14.501247+00:00
+    updated_at: 2025-07-19 15:43:01.567661+00:00
     street_1: 3323 Worthington Blvd.
     street_2: ''
     city: Ijamsville
@@ -13311,7 +13311,7 @@
   pk: 1083
   fields:
     created_at: 2025-07-19 14:51:14.503081+00:00
-    updated_at: 2025-07-19 14:51:14.503086+00:00
+    updated_at: 2025-07-19 15:43:01.569092+00:00
     street_1: 100 Middletown Parkway, Suite 208
     street_2: ''
     city: Middletown
@@ -13323,7 +13323,7 @@
   pk: 1084
   fields:
     created_at: 2025-07-19 14:51:14.505041+00:00
-    updated_at: 2025-07-19 14:51:14.505045+00:00
+    updated_at: 2025-07-19 15:43:01.570685+00:00
     street_1: 221 Shorebird St.
     street_2: ''
     city: Frederick
@@ -13335,7 +13335,7 @@
   pk: 1085
   fields:
     created_at: 2025-07-19 14:51:14.506923+00:00
-    updated_at: 2025-07-19 14:51:52.756794+00:00
+    updated_at: 2025-07-19 15:43:43.669268+00:00
     street_1: 209 N. Market St.
     street_2: ''
     city: Frederick
@@ -13347,7 +13347,7 @@
   pk: 1086
   fields:
     created_at: 2025-07-19 14:51:14.508695+00:00
-    updated_at: 2025-07-19 14:51:52.758790+00:00
+    updated_at: 2025-07-19 15:43:43.671515+00:00
     street_1: 611 N. Market St.
     street_2: ''
     city: Frederick
@@ -13359,7 +13359,7 @@
   pk: 1087
   fields:
     created_at: 2025-07-19 14:51:14.510946+00:00
-    updated_at: 2025-07-19 14:51:14.510951+00:00
+    updated_at: 2025-07-19 15:43:01.576824+00:00
     street_1: 200 S. Seton Ave.
     street_2: ''
     city: Emmitsburg
@@ -13371,7 +13371,7 @@
   pk: 1088
   fields:
     created_at: 2025-07-19 14:51:14.513989+00:00
-    updated_at: 2025-07-19 14:51:52.762028+00:00
+    updated_at: 2025-07-19 15:43:43.673532+00:00
     street_1: 5 E. Church St.
     street_2: ''
     city: Frederick
@@ -13383,7 +13383,7 @@
   pk: 1089
   fields:
     created_at: 2025-07-19 14:51:14.515783+00:00
-    updated_at: 2025-07-19 14:51:14.515788+00:00
+    updated_at: 2025-07-19 15:43:01.581007+00:00
     street_1: 581 Himes Ave.
     street_2: ''
     city: Frederick
@@ -13395,7 +13395,7 @@
   pk: 1090
   fields:
     created_at: 2025-07-19 14:51:14.517400+00:00
-    updated_at: 2025-07-19 14:51:52.764303+00:00
+    updated_at: 2025-07-19 15:43:43.676880+00:00
     street_1: 100 N. East St.
     street_2: ''
     city: Frederick
@@ -13407,7 +13407,7 @@
   pk: 1091
   fields:
     created_at: 2025-07-19 14:51:14.518999+00:00
-    updated_at: 2025-07-19 14:51:14.519004+00:00
+    updated_at: 2025-07-19 15:43:01.584133+00:00
     street_1: 49 S. Market St.
     street_2: ''
     city: Frederick
@@ -13419,7 +13419,7 @@
   pk: 1092
   fields:
     created_at: 2025-07-19 14:51:14.520929+00:00
-    updated_at: 2025-07-19 14:51:52.777472+00:00
+    updated_at: 2025-07-19 15:43:43.687921+00:00
     street_1: 16-18 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -13431,7 +13431,7 @@
   pk: 1093
   fields:
     created_at: 2025-07-19 14:51:14.522854+00:00
-    updated_at: 2025-07-19 14:51:16.996679+00:00
+    updated_at: 2025-07-19 15:43:03.909822+00:00
     street_1: 5400 Holiday Dr.
     street_2: ''
     city: Frederick
@@ -13443,7 +13443,7 @@
   pk: 1094
   fields:
     created_at: 2025-07-19 14:51:14.524509+00:00
-    updated_at: 2025-07-19 14:51:52.789947+00:00
+    updated_at: 2025-07-19 15:43:43.691251+00:00
     street_1: 1-A W. 2nd St.
     street_2: ''
     city: Frederick
@@ -13455,7 +13455,7 @@
   pk: 1095
   fields:
     created_at: 2025-07-19 14:51:14.526305+00:00
-    updated_at: 2025-07-19 14:51:14.526310+00:00
+    updated_at: 2025-07-19 15:43:01.590277+00:00
     street_1: 14 W. Main St.
     street_2: ''
     city: Middletown
@@ -13467,7 +13467,7 @@
   pk: 1096
   fields:
     created_at: 2025-07-19 14:51:14.528046+00:00
-    updated_at: 2025-07-19 14:51:52.791970+00:00
+    updated_at: 2025-07-19 15:43:43.693019+00:00
     street_1: 57 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -13479,7 +13479,7 @@
   pk: 1097
   fields:
     created_at: 2025-07-19 14:51:14.529753+00:00
-    updated_at: 2025-07-19 14:51:14.529758+00:00
+    updated_at: 2025-07-19 15:43:01.593632+00:00
     street_1: 133 Frederick Rd.
     street_2: ''
     city: Thurmont
@@ -13491,7 +13491,7 @@
   pk: 1098
   fields:
     created_at: 2025-07-19 14:51:14.531431+00:00
-    updated_at: 2025-07-19 14:51:52.796221+00:00
+    updated_at: 2025-07-19 15:43:43.696072+00:00
     street_1: 325 N. Market St.
     street_2: ''
     city: Frederick
@@ -13503,7 +13503,7 @@
   pk: 1099
   fields:
     created_at: 2025-07-19 14:51:14.533538+00:00
-    updated_at: 2025-07-19 14:51:52.798325+00:00
+    updated_at: 2025-07-19 15:43:43.698076+00:00
     street_1: 45 N. Market St.
     street_2: ''
     city: Frederick
@@ -13515,7 +13515,7 @@
   pk: 1100
   fields:
     created_at: 2025-07-19 14:51:14.535776+00:00
-    updated_at: 2025-07-19 14:51:52.801992+00:00
+    updated_at: 2025-07-19 15:43:43.703115+00:00
     street_1: 210 N. Market St.
     street_2: ''
     city: Frederick
@@ -13527,7 +13527,7 @@
   pk: 1101
   fields:
     created_at: 2025-07-19 14:51:14.537809+00:00
-    updated_at: 2025-07-19 14:51:14.537814+00:00
+    updated_at: 2025-07-19 15:43:01.601260+00:00
     street_1: 996 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -13539,7 +13539,7 @@
   pk: 1102
   fields:
     created_at: 2025-07-19 14:51:14.539790+00:00
-    updated_at: 2025-07-19 14:51:14.539795+00:00
+    updated_at: 2025-07-19 15:43:01.602678+00:00
     street_1: 301 Ballenger Center Dr.
     street_2: ''
     city: Frederick
@@ -13551,7 +13551,7 @@
   pk: 1103
   fields:
     created_at: 2025-07-19 14:51:14.541539+00:00
-    updated_at: 2025-07-19 14:51:14.541544+00:00
+    updated_at: 2025-07-19 15:43:01.604373+00:00
     street_1: 28 Souder Rd.
     street_2: ''
     city: Brunswick
@@ -13563,7 +13563,7 @@
   pk: 1104
   fields:
     created_at: 2025-07-19 14:51:14.543296+00:00
-    updated_at: 2025-07-19 14:51:14.543300+00:00
+    updated_at: 2025-07-19 15:43:01.606097+00:00
     street_1: 5622 Buckeystown Pike
     street_2: ''
     city: Frederick
@@ -13575,7 +13575,7 @@
   pk: 1105
   fields:
     created_at: 2025-07-19 14:51:14.545119+00:00
-    updated_at: 2025-07-19 14:51:14.545124+00:00
+    updated_at: 2025-07-19 15:43:01.607612+00:00
     street_1: 1204 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -13587,7 +13587,7 @@
   pk: 1106
   fields:
     created_at: 2025-07-19 14:51:14.546955+00:00
-    updated_at: 2025-07-19 14:51:14.546960+00:00
+    updated_at: 2025-07-19 15:43:01.609026+00:00
     street_1: 1990 Riverside Way
     street_2: ''
     city: Frederick
@@ -13599,7 +13599,7 @@
   pk: 1107
   fields:
     created_at: 2025-07-19 14:51:14.548790+00:00
-    updated_at: 2025-07-19 14:51:14.548794+00:00
+    updated_at: 2025-07-19 15:43:01.610423+00:00
     street_1: 191 Thomas Johnson Dr.
     street_2: ''
     city: Frederick
@@ -13611,7 +13611,7 @@
   pk: 1108
   fields:
     created_at: 2025-07-19 14:51:14.550653+00:00
-    updated_at: 2025-07-19 14:51:14.550657+00:00
+    updated_at: 2025-07-19 15:43:01.612005+00:00
     street_1: 203 Frederick Rd.
     street_2: ''
     city: Thurmont
@@ -13623,7 +13623,7 @@
   pk: 1109
   fields:
     created_at: 2025-07-19 14:51:14.552529+00:00
-    updated_at: 2025-07-19 14:51:14.552533+00:00
+    updated_at: 2025-07-19 15:43:01.613636+00:00
     street_1: 1240 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -13635,7 +13635,7 @@
   pk: 1110
   fields:
     created_at: 2025-07-19 14:51:14.554400+00:00
-    updated_at: 2025-07-19 14:51:14.554404+00:00
+    updated_at: 2025-07-19 15:43:01.615174+00:00
     street_1: 882 N. East St.
     street_2: ''
     city: Frederick
@@ -13647,7 +13647,7 @@
   pk: 1111
   fields:
     created_at: 2025-07-19 14:51:14.556347+00:00
-    updated_at: 2025-07-19 14:51:14.556352+00:00
+    updated_at: 2025-07-19 15:43:01.616681+00:00
     street_1: 5120 Buckeystown Pike
     street_2: ''
     city: Frederick
@@ -13659,7 +13659,7 @@
   pk: 1112
   fields:
     created_at: 2025-07-19 14:51:14.558064+00:00
-    updated_at: 2025-07-19 14:51:52.805916+00:00
+    updated_at: 2025-07-19 15:43:43.705339+00:00
     street_1: 105 S. Market St.
     street_2: ''
     city: Frederick
@@ -13671,7 +13671,7 @@
   pk: 1113
   fields:
     created_at: 2025-07-19 14:51:14.559802+00:00
-    updated_at: 2025-07-19 14:51:14.559806+00:00
+    updated_at: 2025-07-19 15:43:01.620127+00:00
     street_1: 50 Citizen's Way, Suite 101
     street_2: ''
     city: Frederick
@@ -13683,7 +13683,7 @@
   pk: 1114
   fields:
     created_at: 2025-07-19 14:51:14.561628+00:00
-    updated_at: 2025-07-19 14:51:14.561632+00:00
+    updated_at: 2025-07-19 15:43:01.621785+00:00
     street_1: 203 E. Main St.
     street_2: ''
     city: Middletown
@@ -13695,7 +13695,7 @@
   pk: 1115
   fields:
     created_at: 2025-07-19 14:51:14.563241+00:00
-    updated_at: 2025-07-19 14:51:14.563245+00:00
+    updated_at: 2025-07-19 15:43:01.623147+00:00
     street_1: 83 W. Main St.
     street_2: ''
     city: New Market
@@ -13707,7 +13707,7 @@
   pk: 1116
   fields:
     created_at: 2025-07-19 14:51:14.564890+00:00
-    updated_at: 2025-07-19 14:51:14.564894+00:00
+    updated_at: 2025-07-19 15:43:01.624464+00:00
     street_1: 17 Water St.
     street_2: ''
     city: Thurmont
@@ -13719,7 +13719,7 @@
   pk: 1117
   fields:
     created_at: 2025-07-19 14:51:14.566657+00:00
-    updated_at: 2025-07-19 14:51:14.566661+00:00
+    updated_at: 2025-07-19 15:43:01.625866+00:00
     street_1: 620 Souder Rd.
     street_2: ''
     city: Brunswick
@@ -13731,7 +13731,7 @@
   pk: 1118
   fields:
     created_at: 2025-07-19 14:51:14.568360+00:00
-    updated_at: 2025-07-19 14:51:52.809910+00:00
+    updated_at: 2025-07-19 15:43:43.709384+00:00
     street_1: 301 N. Market St.
     street_2: ''
     city: Frederick
@@ -13743,7 +13743,7 @@
   pk: 1119
   fields:
     created_at: 2025-07-19 14:51:14.570082+00:00
-    updated_at: 2025-07-19 14:51:14.570086+00:00
+    updated_at: 2025-07-19 15:43:01.629005+00:00
     street_1: 11113 W. Baldwin Rd, Suite 202
     street_2: ''
     city: Monrovia
@@ -13755,7 +13755,7 @@
   pk: 1120
   fields:
     created_at: 2025-07-19 14:51:14.571675+00:00
-    updated_at: 2025-07-19 14:51:52.812036+00:00
+    updated_at: 2025-07-19 15:43:43.711516+00:00
     street_1: 50 Carroll Creek Way, Ste. 160
     street_2: ''
     city: Frederick
@@ -13767,7 +13767,7 @@
   pk: 1121
   fields:
     created_at: 2025-07-19 14:51:14.573813+00:00
-    updated_at: 2025-07-19 14:51:14.573817+00:00
+    updated_at: 2025-07-19 15:43:01.632137+00:00
     street_1: 210 N. Church St.
     street_2: ''
     city: Thurmont
@@ -13779,7 +13779,7 @@
   pk: 1122
   fields:
     created_at: 2025-07-19 14:51:14.575741+00:00
-    updated_at: 2025-07-19 14:51:14.575745+00:00
+    updated_at: 2025-07-19 15:43:01.633463+00:00
     street_1: 116 W. Main St.
     street_2: ''
     city: Middletown
@@ -13791,7 +13791,7 @@
   pk: 1123
   fields:
     created_at: 2025-07-19 14:51:14.577459+00:00
-    updated_at: 2025-07-19 14:51:14.577464+00:00
+    updated_at: 2025-07-19 15:43:01.634803+00:00
     street_1: 201 S. Church St.
     street_2: ''
     city: Middletown
@@ -13803,7 +13803,7 @@
   pk: 1124
   fields:
     created_at: 2025-07-19 14:51:14.579191+00:00
-    updated_at: 2025-07-19 14:51:14.579196+00:00
+    updated_at: 2025-07-19 15:43:01.636090+00:00
     street_1: 41 S. Market St.
     street_2: ''
     city: Frederick
@@ -13815,7 +13815,7 @@
   pk: 1125
   fields:
     created_at: 2025-07-19 14:51:14.580933+00:00
-    updated_at: 2025-07-19 14:51:14.580938+00:00
+    updated_at: 2025-07-19 15:43:01.637392+00:00
     street_1: 50 Carroll Creek Way, Ste. 110
     street_2: ''
     city: Frederick
@@ -13827,7 +13827,7 @@
   pk: 1126
   fields:
     created_at: 2025-07-19 14:51:14.582476+00:00
-    updated_at: 2025-07-19 14:51:14.582480+00:00
+    updated_at: 2025-07-19 15:43:01.638715+00:00
     street_1: 8. W. Main St.
     street_2: ''
     city: New Market
@@ -13839,7 +13839,7 @@
   pk: 1127
   fields:
     created_at: 2025-07-19 14:51:14.584161+00:00
-    updated_at: 2025-07-19 14:51:14.584165+00:00
+    updated_at: 2025-07-19 15:43:01.640111+00:00
     street_1: 24 S. Market St.
     street_2: ''
     city: Frederick
@@ -13851,7 +13851,7 @@
   pk: 1128
   fields:
     created_at: 2025-07-19 14:51:14.585828+00:00
-    updated_at: 2025-07-19 14:51:14.585832+00:00
+    updated_at: 2025-07-19 15:43:01.641417+00:00
     street_1: 18 Market Space
     street_2: ''
     city: Frederick
@@ -13863,7 +13863,7 @@
   pk: 1129
   fields:
     created_at: 2025-07-19 14:51:16.993683+00:00
-    updated_at: 2025-07-19 14:51:16.993694+00:00
+    updated_at: 2025-07-19 15:43:03.904360+00:00
     street_1: 420 Prospect Blvd.
     street_2: ''
     city: Frederick
@@ -13875,7 +13875,7 @@
   pk: 1130
   fields:
     created_at: 2025-07-19 14:51:16.998597+00:00
-    updated_at: 2025-07-19 14:51:16.998601+00:00
+    updated_at: 2025-07-19 15:43:03.913463+00:00
     street_1: 7300 Executive Way
     street_2: ''
     city: Frederick
@@ -13887,7 +13887,7 @@
   pk: 1131
   fields:
     created_at: 2025-07-19 14:51:17.000612+00:00
-    updated_at: 2025-07-19 14:51:17.000619+00:00
+    updated_at: 2025-07-19 15:43:03.915873+00:00
     street_1: 998 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -13899,7 +13899,7 @@
   pk: 1132
   fields:
     created_at: 2025-07-19 14:51:17.002551+00:00
-    updated_at: 2025-07-19 14:51:17.002555+00:00
+    updated_at: 2025-07-19 15:43:03.918594+00:00
     street_1: 5579 Spectrum Dr.
     street_2: ''
     city: Frederick
@@ -13911,7 +13911,7 @@
   pk: 1133
   fields:
     created_at: 2025-07-19 14:51:17.004405+00:00
-    updated_at: 2025-07-19 14:51:17.004410+00:00
+    updated_at: 2025-07-19 15:43:03.920981+00:00
     street_1: 5225 Westview Dr.
     street_2: ''
     city: Frederick
@@ -13923,7 +13923,7 @@
   pk: 1134
   fields:
     created_at: 2025-07-19 14:51:17.006333+00:00
-    updated_at: 2025-07-19 14:51:17.006341+00:00
+    updated_at: 2025-07-19 15:43:03.923130+00:00
     street_1: 5646 Buckeystown Pike
     street_2: ''
     city: Frederick
@@ -13935,7 +13935,7 @@
   pk: 1135
   fields:
     created_at: 2025-07-19 14:51:17.008157+00:00
-    updated_at: 2025-07-19 14:51:17.008162+00:00
+    updated_at: 2025-07-19 15:43:03.925218+00:00
     street_1: 6021 Francis Scott Key Dr.
     street_2: ''
     city: Frederick
@@ -13947,7 +13947,7 @@
   pk: 1136
   fields:
     created_at: 2025-07-19 14:51:17.009897+00:00
-    updated_at: 2025-07-19 14:51:17.009902+00:00
+    updated_at: 2025-07-19 15:43:03.927290+00:00
     street_1: 5220 Westview Dr.
     street_2: ''
     city: Frederick
@@ -13959,7 +13959,7 @@
   pk: 1137
   fields:
     created_at: 2025-07-19 14:51:17.011587+00:00
-    updated_at: 2025-07-19 14:51:17.011592+00:00
+    updated_at: 2025-07-19 15:43:03.929343+00:00
     street_1: 5311 Buckeystown Pike
     street_2: ''
     city: Frederick
@@ -13971,7 +13971,7 @@
   pk: 1138
   fields:
     created_at: 2025-07-19 14:51:17.013332+00:00
-    updated_at: 2025-07-19 14:51:17.013336+00:00
+    updated_at: 2025-07-19 15:43:03.931327+00:00
     street_1: 1565 Opossumtown Pike
     street_2: ''
     city: Frederick
@@ -13983,7 +13983,7 @@
   pk: 1139
   fields:
     created_at: 2025-07-19 14:51:17.014962+00:00
-    updated_at: 2025-07-19 14:51:17.014966+00:00
+    updated_at: 2025-07-19 15:43:03.933562+00:00
     street_1: 7226 Corporate Ct.
     street_2: ''
     city: Frederick
@@ -13995,7 +13995,7 @@
   pk: 1140
   fields:
     created_at: 2025-07-19 14:51:17.016669+00:00
-    updated_at: 2025-07-19 14:51:17.016673+00:00
+    updated_at: 2025-07-19 15:43:03.935355+00:00
     street_1: 1501 Village Green Way
     street_2: ''
     city: Brunswick
@@ -14007,7 +14007,7 @@
   pk: 1141
   fields:
     created_at: 2025-07-19 14:51:17.018334+00:00
-    updated_at: 2025-07-19 14:51:17.018338+00:00
+    updated_at: 2025-07-19 15:43:03.937515+00:00
     street_1: 4850 Buckeystown Pike
     street_2: ''
     city: Frederick
@@ -14019,7 +14019,7 @@
   pk: 1142
   fields:
     created_at: 2025-07-19 14:51:17.020015+00:00
-    updated_at: 2025-07-19 14:51:17.020019+00:00
+    updated_at: 2025-07-19 15:43:03.939479+00:00
     street_1: 4950 Westview Dr.
     street_2: ''
     city: Frederick
@@ -14031,7 +14031,7 @@
   pk: 1143
   fields:
     created_at: 2025-07-19 14:51:17.021693+00:00
-    updated_at: 2025-07-19 14:51:17.021697+00:00
+    updated_at: 2025-07-19 15:43:03.942765+00:00
     street_1: 7310 Executive Way
     street_2: ''
     city: Frederick
@@ -14043,7 +14043,7 @@
   pk: 1144
   fields:
     created_at: 2025-07-19 14:51:17.024395+00:00
-    updated_at: 2025-07-19 14:51:17.024399+00:00
+    updated_at: 2025-07-19 15:43:03.944489+00:00
     street_1: 999 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -14055,7 +14055,7 @@
   pk: 1145
   fields:
     created_at: 2025-07-19 14:51:17.026049+00:00
-    updated_at: 2025-07-19 14:51:17.026053+00:00
+    updated_at: 2025-07-19 15:43:03.946100+00:00
     street_1: 426 N. Church St.
     street_2: ''
     city: Thurmont
@@ -14067,7 +14067,7 @@
   pk: 1146
   fields:
     created_at: 2025-07-19 14:51:17.028090+00:00
-    updated_at: 2025-07-19 14:51:17.028095+00:00
+    updated_at: 2025-07-19 15:43:03.947682+00:00
     street_1: 5230 Westview Dr.
     street_2: ''
     city: Frederick
@@ -14079,7 +14079,7 @@
   pk: 1147
   fields:
     created_at: 2025-07-19 14:51:17.029808+00:00
-    updated_at: 2025-07-19 14:51:17.029813+00:00
+    updated_at: 2025-07-19 15:43:03.949146+00:00
     street_1: 501 Silo Hill Parkway
     street_2: ''
     city: Emmitsburg
@@ -14091,7 +14091,7 @@
   pk: 1148
   fields:
     created_at: 2025-07-19 14:51:17.031483+00:00
-    updated_at: 2025-07-19 14:51:17.031487+00:00
+    updated_at: 2025-07-19 15:43:03.950653+00:00
     street_1: 20 Monocacy Blvd.
     street_2: ''
     city: Frederick
@@ -14103,7 +14103,7 @@
   pk: 1149
   fields:
     created_at: 2025-07-19 14:51:17.033457+00:00
-    updated_at: 2025-07-19 14:51:17.033462+00:00
+    updated_at: 2025-07-19 15:43:03.952134+00:00
     street_1: 5050 Westview Dr.
     street_2: ''
     city: Frederick
@@ -14115,7 +14115,7 @@
   pk: 1150
   fields:
     created_at: 2025-07-19 14:51:17.035161+00:00
-    updated_at: 2025-07-19 14:51:17.035165+00:00
+    updated_at: 2025-07-19 15:43:03.953499+00:00
     street_1: 620 Souder Road
     street_2: ''
     city: Brunswick
@@ -14127,7 +14127,7 @@
   pk: 1151
   fields:
     created_at: 2025-07-19 14:51:17.036969+00:00
-    updated_at: 2025-07-19 14:51:17.036974+00:00
+    updated_at: 2025-07-19 15:43:03.954847+00:00
     street_1: 211 E. Church St.
     street_2: ''
     city: Frederick
@@ -14139,7 +14139,7 @@
   pk: 1152
   fields:
     created_at: 2025-07-19 14:51:17.038628+00:00
-    updated_at: 2025-07-19 14:51:17.038632+00:00
+    updated_at: 2025-07-19 15:43:03.956136+00:00
     street_1: 5240 Westview Dr.
     street_2: ''
     city: Frederick
@@ -14151,7 +14151,7 @@
   pk: 1153
   fields:
     created_at: 2025-07-19 14:51:17.040507+00:00
-    updated_at: 2025-07-19 14:51:17.040511+00:00
+    updated_at: 2025-07-19 15:43:03.957702+00:00
     street_1: 5361 Spectrum Dr.
     street_2: ''
     city: Frederick
@@ -14163,7 +14163,7 @@
   pk: 1154
   fields:
     created_at: 2025-07-19 14:51:17.042311+00:00
-    updated_at: 2025-07-19 14:51:17.042315+00:00
+    updated_at: 2025-07-19 15:43:03.959065+00:00
     street_1: 111 Byte Dr.
     street_2: ''
     city: Frederick
@@ -14175,7 +14175,7 @@
   pk: 1155
   fields:
     created_at: 2025-07-19 14:51:17.044147+00:00
-    updated_at: 2025-07-19 14:51:17.044154+00:00
+    updated_at: 2025-07-19 15:43:03.960336+00:00
     street_1: 300 Tippin Dr.
     street_2: ''
     city: Thurmont
@@ -14187,7 +14187,7 @@
   pk: 1156
   fields:
     created_at: 2025-07-19 14:51:17.046067+00:00
-    updated_at: 2025-07-19 14:51:17.046072+00:00
+    updated_at: 2025-07-19 15:43:03.961937+00:00
     street_1: 341 Ballenger Center Dr.
     street_2: ''
     city: Frederick
@@ -14199,7 +14199,7 @@
   pk: 1157
   fields:
     created_at: 2025-07-19 14:51:19.306072+00:00
-    updated_at: 2025-07-19 14:51:19.306083+00:00
+    updated_at: 2025-07-19 15:43:07.812357+00:00
     street_1: 5420 Ballenger Creek Pike
     street_2: ''
     city: Frederick
@@ -14211,7 +14211,7 @@
   pk: 1158
   fields:
     created_at: 2025-07-19 14:51:19.310592+00:00
-    updated_at: 2025-07-19 14:51:19.310606+00:00
+    updated_at: 2025-07-19 15:43:07.815587+00:00
     street_1: 7221 Michaels Mill Rd.
     street_2: ''
     city: Buckeystown
@@ -14223,7 +14223,7 @@
   pk: 1159
   fields:
     created_at: 2025-07-19 14:51:19.319997+00:00
-    updated_at: 2025-07-19 14:52:00.819534+00:00
+    updated_at: 2025-07-19 15:43:51.749244+00:00
     street_1: 2929 Sumantown Rd.
     street_2: ''
     city: Middletown
@@ -14235,7 +14235,7 @@
   pk: 1160
   fields:
     created_at: 2025-07-19 14:51:19.328158+00:00
-    updated_at: 2025-07-19 14:51:19.328165+00:00
+    updated_at: 2025-07-19 15:43:07.822230+00:00
     street_1: '35 E. All Saints St., #304'
     street_2: ''
     city: Frederick
@@ -14247,7 +14247,7 @@
   pk: 1161
   fields:
     created_at: 2025-07-19 14:51:19.330735+00:00
-    updated_at: 2025-07-19 14:51:19.330742+00:00
+    updated_at: 2025-07-19 15:43:07.824561+00:00
     street_1: 12014 Penterra Manor Ln.
     street_2: ''
     city: Thurmont
@@ -14259,7 +14259,7 @@
   pk: 1162
   fields:
     created_at: 2025-07-19 14:51:19.333226+00:00
-    updated_at: 2025-07-19 14:51:19.333232+00:00
+    updated_at: 2025-07-19 15:43:07.826944+00:00
     street_1: 8276 Devilbiss Bridge Rd.
     street_2: ''
     city: Walkersville
@@ -14271,7 +14271,7 @@
   pk: 1163
   fields:
     created_at: 2025-07-19 14:51:19.335789+00:00
-    updated_at: 2025-07-19 14:52:00.830144+00:00
+    updated_at: 2025-07-19 15:43:51.761459+00:00
     street_1: 8511 Nature Center Place
     street_2: ''
     city: Walkersville
@@ -14283,7 +14283,7 @@
   pk: 1164
   fields:
     created_at: 2025-07-19 14:51:19.338206+00:00
-    updated_at: 2025-07-19 14:51:19.338212+00:00
+    updated_at: 2025-07-19 15:43:07.831576+00:00
     street_1: 7110 Willowtree Dr., South
     street_2: ''
     city: Middletown
@@ -14295,7 +14295,7 @@
   pk: 1165
   fields:
     created_at: 2025-07-19 14:51:19.340490+00:00
-    updated_at: 2025-07-19 14:51:19.340497+00:00
+    updated_at: 2025-07-19 15:43:07.833857+00:00
     street_1: Baker Park
     street_2: ''
     city: Frederick
@@ -14307,7 +14307,7 @@
   pk: 1166
   fields:
     created_at: 2025-07-19 14:51:19.342748+00:00
-    updated_at: 2025-07-19 14:51:19.342754+00:00
+    updated_at: 2025-07-19 15:43:07.835702+00:00
     street_1: Mountaindale Rd. Off US 15
     street_2: ''
     city: Frederick
@@ -14319,7 +14319,7 @@
   pk: 1167
   fields:
     created_at: 2025-07-19 14:51:19.344777+00:00
-    updated_at: 2025-07-19 14:51:19.344783+00:00
+    updated_at: 2025-07-19 15:43:07.837367+00:00
     street_1: 2810 Decatur Dr.
     street_2: ''
     city: Adamstown
@@ -14331,7 +14331,7 @@
   pk: 1168
   fields:
     created_at: 2025-07-19 14:51:19.346806+00:00
-    updated_at: 2025-07-19 14:51:19.346810+00:00
+    updated_at: 2025-07-19 15:43:07.839121+00:00
     street_1: Devilbiss Bridge Rd.
     street_2: ''
     city: Woodsboro
@@ -14343,7 +14343,7 @@
   pk: 1169
   fields:
     created_at: 2025-07-19 14:51:19.349013+00:00
-    updated_at: 2025-07-19 14:51:19.349019+00:00
+    updated_at: 2025-07-19 15:43:07.840907+00:00
     street_1: Off I-70 at the E. Patrick St. exit
     street_2: ''
     city: Frederick
@@ -14355,7 +14355,7 @@
   pk: 1170
   fields:
     created_at: 2025-07-19 14:51:19.350941+00:00
-    updated_at: 2025-07-19 14:51:19.350946+00:00
+    updated_at: 2025-07-19 15:43:07.842877+00:00
     street_1: 3456 - B Kemptown Church Rd.
     street_2: ''
     city: Monrovia
@@ -14367,7 +14367,7 @@
   pk: 1171
   fields:
     created_at: 2025-07-19 14:51:19.352940+00:00
-    updated_at: 2025-07-19 14:51:19.352945+00:00
+    updated_at: 2025-07-19 15:43:07.845777+00:00
     street_1: 12201 Liberty Rd.
     street_2: ''
     city: Libertytown
@@ -14379,7 +14379,7 @@
   pk: 1172
   fields:
     created_at: 2025-07-19 14:51:19.354758+00:00
-    updated_at: 2025-07-19 14:52:24.356786+00:00
+    updated_at: 2025-07-19 15:43:07.847910+00:00
     street_1: 13506 Old Frederick Rd.
     street_2: ''
     city: Rocky Ridge
@@ -14391,7 +14391,7 @@
   pk: 1173
   fields:
     created_at: 2025-07-19 14:51:19.356666+00:00
-    updated_at: 2025-07-19 14:51:19.356671+00:00
+    updated_at: 2025-07-19 15:43:07.849922+00:00
     street_1: 201 N. Bentz St.
     street_2: ''
     city: Frederick
@@ -14403,7 +14403,7 @@
   pk: 1174
   fields:
     created_at: 2025-07-19 14:51:19.358640+00:00
-    updated_at: 2025-07-19 14:51:19.358644+00:00
+    updated_at: 2025-07-19 15:43:07.851638+00:00
     street_1: 7628 Coblentz Rd.
     street_2: ''
     city: Middletown
@@ -14415,7 +14415,7 @@
   pk: 1175
   fields:
     created_at: 2025-07-19 14:51:19.360651+00:00
-    updated_at: 2025-07-19 14:51:19.360657+00:00
+    updated_at: 2025-07-19 15:43:07.853564+00:00
     street_1: 10611 Rocky Ridge Road
     street_2: ''
     city: Thurmont
@@ -14427,7 +14427,7 @@
   pk: 1176
   fields:
     created_at: 2025-07-19 14:51:19.362489+00:00
-    updated_at: 2025-07-19 14:51:19.362494+00:00
+    updated_at: 2025-07-19 15:43:07.855355+00:00
     street_1: 13544 Motters Station Rd.
     street_2: ''
     city: Rocky Ridge
@@ -14439,7 +14439,7 @@
   pk: 1177
   fields:
     created_at: 2025-07-19 14:51:19.364232+00:00
-    updated_at: 2025-07-19 14:51:19.364236+00:00
+    updated_at: 2025-07-19 15:43:07.856913+00:00
     street_1: 12406 Old National Pike
     street_2: ''
     city: Mt. Airy
@@ -14451,7 +14451,7 @@
   pk: 1178
   fields:
     created_at: 2025-07-19 14:51:19.365819+00:00
-    updated_at: 2025-07-19 14:51:19.365824+00:00
+    updated_at: 2025-07-19 15:43:07.858455+00:00
     street_1: 19-1-A Jefferson Pike
     street_2: ''
     city: Knoxville
@@ -14463,7 +14463,7 @@
   pk: 1179
   fields:
     created_at: 2025-07-19 14:51:19.367493+00:00
-    updated_at: 2025-07-19 14:51:19.367498+00:00
+    updated_at: 2025-07-19 15:43:07.860206+00:00
     street_1: 8350 Pinecliff Park Rd.
     street_2: ''
     city: Frederick
@@ -14475,7 +14475,7 @@
   pk: 1180
   fields:
     created_at: 2025-07-19 14:51:19.369201+00:00
-    updated_at: 2025-07-19 14:51:19.369206+00:00
+    updated_at: 2025-07-19 15:43:07.862287+00:00
     street_1: 3700 Commerce St.
     street_2: ''
     city: Point of Rocks
@@ -14487,7 +14487,7 @@
   pk: 1181
   fields:
     created_at: 2025-07-19 14:51:19.371156+00:00
-    updated_at: 2025-07-19 14:51:19.371160+00:00
+    updated_at: 2025-07-19 15:43:07.864348+00:00
     street_1: 1637 Ballenger Creek Pike
     street_2: ''
     city: Point of Rocks
@@ -14499,7 +14499,7 @@
   pk: 1182
   fields:
     created_at: 2025-07-19 14:51:19.372995+00:00
-    updated_at: 2025-07-19 14:51:19.372999+00:00
+    updated_at: 2025-07-19 15:43:07.866509+00:00
     street_1: 10611 Rocky Ridge Rd.
     street_2: ''
     city: Thurmont
@@ -14511,7 +14511,7 @@
   pk: 1183
   fields:
     created_at: 2025-07-19 14:51:19.374981+00:00
-    updated_at: 2025-07-19 14:52:24.365685+00:00
+    updated_at: 2025-07-19 15:43:07.868300+00:00
     street_1: 14760 Roddy Rd.
     street_2: ''
     city: Thurmont
@@ -14523,7 +14523,7 @@
   pk: 1184
   fields:
     created_at: 2025-07-19 14:51:19.378617+00:00
-    updated_at: 2025-07-19 14:51:19.378621+00:00
+    updated_at: 2025-07-19 15:43:07.873054+00:00
     street_1: Sugarloaf Mountain Dr.
     street_2: ''
     city: Dickerson
@@ -14535,7 +14535,7 @@
   pk: 1185
   fields:
     created_at: 2025-07-19 14:51:19.380379+00:00
-    updated_at: 2025-07-19 14:51:19.380383+00:00
+    updated_at: 2025-07-19 15:43:07.874474+00:00
     street_1: 9560 Old National Pike
     street_2: ''
     city: Frederick
@@ -14547,7 +14547,7 @@
   pk: 1186
   fields:
     created_at: 2025-07-19 14:51:19.382008+00:00
-    updated_at: 2025-07-19 14:51:19.382013+00:00
+    updated_at: 2025-07-19 15:43:07.875973+00:00
     street_1: 3805 Urbana Pike
     street_2: ''
     city: Frederick
@@ -14559,7 +14559,7 @@
   pk: 1187
   fields:
     created_at: 2025-07-19 14:51:19.383828+00:00
-    updated_at: 2025-07-19 14:51:19.383833+00:00
+    updated_at: 2025-07-19 15:43:07.877499+00:00
     street_1: 10200-B Old Frederick Rd.
     street_2: ''
     city: Frederick
@@ -14571,7 +14571,7 @@
   pk: 1188
   fields:
     created_at: 2025-07-19 14:51:19.385781+00:00
-    updated_at: 2025-07-19 14:52:24.370930+00:00
+    updated_at: 2025-07-19 15:43:07.879298+00:00
     street_1: 7720 Utica Rd.
     street_2: ''
     city: Thurmont
@@ -14583,7 +14583,7 @@
   pk: 1189
   fields:
     created_at: 2025-07-19 14:51:19.387622+00:00
-    updated_at: 2025-07-19 14:51:19.387626+00:00
+    updated_at: 2025-07-19 15:43:07.881455+00:00
     street_1: Council Dr.
     street_2: ''
     city: Woodsboro
@@ -14595,7 +14595,7 @@
   pk: 1190
   fields:
     created_at: 2025-07-19 14:51:22.635914+00:00
-    updated_at: 2025-07-19 14:51:41.789809+00:00
+    updated_at: 2025-07-19 15:43:30.424355+00:00
     street_1: 339 S. Seton Ave.
     street_2: ''
     city: Emmitsburg
@@ -14607,7 +14607,7 @@
   pk: 1191
   fields:
     created_at: 2025-07-19 14:51:22.640726+00:00
-    updated_at: 2025-07-19 14:51:48.927627+00:00
+    updated_at: 2025-07-19 15:43:39.188910+00:00
     street_1: 40 W Potomac St.
     street_2: ''
     city: Brunswick
@@ -14619,7 +14619,7 @@
   pk: 1192
   fields:
     created_at: 2025-07-19 14:51:22.642870+00:00
-    updated_at: 2025-07-19 14:51:34.067135+00:00
+    updated_at: 2025-07-19 15:43:22.329303+00:00
     street_1: 0.6 mi west of Lock 29, Lander Road to Lock 29
     street_2: ''
     city: Jefferson
@@ -14631,7 +14631,7 @@
   pk: 1193
   fields:
     created_at: 2025-07-19 14:51:22.644635+00:00
-    updated_at: 2025-07-19 14:51:22.644639+00:00
+    updated_at: 2025-07-19 15:43:12.202912+00:00
     street_1: Route 806, Catoctin Furnace Village
     street_2: ''
     city: Thurmont
@@ -14643,7 +14643,7 @@
   pk: 1194
   fields:
     created_at: 2025-07-19 14:51:22.646386+00:00
-    updated_at: 2025-07-19 14:51:41.803568+00:00
+    updated_at: 2025-07-19 15:43:30.446518+00:00
     street_1: 12610 Catoctin Furnace Rd.
     street_2: ''
     city: Thurmont
@@ -14655,7 +14655,7 @@
   pk: 1195
   fields:
     created_at: 2025-07-19 14:51:22.648207+00:00
-    updated_at: 2025-07-19 14:51:22.648212+00:00
+    updated_at: 2025-07-19 15:43:12.205778+00:00
     street_1: Route 40A and Washington Monument Rd.
     street_2: ''
     city: Middletown
@@ -14667,7 +14667,7 @@
   pk: 1196
   fields:
     created_at: 2025-07-19 14:51:22.649896+00:00
-    updated_at: 2025-07-19 14:51:22.649900+00:00
+    updated_at: 2025-07-19 15:43:12.207326+00:00
     street_1: 101 Clarke Place
     street_2: ''
     city: Frederick
@@ -14679,7 +14679,7 @@
   pk: 1197
   fields:
     created_at: 2025-07-19 14:51:22.651480+00:00
-    updated_at: 2025-07-19 14:51:37.859157+00:00
+    updated_at: 2025-07-19 15:43:26.674661+00:00
     street_1: 900 Arnoldstown Rd.
     street_2: ''
     city: Jefferson
@@ -14691,7 +14691,7 @@
   pk: 1198
   fields:
     created_at: 2025-07-19 14:51:22.653310+00:00
-    updated_at: 2025-07-19 14:52:48.890938+00:00
+    updated_at: 2025-07-19 15:43:30.444697+00:00
     street_1: 24 E. Church St.
     street_2: ''
     city: Frederick
@@ -14703,7 +14703,7 @@
   pk: 1199
   fields:
     created_at: 2025-07-19 14:51:22.655334+00:00
-    updated_at: 2025-07-19 14:51:22.655339+00:00
+    updated_at: 2025-07-19 15:43:12.212944+00:00
     street_1: 7817 Rocky Springs Rd.
     street_2: ''
     city: Frederick
@@ -14715,7 +14715,7 @@
   pk: 1200
   fields:
     created_at: 2025-07-19 14:51:22.657021+00:00
-    updated_at: 2025-07-19 14:51:22.657025+00:00
+    updated_at: 2025-07-19 15:43:12.214401+00:00
     street_1: 100 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -14727,7 +14727,7 @@
   pk: 1201
   fields:
     created_at: 2025-07-19 14:51:22.658609+00:00
-    updated_at: 2025-07-19 14:51:22.658613+00:00
+    updated_at: 2025-07-19 15:43:12.215877+00:00
     street_1: Chapel Alley between Fifth & Sixth Sts.
     street_2: ''
     city: Frederick
@@ -14739,7 +14739,7 @@
   pk: 1202
   fields:
     created_at: 2025-07-19 14:51:22.660224+00:00
-    updated_at: 2025-07-19 14:51:22.660229+00:00
+    updated_at: 2025-07-19 15:43:12.217347+00:00
     street_1: 51 mile post C&O Canal, Lander Rd.
     street_2: ''
     city: Jefferson
@@ -14751,7 +14751,7 @@
   pk: 1203
   fields:
     created_at: 2025-07-19 14:51:22.661871+00:00
-    updated_at: 2025-07-19 14:51:22.661875+00:00
+    updated_at: 2025-07-19 15:43:12.219052+00:00
     street_1: Legore Bridge Road over Monocacy River
     street_2: ''
     city: Woodsboro
@@ -14763,7 +14763,7 @@
   pk: 1204
   fields:
     created_at: 2025-07-19 14:51:22.663449+00:00
-    updated_at: 2025-07-19 14:51:37.861045+00:00
+    updated_at: 2025-07-19 15:43:26.677331+00:00
     street_1: Mouth of Monocacy Rd. off Rt. 28 near Frederick/Montgomery County line
     street_2: ''
     city: Dickerson
@@ -14775,7 +14775,7 @@
   pk: 1205
   fields:
     created_at: 2025-07-19 14:51:22.665057+00:00
-    updated_at: 2025-07-19 14:51:37.865224+00:00
+    updated_at: 2025-07-19 15:43:26.682967+00:00
     street_1: 515 S. Market St.
     street_2: ''
     city: Frederick
@@ -14787,7 +14787,7 @@
   pk: 1206
   fields:
     created_at: 2025-07-19 14:51:22.668607+00:00
-    updated_at: 2025-07-19 14:51:22.668612+00:00
+    updated_at: 2025-07-19 15:43:12.226797+00:00
     street_1: 16825 S. Seton Ave., O Building, P.O. Drawer 498
     street_2: ''
     city: Emmitsburg
@@ -14799,7 +14799,7 @@
   pk: 1207
   fields:
     created_at: 2025-07-19 14:51:22.670525+00:00
-    updated_at: 2025-07-19 14:51:22.670529+00:00
+    updated_at: 2025-07-19 15:43:12.228632+00:00
     street_1: 214 N Main St.
     street_2: ''
     city: Boonsboro
@@ -14811,7 +14811,7 @@
   pk: 1208
   fields:
     created_at: 2025-07-19 14:51:22.672127+00:00
-    updated_at: 2025-07-19 14:51:22.672131+00:00
+    updated_at: 2025-07-19 15:43:12.230285+00:00
     street_1: 16330 Grotto Rd.
     street_2: ''
     city: Emmitsburg
@@ -14823,7 +14823,7 @@
   pk: 1209
   fields:
     created_at: 2025-07-19 14:51:22.674426+00:00
-    updated_at: 2025-07-19 14:51:22.674432+00:00
+    updated_at: 2025-07-19 15:43:12.231734+00:00
     street_1: 4000 Clay St.
     street_2: ''
     city: Point of Rocks
@@ -14835,7 +14835,7 @@
   pk: 1210
   fields:
     created_at: 2025-07-19 14:51:22.676686+00:00
-    updated_at: 2025-07-19 14:51:22.676691+00:00
+    updated_at: 2025-07-19 15:43:12.233269+00:00
     street_1: East Third & Fourth Sts., near East St.
     street_2: ''
     city: Frederick
@@ -14847,7 +14847,7 @@
   pk: 1211
   fields:
     created_at: 2025-07-19 14:51:22.679066+00:00
-    updated_at: 2025-07-19 14:51:22.679071+00:00
+    updated_at: 2025-07-19 15:43:12.234726+00:00
     street_1: 368 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -14859,7 +14859,7 @@
   pk: 1212
   fields:
     created_at: 2025-07-19 14:51:22.681167+00:00
-    updated_at: 2025-07-19 14:51:22.681172+00:00
+    updated_at: 2025-07-19 15:43:12.236277+00:00
     street_1: 5 E. Cemetery Dr.
     street_2: ''
     city: Burkittsville
@@ -14871,7 +14871,7 @@
   pk: 1213
   fields:
     created_at: 2025-07-19 14:51:22.683454+00:00
-    updated_at: 2025-07-19 14:51:22.683460+00:00
+    updated_at: 2025-07-19 15:43:12.238053+00:00
     street_1: 4246 Old National Pike
     street_2: ''
     city: Middletown
@@ -14883,7 +14883,7 @@
   pk: 1214
   fields:
     created_at: 2025-07-19 14:51:22.685452+00:00
-    updated_at: 2025-07-19 14:51:22.685458+00:00
+    updated_at: 2025-07-19 15:43:12.239827+00:00
     street_1: 9010 Liberty Rd.
     street_2: ''
     city: Frederick
@@ -14895,7 +14895,7 @@
   pk: 1215
   fields:
     created_at: 2025-07-19 14:51:26.322501+00:00
-    updated_at: 2025-07-19 14:51:26.322541+00:00
+    updated_at: 2025-07-19 15:43:15.209504+00:00
     street_1: 8830 Old Links Bridge Rd.
     street_2: ''
     city: Thurmont
@@ -14907,7 +14907,7 @@
   pk: 1216
   fields:
     created_at: 2025-07-19 14:51:26.331341+00:00
-    updated_at: 2025-07-19 14:51:26.331352+00:00
+    updated_at: 2025-07-19 15:43:15.214090+00:00
     street_1: 501 N. Market St.
     street_2: ''
     city: Frederick
@@ -14919,7 +14919,7 @@
   pk: 1217
   fields:
     created_at: 2025-07-19 14:51:26.334245+00:00
-    updated_at: 2025-07-19 14:51:41.796464+00:00
+    updated_at: 2025-07-19 15:43:30.437925+00:00
     street_1: 40 S. Carroll St.
     street_2: ''
     city: Frederick
@@ -14931,7 +14931,7 @@
   pk: 1218
   fields:
     created_at: 2025-07-19 14:51:26.336582+00:00
-    updated_at: 2025-07-19 14:51:26.336589+00:00
+    updated_at: 2025-07-19 15:43:15.220660+00:00
     street_1: 313 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -14943,7 +14943,7 @@
   pk: 1219
   fields:
     created_at: 2025-07-19 14:51:26.339024+00:00
-    updated_at: 2025-07-19 14:51:26.339029+00:00
+    updated_at: 2025-07-19 15:43:15.223221+00:00
     street_1: 7 N. Market St., Studio B
     street_2: ''
     city: Frederick
@@ -14955,7 +14955,7 @@
   pk: 1220
   fields:
     created_at: 2025-07-19 14:51:26.340861+00:00
-    updated_at: 2025-07-19 14:51:26.340866+00:00
+    updated_at: 2025-07-19 15:43:15.225791+00:00
     street_1: 127 S. Carroll St.
     street_2: ''
     city: Frederick
@@ -14967,7 +14967,7 @@
   pk: 1221
   fields:
     created_at: 2025-07-19 14:51:26.342832+00:00
-    updated_at: 2025-07-19 14:51:26.342836+00:00
+    updated_at: 2025-07-19 15:43:15.228152+00:00
     street_1: 322 N. Market St.
     street_2: ''
     city: Frederick
@@ -14979,7 +14979,7 @@
   pk: 1222
   fields:
     created_at: 2025-07-19 14:51:26.344593+00:00
-    updated_at: 2025-07-19 14:51:26.344598+00:00
+    updated_at: 2025-07-19 15:43:15.230216+00:00
     street_1: 118 E. Church St.
     street_2: ''
     city: Frederick
@@ -14991,7 +14991,7 @@
   pk: 1223
   fields:
     created_at: 2025-07-19 14:51:26.348308+00:00
-    updated_at: 2025-07-19 14:51:26.361160+00:00
+    updated_at: 2025-07-19 15:43:15.247466+00:00
     street_1: 437 N. Market St.
     street_2: ''
     city: Frederick
@@ -15003,7 +15003,7 @@
   pk: 1224
   fields:
     created_at: 2025-07-19 14:51:26.350281+00:00
-    updated_at: 2025-07-19 14:51:26.350285+00:00
+    updated_at: 2025-07-19 15:43:15.236399+00:00
     street_1: 14 S. Market St.
     street_2: ''
     city: Frederick
@@ -15015,7 +15015,7 @@
   pk: 1225
   fields:
     created_at: 2025-07-19 14:51:26.351967+00:00
-    updated_at: 2025-07-19 14:51:26.351973+00:00
+    updated_at: 2025-07-19 15:43:15.238274+00:00
     street_1: 3025 Poffenberger Rd.
     street_2: ''
     city: Jefferson
@@ -15027,7 +15027,7 @@
   pk: 1226
   fields:
     created_at: 2025-07-19 14:51:26.353660+00:00
-    updated_at: 2025-07-19 14:51:26.353665+00:00
+    updated_at: 2025-07-19 15:43:15.240246+00:00
     street_1: 1 N. Market St.
     street_2: ''
     city: Frederick
@@ -15039,7 +15039,7 @@
   pk: 1227
   fields:
     created_at: 2025-07-19 14:51:26.355697+00:00
-    updated_at: 2025-07-19 14:51:26.359350+00:00
+    updated_at: 2025-07-19 15:43:15.245714+00:00
     street_1: 115 E. Church St.
     street_2: ''
     city: Frederick
@@ -15051,7 +15051,7 @@
   pk: 1228
   fields:
     created_at: 2025-07-19 14:51:26.357527+00:00
-    updated_at: 2025-07-19 14:51:26.357531+00:00
+    updated_at: 2025-07-19 15:43:15.243955+00:00
     street_1: 119 N. East St.
     street_2: ''
     city: Frederick
@@ -15063,7 +15063,7 @@
   pk: 1229
   fields:
     created_at: 2025-07-19 14:51:30.674327+00:00
-    updated_at: 2025-07-19 14:51:30.674340+00:00
+    updated_at: 2025-07-19 15:43:18.066256+00:00
     street_1: 13134A Old Annapolis Rd.
     street_2: ''
     city: Mt. Airy
@@ -15075,7 +15075,7 @@
   pk: 1230
   fields:
     created_at: 2025-07-19 14:51:30.679077+00:00
-    updated_at: 2025-07-19 14:52:44.889855+00:00
+    updated_at: 2025-07-19 15:43:18.073101+00:00
     street_1: 9106 Hamburg Rd.
     street_2: ''
     city: Frederick
@@ -15087,7 +15087,7 @@
   pk: 1231
   fields:
     created_at: 2025-07-19 14:51:30.681284+00:00
-    updated_at: 2025-07-19 14:51:30.681292+00:00
+    updated_at: 2025-07-19 15:43:18.077499+00:00
     street_1: 15664 Kelbaugh Rd.
     street_2: ''
     city: Thurmont
@@ -15099,7 +15099,7 @@
   pk: 1232
   fields:
     created_at: 2025-07-19 14:51:30.685803+00:00
-    updated_at: 2025-07-19 14:51:30.685808+00:00
+    updated_at: 2025-07-19 15:43:18.083043+00:00
     street_1: 5936 Elmer Derr Rd.
     street_2: ''
     city: Frederick
@@ -15111,7 +15111,7 @@
   pk: 1233
   fields:
     created_at: 2025-07-19 14:51:30.687927+00:00
-    updated_at: 2025-07-19 14:51:30.687933+00:00
+    updated_at: 2025-07-19 15:43:18.085630+00:00
     street_1: 403 N. Market St., Unit 3
     street_2: ''
     city: Frederick
@@ -15123,7 +15123,7 @@
   pk: 1234
   fields:
     created_at: 2025-07-19 14:51:30.689974+00:00
-    updated_at: 2025-07-19 14:51:30.689979+00:00
+    updated_at: 2025-07-19 15:43:18.087769+00:00
     street_1: 256 S. Carroll St.
     street_2: ''
     city: Frederick
@@ -15135,7 +15135,7 @@
   pk: 1235
   fields:
     created_at: 2025-07-19 14:51:30.691934+00:00
-    updated_at: 2025-07-19 14:51:30.691939+00:00
+    updated_at: 2025-07-19 15:43:18.089879+00:00
     street_1: 5 W 2nd St.
     street_2: ''
     city: Frederick
@@ -15147,7 +15147,7 @@
   pk: 1236
   fields:
     created_at: 2025-07-19 14:51:30.694369+00:00
-    updated_at: 2025-07-19 14:51:30.694374+00:00
+    updated_at: 2025-07-19 15:43:18.091890+00:00
     street_1: 5509 Old National Pike
     street_2: ''
     city: Frederick
@@ -15159,7 +15159,7 @@
   pk: 1237
   fields:
     created_at: 2025-07-19 14:51:30.696583+00:00
-    updated_at: 2025-07-19 14:51:30.696589+00:00
+    updated_at: 2025-07-19 15:43:18.093790+00:00
     street_1: 8441 Woodville Rd.
     street_2: ''
     city: Mount Airy
@@ -15171,7 +15171,7 @@
   pk: 1238
   fields:
     created_at: 2025-07-19 14:51:30.698604+00:00
-    updated_at: 2025-07-19 14:51:30.698610+00:00
+    updated_at: 2025-07-19 15:43:18.095778+00:00
     street_1: 304-1/2 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -15183,7 +15183,7 @@
   pk: 1239
   fields:
     created_at: 2025-07-19 14:51:30.700573+00:00
-    updated_at: 2025-07-19 14:51:30.700578+00:00
+    updated_at: 2025-07-19 15:43:18.097738+00:00
     street_1: 13005 Graceham Rd.
     street_2: ''
     city: Thurmont
@@ -15195,7 +15195,7 @@
   pk: 1240
   fields:
     created_at: 2025-07-19 14:51:30.702663+00:00
-    updated_at: 2025-07-19 14:51:30.702669+00:00
+    updated_at: 2025-07-19 15:43:18.099580+00:00
     street_1: 12525 Catoctin Furnace Rd.
     street_2: ''
     city: Thurmont
@@ -15207,7 +15207,7 @@
   pk: 1241
   fields:
     created_at: 2025-07-19 14:51:30.704483+00:00
-    updated_at: 2025-07-19 14:51:30.704488+00:00
+    updated_at: 2025-07-19 15:43:18.101433+00:00
     street_1: 8529 Edgewood Church Rd.
     street_2: ''
     city: Frederick
@@ -15219,7 +15219,7 @@
   pk: 1242
   fields:
     created_at: 2025-07-19 14:51:30.706298+00:00
-    updated_at: 2025-07-19 14:51:30.706304+00:00
+    updated_at: 2025-07-19 15:43:18.103408+00:00
     street_1: 12024 Weller Rd.
     street_2: ''
     city: Monrovia
@@ -15231,7 +15231,7 @@
   pk: 1243
   fields:
     created_at: 2025-07-19 14:51:30.708580+00:00
-    updated_at: 2025-07-19 14:51:30.708586+00:00
+    updated_at: 2025-07-19 15:43:18.105213+00:00
     street_1: 17 W. Main St.
     street_2: ''
     city: New Market
@@ -15243,7 +15243,7 @@
   pk: 1244
   fields:
     created_at: 2025-07-19 14:51:30.710681+00:00
-    updated_at: 2025-07-19 14:51:30.710686+00:00
+    updated_at: 2025-07-19 15:43:18.106865+00:00
     street_1: 20 W. 2nd St.
     street_2: ''
     city: Frederick
@@ -15255,7 +15255,7 @@
   pk: 1245
   fields:
     created_at: 2025-07-19 14:51:34.053765+00:00
-    updated_at: 2025-07-19 14:51:48.932010+00:00
+    updated_at: 2025-07-19 15:43:39.193337+00:00
     street_1: 14707 Park Central Rd.
     street_2: ''
     city: Thurmont
@@ -15267,7 +15267,7 @@
   pk: 1246
   fields:
     created_at: 2025-07-19 14:51:34.058167+00:00
-    updated_at: 2025-07-19 14:51:48.936236+00:00
+    updated_at: 2025-07-19 15:43:39.197246+00:00
     street_1: 8602 Gambrill Park Rd.
     street_2: ''
     city: Frederick
@@ -15279,7 +15279,7 @@
   pk: 1247
   fields:
     created_at: 2025-07-19 14:51:34.060267+00:00
-    updated_at: 2025-07-19 14:51:34.060272+00:00
+    updated_at: 2025-07-19 15:43:22.323732+00:00
     street_1: 799 Washington St., P.O. Box 807
     street_2: ''
     city: Harpers Ferry
@@ -15291,7 +15291,7 @@
   pk: 1248
   fields:
     created_at: 2025-07-19 14:51:34.064852+00:00
-    updated_at: 2025-07-19 14:51:34.064860+00:00
+    updated_at: 2025-07-19 15:43:22.327614+00:00
     street_1: 142 W. Potomac St.
     street_2: ''
     city: Williamsport
@@ -15303,7 +15303,7 @@
   pk: 1249
   fields:
     created_at: 2025-07-19 14:51:34.069097+00:00
-    updated_at: 2025-07-19 14:51:48.934022+00:00
+    updated_at: 2025-07-19 15:43:39.194896+00:00
     street_1: 14039 Catoctin Hollow Rd.
     street_2: ''
     city: Thurmont
@@ -15315,7 +15315,7 @@
   pk: 1250
   fields:
     created_at: 2025-07-19 14:51:34.072895+00:00
-    updated_at: 2025-07-19 14:51:48.937881+00:00
+    updated_at: 2025-07-19 15:43:39.198910+00:00
     street_1: 21843 National Pike
     street_2: ''
     city: Boonsboro
@@ -15327,7 +15327,7 @@
   pk: 1251
   fields:
     created_at: 2025-07-19 14:51:34.076587+00:00
-    updated_at: 2025-07-19 14:51:37.863178+00:00
+    updated_at: 2025-07-19 15:43:26.680021+00:00
     street_1: 5201 Urbana Pike
     street_2: ''
     city: Frederick
@@ -15339,7 +15339,7 @@
   pk: 1252
   fields:
     created_at: 2025-07-19 14:51:34.078413+00:00
-    updated_at: 2025-07-19 14:51:37.872526+00:00
+    updated_at: 2025-07-19 15:43:26.692271+00:00
     street_1: 6620 Zittlestown Rd.
     street_2: ''
     city: Middletown
@@ -15351,7 +15351,7 @@
   pk: 1253
   fields:
     created_at: 2025-07-19 14:51:37.852889+00:00
-    updated_at: 2025-07-19 14:51:41.782855+00:00
+    updated_at: 2025-07-19 15:43:30.415215+00:00
     street_1: 48 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -15363,7 +15363,7 @@
   pk: 1254
   fields:
     created_at: 2025-07-19 14:51:37.867176+00:00
-    updated_at: 2025-07-19 14:51:37.867181+00:00
+    updated_at: 2025-07-19 15:43:26.685759+00:00
     street_1: Fox's Gap, Reno Monument Road
     street_2: ''
     city: Middletown
@@ -15375,7 +15375,7 @@
   pk: 1255
   fields:
     created_at: 2025-07-19 14:51:37.869143+00:00
-    updated_at: 2025-07-19 14:51:37.869147+00:00
+    updated_at: 2025-07-19 15:43:26.687641+00:00
     street_1: Reno Monument Rd.
     street_2: ''
     city: Middletown
@@ -15387,7 +15387,7 @@
   pk: 1256
   fields:
     created_at: 2025-07-19 14:51:37.870877+00:00
-    updated_at: 2025-07-19 14:52:00.835706+00:00
+    updated_at: 2025-07-19 15:43:51.767198+00:00
     street_1: 1611 N. Market St.
     street_2: ''
     city: Frederick
@@ -15399,7 +15399,7 @@
   pk: 1257
   fields:
     created_at: 2025-07-19 14:51:37.874282+00:00
-    updated_at: 2025-07-19 14:52:00.855260+00:00
+    updated_at: 2025-07-19 15:43:51.785168+00:00
     street_1: 1195 Baltimore Pike
     street_2: ''
     city: Gettysburg
@@ -15411,7 +15411,7 @@
   pk: 1258
   fields:
     created_at: 2025-07-19 14:51:37.876148+00:00
-    updated_at: 2025-07-19 14:51:41.810065+00:00
+    updated_at: 2025-07-19 15:43:30.455026+00:00
     street_1: 18422 Shepherdstown Pike
     street_2: ''
     city: Keedysville
@@ -15423,7 +15423,7 @@
   pk: 1259
   fields:
     created_at: 2025-07-19 14:51:41.794175+00:00
-    updated_at: 2025-07-19 14:51:41.794181+00:00
+    updated_at: 2025-07-19 15:43:30.436147+00:00
     street_1: 40 W. Potomac St.
     street_2: ''
     city: Brunswick
@@ -15435,7 +15435,7 @@
   pk: 1260
   fields:
     created_at: 2025-07-19 14:51:41.798405+00:00
-    updated_at: 2025-07-19 14:51:41.798410+00:00
+    updated_at: 2025-07-19 15:43:30.440066+00:00
     street_1: 300B S. Seton Ave., Unit B
     street_2: ''
     city: Emmitsburg
@@ -15447,7 +15447,7 @@
   pk: 1261
   fields:
     created_at: 2025-07-19 14:51:41.808529+00:00
-    updated_at: 2025-07-19 14:51:41.808534+00:00
+    updated_at: 2025-07-19 15:43:30.453324+00:00
     street_1: 6 Woodsboro Creagerstown Rd.
     street_2: ''
     city: Woodsboro
@@ -15459,7 +15459,7 @@
   pk: 1262
   fields:
     created_at: 2025-07-19 14:51:45.816185+00:00
-    updated_at: 2025-07-19 14:51:45.816195+00:00
+    updated_at: 2025-07-19 15:43:34.805482+00:00
     street_1: 19 N. Court St., Ste. 100
     street_2: ''
     city: Frederick
@@ -15471,7 +15471,7 @@
   pk: 1263
   fields:
     created_at: 2025-07-19 14:51:45.819170+00:00
-    updated_at: 2025-07-19 14:51:45.819176+00:00
+    updated_at: 2025-07-19 15:43:34.807863+00:00
     street_1: 306 E. Patrick St.
     street_2: ''
     city: Frederick
@@ -15483,7 +15483,7 @@
   pk: 1264
   fields:
     created_at: 2025-07-19 14:51:45.821163+00:00
-    updated_at: 2025-07-19 14:51:45.821171+00:00
+    updated_at: 2025-07-19 15:43:34.809608+00:00
     street_1: '31 W. Patrick St., Suite #L6'
     street_2: ''
     city: Frederick
@@ -15495,7 +15495,7 @@
   pk: 1265
   fields:
     created_at: 2025-07-19 14:51:45.823707+00:00
-    updated_at: 2025-07-19 14:51:45.823716+00:00
+    updated_at: 2025-07-19 15:43:34.811355+00:00
     street_1: 15 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -15507,7 +15507,7 @@
   pk: 1266
   fields:
     created_at: 2025-07-19 14:51:45.826010+00:00
-    updated_at: 2025-07-19 14:51:45.826017+00:00
+    updated_at: 2025-07-19 15:43:34.812868+00:00
     street_1: 244B S. Jefferson St., The Performing Arts Factory
     street_2: ''
     city: Frederick
@@ -15519,7 +15519,7 @@
   pk: 1267
   fields:
     created_at: 2025-07-19 14:51:45.830473+00:00
-    updated_at: 2025-07-19 14:51:45.830478+00:00
+    updated_at: 2025-07-19 15:43:34.815892+00:00
     street_1: 59 S. Carroll St., Studio B
     street_2: ''
     city: Frederick
@@ -15531,7 +15531,7 @@
   pk: 1268
   fields:
     created_at: 2025-07-19 14:51:45.833382+00:00
-    updated_at: 2025-07-19 14:51:45.833387+00:00
+    updated_at: 2025-07-19 15:43:34.817927+00:00
     street_1: 5900 Symphony Woods Rd.
     street_2: ''
     city: Columbia
@@ -15543,7 +15543,7 @@
   pk: 1269
   fields:
     created_at: 2025-07-19 14:51:45.835112+00:00
-    updated_at: 2025-07-19 14:51:45.835116+00:00
+    updated_at: 2025-07-19 15:43:34.819587+00:00
     street_1: 5 Willowdale Dr.
     street_2: ''
     city: Frederick
@@ -15555,7 +15555,7 @@
   pk: 1270
   fields:
     created_at: 2025-07-19 14:51:45.837217+00:00
-    updated_at: 2025-07-19 14:52:48.895513+00:00
+    updated_at: 2025-07-19 15:43:34.820977+00:00
     street_1: 20 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -15567,7 +15567,7 @@
   pk: 1271
   fields:
     created_at: 2025-07-19 14:51:45.839249+00:00
-    updated_at: 2025-07-19 14:51:56.854033+00:00
+    updated_at: 2025-07-19 15:43:47.195037+00:00
     street_1: 6907 Baltimore National Pike, Unit 15
     street_2: ''
     city: Frederick
@@ -15579,7 +15579,7 @@
   pk: 1272
   fields:
     created_at: 2025-07-19 14:51:48.923186+00:00
-    updated_at: 2025-07-19 14:51:48.923210+00:00
+    updated_at: 2025-07-19 15:43:39.185111+00:00
     street_1: 40 Canal Rd.
     street_2: ''
     city: Brunswick
@@ -15591,7 +15591,7 @@
   pk: 1273
   fields:
     created_at: 2025-07-19 14:51:48.929996+00:00
-    updated_at: 2025-07-19 14:51:48.930002+00:00
+    updated_at: 2025-07-19 15:43:39.191870+00:00
     street_1: 3701 Canal Road
     street_2: ''
     city: Point of Rocks
@@ -15603,7 +15603,7 @@
   pk: 1274
   fields:
     created_at: 2025-07-19 14:51:48.939650+00:00
-    updated_at: 2025-07-19 14:51:48.939654+00:00
+    updated_at: 2025-07-19 15:43:39.200744+00:00
     street_1: 12806 Mink Farm Rd.
     street_2: ''
     city: Thurmont
@@ -15615,7 +15615,7 @@
   pk: 1275
   fields:
     created_at: 2025-07-19 14:51:48.944883+00:00
-    updated_at: 2025-07-19 14:51:48.944888+00:00
+    updated_at: 2025-07-19 15:43:39.204444+00:00
     street_1: 8610 Baltimore National Pike
     street_2: ''
     city: Middletown
@@ -15627,7 +15627,7 @@
   pk: 1276
   fields:
     created_at: 2025-07-19 14:51:52.752197+00:00
-    updated_at: 2025-07-19 14:51:52.752202+00:00
+    updated_at: 2025-07-19 15:43:43.665257+00:00
     street_1: 6 S. Bentz St.
     street_2: ''
     city: Frederick
@@ -15639,7 +15639,7 @@
   pk: 1277
   fields:
     created_at: 2025-07-19 14:51:52.766290+00:00
-    updated_at: 2025-07-19 14:51:52.766295+00:00
+    updated_at: 2025-07-19 15:43:43.678919+00:00
     street_1: 253 E. Church St.
     street_2: ''
     city: Frederick
@@ -15651,7 +15651,7 @@
   pk: 1278
   fields:
     created_at: 2025-07-19 14:51:52.770314+00:00
-    updated_at: 2025-07-19 14:51:52.770321+00:00
+    updated_at: 2025-07-19 15:43:43.683368+00:00
     street_1: 503 N. East St.
     street_2: ''
     city: Frederick
@@ -15663,7 +15663,7 @@
   pk: 1279
   fields:
     created_at: 2025-07-19 14:51:52.773574+00:00
-    updated_at: 2025-07-19 14:51:52.773580+00:00
+    updated_at: 2025-07-19 15:43:43.684975+00:00
     street_1: 200 S. Market St.
     street_2: ''
     city: Frederick
@@ -15675,7 +15675,7 @@
   pk: 1280
   fields:
     created_at: 2025-07-19 14:51:52.775523+00:00
-    updated_at: 2025-07-19 14:51:52.775528+00:00
+    updated_at: 2025-07-19 15:43:43.686464+00:00
     street_1: 44 N. Market St.
     street_2: ''
     city: Frederick
@@ -15687,7 +15687,7 @@
   pk: 1281
   fields:
     created_at: 2025-07-19 14:51:52.782602+00:00
-    updated_at: 2025-07-19 14:51:52.782608+00:00
+    updated_at: 2025-07-19 15:43:43.689895+00:00
     street_1: 9 E. Church St.
     street_2: ''
     city: Frederick
@@ -15699,7 +15699,7 @@
   pk: 1282
   fields:
     created_at: 2025-07-19 14:51:52.794081+00:00
-    updated_at: 2025-07-19 14:51:52.794087+00:00
+    updated_at: 2025-07-19 15:43:43.694731+00:00
     street_1: 241 N. Market St.
     street_2: ''
     city: Frederick
@@ -15711,7 +15711,7 @@
   pk: 1283
   fields:
     created_at: 2025-07-19 14:51:52.800254+00:00
-    updated_at: 2025-07-19 14:51:52.800259+00:00
+    updated_at: 2025-07-19 15:43:43.700009+00:00
     street_1: 221 N. East St.
     street_2: ''
     city: Frederick
@@ -15723,7 +15723,7 @@
   pk: 1284
   fields:
     created_at: 2025-07-19 14:51:52.807919+00:00
-    updated_at: 2025-07-19 14:51:52.807924+00:00
+    updated_at: 2025-07-19 15:43:43.707548+00:00
     street_1: 125 S. Carroll St., Ste. 104
     street_2: ''
     city: Frederick
@@ -15735,7 +15735,7 @@
   pk: 1285
   fields:
     created_at: 2025-07-19 14:51:52.814074+00:00
-    updated_at: 2025-07-19 14:51:52.814079+00:00
+    updated_at: 2025-07-19 15:43:43.713593+00:00
     street_1: 238A N. Market St.
     street_2: ''
     city: Frederick
@@ -15747,7 +15747,7 @@
   pk: 1286
   fields:
     created_at: 2025-07-19 14:51:52.816684+00:00
-    updated_at: 2025-07-19 14:51:52.816689+00:00
+    updated_at: 2025-07-19 15:43:43.715504+00:00
     street_1: 69 S. Market St.
     street_2: ''
     city: Frederick
@@ -15759,7 +15759,7 @@
   pk: 1287
   fields:
     created_at: 2025-07-19 14:51:52.818542+00:00
-    updated_at: 2025-07-19 14:51:52.818548+00:00
+    updated_at: 2025-07-19 15:43:43.717202+00:00
     street_1: 343 N. Market St.
     street_2: ''
     city: Frederick
@@ -15771,7 +15771,7 @@
   pk: 1288
   fields:
     created_at: 2025-07-19 14:51:52.820575+00:00
-    updated_at: 2025-07-19 14:51:52.820580+00:00
+    updated_at: 2025-07-19 15:43:43.719156+00:00
     street_1: 243 N. Market St.
     street_2: ''
     city: Frederick
@@ -15783,7 +15783,7 @@
   pk: 1289
   fields:
     created_at: 2025-07-19 14:51:52.822497+00:00
-    updated_at: 2025-07-19 14:51:52.822503+00:00
+    updated_at: 2025-07-19 15:43:43.720748+00:00
     street_1: 26 N. Market St.
     street_2: ''
     city: Frederick
@@ -15795,7 +15795,7 @@
   pk: 1290
   fields:
     created_at: 2025-07-19 14:51:52.824544+00:00
-    updated_at: 2025-07-19 14:51:52.824549+00:00
+    updated_at: 2025-07-19 15:43:43.722366+00:00
     street_1: 36 S. Market St.
     street_2: ''
     city: Frederick
@@ -15807,7 +15807,7 @@
   pk: 1291
   fields:
     created_at: 2025-07-19 14:51:52.826619+00:00
-    updated_at: 2025-07-19 14:51:52.826623+00:00
+    updated_at: 2025-07-19 15:43:43.723916+00:00
     street_1: 237 N. Market St.
     street_2: ''
     city: Frederick
@@ -15819,7 +15819,7 @@
   pk: 1292
   fields:
     created_at: 2025-07-19 14:51:52.828694+00:00
-    updated_at: 2025-07-19 14:51:52.828699+00:00
+    updated_at: 2025-07-19 15:43:43.725290+00:00
     street_1: 244 E. Church St.
     street_2: ''
     city: Frederick
@@ -15831,7 +15831,7 @@
   pk: 1293
   fields:
     created_at: 2025-07-19 14:51:56.836419+00:00
-    updated_at: 2025-07-19 14:52:20.678418+00:00
+    updated_at: 2025-07-19 15:43:51.756069+00:00
     street_1: 14 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -15843,7 +15843,7 @@
   pk: 1294
   fields:
     created_at: 2025-07-19 14:51:56.844957+00:00
-    updated_at: 2025-07-19 14:52:20.681103+00:00
+    updated_at: 2025-07-19 15:43:47.176411+00:00
     street_1: 3950 Dartmouth Ct.
     street_2: ''
     city: Frederick
@@ -15855,7 +15855,7 @@
   pk: 1295
   fields:
     created_at: 2025-07-19 14:51:56.847554+00:00
-    updated_at: 2025-07-19 14:52:32.803230+00:00
+    updated_at: 2025-07-19 15:43:47.188701+00:00
     street_1: 1341 Hughes Ford Rd., Ste. 111
     street_2: ''
     city: Frederick
@@ -15867,7 +15867,7 @@
   pk: 1296
   fields:
     created_at: 2025-07-19 14:51:56.849604+00:00
-    updated_at: 2025-07-19 14:51:56.849611+00:00
+    updated_at: 2025-07-19 15:43:47.191312+00:00
     street_1: 10B N. East St.
     street_2: ''
     city: Frederick
@@ -15879,7 +15879,7 @@
   pk: 1297
   fields:
     created_at: 2025-07-19 14:51:56.851914+00:00
-    updated_at: 2025-07-19 14:52:32.815549+00:00
+    updated_at: 2025-07-19 15:43:51.777294+00:00
     street_1: 919-B N. East St.
     street_2: ''
     city: Frederick
@@ -15891,7 +15891,7 @@
   pk: 1298
   fields:
     created_at: 2025-07-19 14:52:00.811956+00:00
-    updated_at: 2025-07-19 14:52:00.811967+00:00
+    updated_at: 2025-07-19 15:43:51.731998+00:00
     street_1: 4725 Arcadia Dr.
     street_2: ''
     city: Frederick
@@ -15903,7 +15903,7 @@
   pk: 1299
   fields:
     created_at: 2025-07-19 14:52:00.814465+00:00
-    updated_at: 2025-07-19 14:52:00.814470+00:00
+    updated_at: 2025-07-19 15:43:51.739668+00:00
     street_1: 5 Willowdale Dr., Unit B13
     street_2: ''
     city: Frederick
@@ -15915,7 +15915,7 @@
   pk: 1300
   fields:
     created_at: 2025-07-19 14:52:00.817259+00:00
-    updated_at: 2025-07-19 14:52:00.817265+00:00
+    updated_at: 2025-07-19 15:43:51.744955+00:00
     street_1: 11113 W. Baldwin Rd.
     street_2: ''
     city: Monrovia
@@ -15927,7 +15927,7 @@
   pk: 1301
   fields:
     created_at: 2025-07-19 14:52:00.821810+00:00
-    updated_at: 2025-07-19 14:52:00.821815+00:00
+    updated_at: 2025-07-19 15:43:51.753551+00:00
     street_1: 103 S. Carroll St., Suite 1A
     street_2: ''
     city: Frederick
@@ -15939,7 +15939,7 @@
   pk: 1302
   fields:
     created_at: 2025-07-19 14:52:00.827680+00:00
-    updated_at: 2025-07-19 14:52:00.827687+00:00
+    updated_at: 2025-07-19 15:43:51.759196+00:00
     street_1: 924 N. East St.
     street_2: ''
     city: Frederick
@@ -15951,7 +15951,7 @@
   pk: 1303
   fields:
     created_at: 2025-07-19 14:52:00.833018+00:00
-    updated_at: 2025-07-19 14:52:00.833025+00:00
+    updated_at: 2025-07-19 15:43:51.764887+00:00
     street_1: 5115 Pegasus Ct., Ste. P-R
     street_2: ''
     city: Frederick
@@ -15963,7 +15963,7 @@
   pk: 1304
   fields:
     created_at: 2025-07-19 14:52:00.838413+00:00
-    updated_at: 2025-07-19 14:52:00.838423+00:00
+    updated_at: 2025-07-19 15:43:51.770092+00:00
     street_1: 1288 Riverbend Way
     street_2: ''
     city: Frederick
@@ -15975,7 +15975,7 @@
   pk: 1305
   fields:
     created_at: 2025-07-19 14:52:00.843786+00:00
-    updated_at: 2025-07-19 14:52:00.843792+00:00
+    updated_at: 2025-07-19 15:43:51.774769+00:00
     street_1: 8305 Bolivar Rd.
     street_2: ''
     city: Middletown
@@ -15987,7 +15987,7 @@
   pk: 1306
   fields:
     created_at: 2025-07-19 14:52:00.848496+00:00
-    updated_at: 2025-07-19 14:52:00.848501+00:00
+    updated_at: 2025-07-19 15:43:51.779382+00:00
     street_1: 5 N. Market St.
     street_2: ''
     city: Frederick
@@ -15999,7 +15999,7 @@
   pk: 1307
   fields:
     created_at: 2025-07-19 14:52:00.850673+00:00
-    updated_at: 2025-07-19 14:52:20.685148+00:00
+    updated_at: 2025-07-19 15:43:51.781110+00:00
     street_1: 5830 Ballenger Creek Pike
     street_2: ''
     city: Frederick
@@ -16011,7 +16011,7 @@
   pk: 1308
   fields:
     created_at: 2025-07-19 14:52:00.853146+00:00
-    updated_at: 2025-07-19 14:52:00.853152+00:00
+    updated_at: 2025-07-19 15:43:51.783537+00:00
     street_1: 1301 W. Patrick St.
     street_2: ''
     city: Frederick
@@ -17242,7 +17242,7 @@
     name: Restaurants
     slug: restaurants
     description: null
-    chamber_of_commerce_id: visit_frederick_10_15
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 93
   fields:
@@ -18577,7 +18577,7 @@
     name: Transportation
     slug: transportation
     description: null
-    chamber_of_commerce_id: visit_frederick_19_24
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 241
   fields:
@@ -18812,7 +18812,7 @@
     name: Services
     slug: visit_frederick_19_17
     description: null
-    chamber_of_commerce_id: visit_frederick_19_17
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 267
   fields:
@@ -18821,7 +18821,7 @@
     name: Event Services
     slug: visit_frederick_19_49
     description: null
-    chamber_of_commerce_id: visit_frederick_19_49
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 268
   fields:
@@ -18830,7 +18830,7 @@
     name: Weddings
     slug: visit_frederick_19_60
     description: null
-    chamber_of_commerce_id: visit_frederick_19_60
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 269
   fields:
@@ -18839,7 +18839,7 @@
     name: Things To Do
     slug: visit_frederick_19_58
     description: null
-    chamber_of_commerce_id: visit_frederick_19_58
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 270
   fields:
@@ -18848,7 +18848,7 @@
     name: Places to Stay
     slug: visit_frederick_47_22
     description: null
-    chamber_of_commerce_id: visit_frederick_47_22
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 271
   fields:
@@ -18857,7 +18857,7 @@
     name: Tours
     slug: visit_frederick_48_23
     description: null
-    chamber_of_commerce_id: visit_frederick_48_23
+    chamber_of_commerce_id: null
 - model: app.businesscategory
   pk: 272
   fields:
@@ -18866,7 +18866,16 @@
     name: Groups & Meetings
     slug: visit_frederick_48_50
     description: null
-    chamber_of_commerce_id: visit_frederick_48_50
+    chamber_of_commerce_id: null
+- model: app.businesscategory
+  pk: 273
+  fields:
+    created_at: 2025-08-01 14:51:30.521705+00:00
+    updated_at: 2025-08-01 14:51:30.521737+00:00
+    name: Technology
+    slug: technology
+    description: null
+    chamber_of_commerce_id: null
 - model: app.business
   pk: 1
   fields:
@@ -22918,8 +22927,8 @@
     contacts:
     - null
     phone_numbers:
-    - 301-620-4455
     - 301-620-4443
+    - 301-620-4455
     extra:
       visit_frederick_id: '4012'
       quality_score: -2
@@ -23491,9 +23500,9 @@
     contacts:
     - Ms. Theresa Dorsey
     phone_numbers:
+    - (301) 846-2441
     - 301-846-2400
     - 301-846-2442
-    - (301) 846-2441
     extra:
       visit_frederick_id: '70'
       quality_score: -3
@@ -23866,8 +23875,8 @@
     contacts:
     - Mr.  Doug Propheter
     phone_numbers:
-    - 301-663-1188
     - (240) 446-2646
+    - 301-663-1188
     extra:
       downtownfrederick_raw:
         track: []
@@ -23922,7 +23931,7 @@
           value_raw: true
           value_string: 'Yes'
           uniquename: groups_tours
-      category_id: 48
+      category_id: 265
       description: "<p>Experience a charming, unique, and intimate setting in the
         heart of Downtown. Heritage Frederick is a beautiful and historic option for
         any event from business meetings to garden weddings. Let our idyllic and romantic
@@ -24180,7 +24189,8 @@
     - Clifton Jackson
     phone_numbers:
     - '3018529965'
-    extra: {}
+    extra:
+      description: Living Well Youth Works
     chamber_of_commerce_id: Living-Well-Youth-Works-5685
     downtown_frederick_id: null
     website_url: http://www.livingwellyouth.org
@@ -24188,6 +24198,7 @@
     number_of_employees: null
     categories:
     - 44
+    - 273
 - model: app.business
   pk: 245
   fields:
@@ -24518,8 +24529,8 @@
     contacts:
     - Mr. Ronald Pearcey
     phone_numbers:
-    - (888) 662-1164 TollFree
     - 301-662-1164
+    - (888) 662-1164 TollFree
     extra:
       visit_frederick_id: '132'
       quality_score: -3
@@ -26472,8 +26483,8 @@
     contacts:
     - Mr. Len Joseph
     phone_numbers:
-    - 301-695-5466
     - 301-829-7999
+    - 301-695-5466
     extra:
       visit_frederick_id: '2838'
       quality_score: -3
@@ -26707,8 +26718,8 @@
     contacts:
     - Mr. Tony Brusco
     phone_numbers:
-    - 844-762-6455
     - (301) 371-8565
+    - 844-762-6455
     extra:
       visit_frederick_id: '173'
       quality_score: -3
@@ -29146,7 +29157,8 @@
     contacts: []
     phone_numbers:
     - 240-397-8012
-    extra: {}
+    extra:
+      description: Frederick Laundry
     chamber_of_commerce_id: null
     downtown_frederick_id: null
     website_url: https://www.fredericklaundry.com/
@@ -29155,6 +29167,7 @@
     number_of_employees: null
     categories:
     - 150
+    - 273
 - model: app.business
   pk: 440
   fields:
@@ -32066,7 +32079,8 @@
     contacts: []
     phone_numbers:
     - 301-383-8351
-    extra: {}
+    extra:
+      description: Wellspring Digital does 
     chamber_of_commerce_id: null
     downtown_frederick_id: null
     website_url: https://www.wellspringdigital.com/
@@ -32075,6 +32089,7 @@
     number_of_employees: null
     categories:
     - 254
+    - 273
 - model: app.business
   pk: 566
   fields:
@@ -33363,7 +33378,8 @@
     address: 599
     contacts: []
     phone_numbers: []
-    extra: {}
+    extra:
+      description: BioFactura
     chamber_of_commerce_id: null
     downtown_frederick_id: null
     website_url: http://www.biofactura.com
@@ -33371,6 +33387,7 @@
     number_of_employees: null
     categories:
     - 261
+    - 273
 - model: app.business
   pk: 635
   fields:
@@ -37006,7 +37023,7 @@
       yelp_price: null
       primary_image_url: https://assets.simpleviewinc.com/simpleview/image/upload/crm/frederickcountymd/CandC-Logo_3BDA90E1-C758-A9DD-3A6107B60D7E41B7-3bda8a3cdb8c573_3bdaa8c1-0c11-3011-97ceaad3aac9831c.jpg
       amenities: null
-      category_id: 260
+      category_id: 250
       description: "<p>C &amp; C Rage Factory is Frederick MD’s first and only Rage
         Room. Here individuals or groups get the opportunity to have a fun time breaking
         things we were told in our younger (and older days) to be careful with.</p>\r\n<p>Here
@@ -43783,7 +43800,7 @@
       permalink: https://downtownfrederick.org/item/weinberg-center-for-the-arts/
       source: downtown_frederick_api
       image_url: https://downtownfrederick.org/wp-content/uploads/merchant_weinberg-center-for-the-arts_2017-1-150x150.jpg
-      visit_frederick_id: '2117'
+      visit_frederick_id: '199'
       quality_score: -3
       is_downtown: null
       dtn_rank: null
@@ -43835,13 +43852,16 @@
           value_raw: true
           value_string: 'Yes'
           uniquename: groups_tours
-      category_id: 48
-      description: Frederick's historic 1926 movie palace is home to year-round quality
-        entertainment. In addition to concert and theatrical performances, the Weinberg
-        Center is also a great place for film festivals, studio screenings, conventions,
-        weddings, business meetings, and film, television and commercial location
-        shoots. Special rates are available for nonprofit functions. For further information
-        about technical specifications and rates, please visit WeinbergCenter.org/Rent-the-Weinberg.
+      category_id: 267
+      description: "<p>The Weinberg Center is a showcase for performing arts in Frederick
+        that enhances our area’s cultural life. Frederick's historic 1926 movie palace
+        is home to year-round quality entertainment: professional music, dance, and
+        theater; classic movies, and family entertainment. The season begins in September
+        each year and concludes the following May.</p>\r\n\r\n<p>New! Experience the
+        backstage magic for yourself on a free backstage tour, where you’ll discover
+        Art Deco architectural details, immerse yourself in local theatrical lore,
+        and access backstage areas normally off-limits to the public. Tours are offered
+        on a weekly basis throughout the summer months.</p>"
       email: boxoffice@weinbergcenter.org
     chamber_of_commerce_id: null
     downtown_frederick_id: weinberg-center-for-the-arts
@@ -46942,7 +46962,7 @@
       yelp_price: null
       primary_image_url: https://assets.simpleviewinc.com/simpleview/image/upload/crm/frederickcountymd/AARCH-Logo_E9EB9EED-D38A-4276-E700FED509C749B2-e9eb997ae47ce1f_e9ebca28-dde4-bf1c-84477d39dfc894cf.jpg
       amenities: null
-      category_id: 264
+      category_id: 265
       description: "<p>The African American Resources, Cultural Heritage Society of
         Frederick County is committed to preserving and sharing the history and heritage
         of African American Culture of Frederick County. We seek to provide opportunities
@@ -47061,7 +47081,7 @@
       yelp_price: null
       primary_image_url: https://assets.simpleviewinc.com/simpleview/image/upload/crm/frederickcountymd/guitarandrings1_07274390-236B-4CC0-97202216B966DA17_7e1ad922-4761-42ba-acbb14b2ac061e9d.jpg
       amenities: null
-      category_id: 240
+      category_id: 19
       description: <p>Acoustic guitar and piano wedding & ceremony music and vocals,
         based in Frederick County MD and serving the Maryland/Baltimore/DC/Northern
         Virginia areas and beyond. Services include acoustic wedding music, wedding
@@ -48742,7 +48762,7 @@
       yelp_price: null
       primary_image_url: https://assets.simpleviewinc.com/simpleview/image/upload/crm/frederickcountymd/ThisTown_listingpic_D278406F-B64C-42A0-AC36E8A55807103A_8aac546c-d13e-441b-a8132010a82e2c41.png
       amenities: null
-      category_id: 48
+      category_id: 19
       description: "<p>Welcome to <strong>ThisTown!</strong> We are a tourist services
         business that connects tourists with a local to \"<strong>Show you WHAT'S
         GOOD</strong>\" in ThisTown!</p>\r\n<p>ARE YOU IN NEED OF A:</p>\r\n<p><strong>Personal
@@ -59477,7 +59497,7 @@
           value_raw: true
           value_string: 'Yes'
           uniquename: accessible_wheelchairaccessible
-      category_id: 263
+      category_id: 259
       description: First constructed circa 1880, the Loy's Station covered bridge
         is on Old Frederick Road, just south of Rt. 77. Although it has been structurally
         modified and rebuilt, the bridge's original timbers remain throughout the
@@ -61401,7 +61421,7 @@
           value_raw: true
           value_string: 'Yes'
           uniquename: accessible_wheelchairaccessible
-      category_id: 263
+      category_id: 259
       description: The Roddy Road covered bridge, built in 1856, rests just north
         of Thurmont off of US 15, where Roddy Creek Road meets Roddy Road at Owens
         Creek. The smallest of the county's covered bridges, Roddy Road is a single-span
@@ -62063,7 +62083,7 @@
           value_raw: true
           value_string: 'Yes'
           uniquename: accessible_wheelchairaccessible
-      category_id: 263
+      category_id: 259
       description: The Utica Mills Covered Bridge, circa 1850, is located on Utica
         Road off of Old Frederick Road. The bridge originally spanned the nearby Monocacy
         River but was washed away during a severe storm in 1889. Local citizens gathered
@@ -64028,7 +64048,7 @@
           value_raw: true
           value_string: 'Yes'
           uniquename: groups_groupfriendly
-      category_id: 45
+      category_id: 136
       description: "<p><strong><a href=\"https://www.dirtykittengravel.com/basecampfrederick/lodge\">Basecamp
         Frederick Lodge</a>: Rest, relax, and enjoy the outdoors at our rustic rental
         house built around an old log cabin, nestled in a wooden alcove adjacent to
@@ -68751,7 +68771,7 @@
       yelp_price: null
       primary_image_url: https://assets.simpleviewinc.com/simpleview/image/upload/crm/frederickcountymd/front_407D64A1-21EC-4122-83CE9F4A0874FB2F_231b53cb-aba7-4832-953229884695d6e9.jpg
       amenities: null
-      category_id: 260
+      category_id: 249
       description: "<p>Dill Dinkers Frederick is THE place to play Pickleball in Frederick
         County! With 7 indoor courts and a welcoming coaching staff we have something
         for players of all levels.</p>\r\n\r\n<p>If you're new, check out some of
@@ -68789,7 +68809,7 @@
       yelp_price: null
       primary_image_url: https://assets.simpleviewinc.com/sv-frederick-county/image/upload/v1/clients/frederickcountymd-redesign/frederickcounty_default_image_0018ecfe-7d77-4396-b54a-6af3f5a7d332.jpg
       amenities: null
-      category_id: 266
+      category_id: 249
       description: <p>Free your inner creativity at <strong><a href="https://www.bookeo.com/dreamfreeart">Dream
         Free Art</a> </strong>Studio! Create your own one-of-a-kind masterpiece in
         our judgement free, beginner friendly, <strong>process based</strong> <strong>art
@@ -68838,7 +68858,7 @@
           value_raw: true
           value_string: 'Yes'
           uniquename: businesscontinuity_currentlyopen
-      category_id: 266
+      category_id: 250
       description: "<p><strong>Frederick's Retro Arcade Destination! </strong><br
         />\r\nA 501(c)3 non-profit with a focus on gaming and individuals with Autism
         Spectrum Disorder and/or different abilities and needs, this arcade featuring
@@ -69521,7 +69541,7 @@
             value: Military Rate
           value_string: Military Rate
           uniquename: paymentaccepted_discounts
-      category_id: 260
+      category_id: 250
       description: <p>Welcome to the ultimate indoor adventure park where kids of
         all ages (and kids at heart) can explore thrilling attractions, challenge
         their body and mind, and most importantly…have a blast! We are more than just
@@ -70670,6 +70690,1532 @@
     google_maps_url: ''
     number_of_employees: null
     categories: []
+- model: app.business
+  pk: 1304
+  fields:
+    created_at: 2025-08-01 14:51:30.533952+00:00
+    updated_at: 2025-08-01 14:51:30.533969+00:00
+    name: Advanced In Vitro
+    slug: advanced-in-vitro
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Advanced In Vitro
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.advancedinvitro.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1305
+  fields:
+    created_at: 2025-08-01 14:51:30.537808+00:00
+    updated_at: 2025-08-01 14:51:30.537816+00:00
+    name: Alirtify (formerly Shelly News)
+    slug: alirtify-formerly-shelly-news
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Alirtify is an intelligence-gathering platform that uses data from
+        news events such as sentiments (positive, neutral, negative), location, and
+        key words to glean real-time insights – ensuring that information is relevant
+        and actionable for users’ specific needs.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.alirtify.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1306
+  fields:
+    created_at: 2025-08-01 14:51:30.539952+00:00
+    updated_at: 2025-08-01 14:51:30.539961+00:00
+    name: Alithea Genomics
+    slug: alithea-genomics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Alithea Genomics
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://alitheagenomics.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1307
+  fields:
+    created_at: 2025-08-01 14:51:30.541993+00:00
+    updated_at: 2025-08-01 14:51:30.541999+00:00
+    name: All Hazards Consortium
+    slug: all-hazards-consortium
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: All Hazards Consortium
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.ahcusa.org/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1308
+  fields:
+    created_at: 2025-08-01 14:51:30.543819+00:00
+    updated_at: 2025-08-01 14:51:30.543824+00:00
+    name: AmeboGenesis
+    slug: amebogenesis
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: AmeboGenesis
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.amebogenesis.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1309
+  fields:
+    created_at: 2025-08-01 14:51:30.545566+00:00
+    updated_at: 2025-08-01 14:51:30.545573+00:00
+    name: Antelux Capital Partners
+    slug: antelux-capital-partners
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Antelux Capital Partners
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.anteluxcapital.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1310
+  fields:
+    created_at: 2025-08-01 14:51:30.547467+00:00
+    updated_at: 2025-08-01 14:51:30.547473+00:00
+    name: Argentys
+    slug: argentys
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Argentys
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://argentys.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1311
+  fields:
+    created_at: 2025-08-01 14:51:30.549373+00:00
+    updated_at: 2025-08-01 14:51:30.549379+00:00
+    name: BioEvanesce, Inc.
+    slug: bioevanesce-inc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: BioEvanesce, Inc.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.bioevanesce.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1312
+  fields:
+    created_at: 2025-08-01 14:51:30.554239+00:00
+    updated_at: 2025-08-01 14:51:30.554247+00:00
+    name: BioSolution Designs
+    slug: biosolution-designs
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: BioSolution Designs
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.biodzn.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1313
+  fields:
+    created_at: 2025-08-01 14:51:30.555985+00:00
+    updated_at: 2025-08-01 14:51:30.555990+00:00
+    name: Blu Zone Bio
+    slug: blu-zone-bio
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Blu Zone Bio
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://bluzonebio.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1314
+  fields:
+    created_at: 2025-08-01 14:51:30.557797+00:00
+    updated_at: 2025-08-01 14:51:30.557804+00:00
+    name: Blue Sources
+    slug: blue-sources
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Blue Sources develops commercial products and services using Bluegills
+        to monitor for toxic contamination in drinking water, wastewater streams,
+        and source waters.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.bluesources.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1315
+  fields:
+    created_at: 2025-08-01 14:51:30.559753+00:00
+    updated_at: 2025-08-01 14:51:30.559758+00:00
+    name: Bolt Innovations
+    slug: bolt-innovations
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Bolt Innovations
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.boltinnovations.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1316
+  fields:
+    created_at: 2025-08-01 14:51:30.561628+00:00
+    updated_at: 2025-08-01 14:51:30.561634+00:00
+    name: CarrTech Corp.
+    slug: carrtech-corp
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: CarrTech, LLC is a medical device company that has built the Filtered
+        Removal of Glass (FROG). It is a one needle, one step filter that is cheaper,
+        easier, safer, and greener and will save hospitals time and money.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.carrtechcorp.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1317
+  fields:
+    created_at: 2025-08-01 14:51:30.563390+00:00
+    updated_at: 2025-08-01 14:51:30.563395+00:00
+    name: Catoctin Bio
+    slug: catoctin-bio
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Catoctin Bio
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: ''
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1318
+  fields:
+    created_at: 2025-08-01 14:51:30.565079+00:00
+    updated_at: 2025-08-01 14:51:30.565084+00:00
+    name: Community Enrichment Laboratory for Learning Sciences
+    slug: community-enrichment-laboratory-for-learning-sciences
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Community Enrichment Laboratory for Learning Sciences
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.cells4all.org/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1319
+  fields:
+    created_at: 2025-08-01 14:51:30.566890+00:00
+    updated_at: 2025-08-01 14:51:30.566895+00:00
+    name: Cornerstone Genomics
+    slug: cornerstone-genomics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Cornerstone Genomics develops research genomic products and services
+        for biomedicine, veterinary sciences and wildlife research.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://cornerstonegenomics.com/#
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1320
+  fields:
+    created_at: 2025-08-01 14:51:30.568649+00:00
+    updated_at: 2025-08-01 14:51:30.568654+00:00
+    name: Cytomos
+    slug: cytomos
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Cytomos
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.cytomos.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1321
+  fields:
+    created_at: 2025-08-01 14:51:30.570636+00:00
+    updated_at: 2025-08-01 14:51:30.570642+00:00
+    name: DaKiWi Youth Robotics
+    slug: dakiwi-youth-robotics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: DaKiWi Youth Robotics
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://da-kiwi.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1322
+  fields:
+    created_at: 2025-08-01 14:51:30.572462+00:00
+    updated_at: 2025-08-01 14:51:30.572468+00:00
+    name: Doo-Doo Time
+    slug: doo-doo-time
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Doo-Doo Time
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.doo-dootime.com%20
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1323
+  fields:
+    created_at: 2025-08-01 14:51:30.574500+00:00
+    updated_at: 2025-08-01 14:51:30.574508+00:00
+    name: DOPI
+    slug: dopi
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: DOPI
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.dopillc.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1324
+  fields:
+    created_at: 2025-08-01 14:51:30.576432+00:00
+    updated_at: 2025-08-01 14:51:30.576439+00:00
+    name: DSP Logic
+    slug: dsp-logic
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: DSP logic is a trusted provider of real-time computational electronic
+        systems, technology, and services for critical commercial and defense applications.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.dsplogic.com/company/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1325
+  fields:
+    created_at: 2025-08-01 14:51:30.578667+00:00
+    updated_at: 2025-08-01 14:51:30.578675+00:00
+    name: Ductoad
+    slug: ductoad
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Ductoad manufactures simple connectors for flexible residential
+        ducting that allows for smart technology stacking and reduces installation
+        time by 40%.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: ''
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1326
+  fields:
+    created_at: 2025-08-01 14:51:30.580741+00:00
+    updated_at: 2025-08-01 14:51:30.580747+00:00
+    name: ExcelCoat Technologies
+    slug: excelcoat-technologies
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: ExcelCoat Technologies
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: ''
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1327
+  fields:
+    created_at: 2025-08-01 14:51:30.582788+00:00
+    updated_at: 2025-08-01 14:51:30.582795+00:00
+    name: FLUIDEFI, Inc.
+    slug: fluidefi-inc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: FLUIDEFI, Inc.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://fluidefi.com/about/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1328
+  fields:
+    created_at: 2025-08-01 14:51:30.584622+00:00
+    updated_at: 2025-08-01 14:51:30.584628+00:00
+    name: Flying Cows Basketball
+    slug: flying-cows-basketball
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Flying Cows Basketball
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://goflyingcows.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1329
+  fields:
+    created_at: 2025-08-01 14:51:30.586700+00:00
+    updated_at: 2025-08-01 14:51:30.586706+00:00
+    name: Forager Station Inc.
+    slug: forager-station-inc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Forager Station Inc.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.foragerstation.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1330
+  fields:
+    created_at: 2025-08-01 14:51:30.590768+00:00
+    updated_at: 2025-08-01 14:51:30.590775+00:00
+    name: GenoVector
+    slug: genovector
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: GenoVector
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: ''
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1331
+  fields:
+    created_at: 2025-08-01 14:51:30.592802+00:00
+    updated_at: 2025-08-01 14:51:30.592808+00:00
+    name: George Street Services
+    slug: george-street-services
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: George Street Services
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.georgestreetinc.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1332
+  fields:
+    created_at: 2025-08-01 14:51:30.594672+00:00
+    updated_at: 2025-08-01 14:51:30.594677+00:00
+    name: InventWood, Inc.
+    slug: inventwood-inc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: InventWood, Inc.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.inventwood.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1333
+  fields:
+    created_at: 2025-08-01 14:51:30.596457+00:00
+    updated_at: 2025-08-01 14:51:30.596462+00:00
+    name: Iyotee Inc./Go2s
+    slug: iyotee-incgo2s
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Go2s is a private social network where you can connect with your
+        most trusted family and friends (your Go2s) and discover how to extend your
+        support network. Life becomes easier when you can reach out to someone you
+        trust.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.go2s.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1334
+  fields:
+    created_at: 2025-08-01 14:51:30.598426+00:00
+    updated_at: 2025-08-01 14:51:30.598431+00:00
+    name: JIO ROBOTICS
+    slug: jio-robotics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: JIO ROBOTICS
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://jiorobotics.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1335
+  fields:
+    created_at: 2025-08-01 14:51:30.600584+00:00
+    updated_at: 2025-08-01 14:51:30.600590+00:00
+    name: Knowledgenet.ai
+    slug: knowledgenetai
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Knowledgenet.ai
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://knowledgenet.ai/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1336
+  fields:
+    created_at: 2025-08-01 14:51:30.602636+00:00
+    updated_at: 2025-08-01 14:51:30.602642+00:00
+    name: Lactea Therapeutics
+    slug: lactea-therapeutics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Lactea Therapeutics is a research company that has developed a
+        Covid-19 preventative biologic prototype from through partnerships in the
+        agriculture sector. Its future R&D will target existing proteins with OTC-approved
+        solutions.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.fitci.org/www.lacteatherapeutics.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1337
+  fields:
+    created_at: 2025-08-01 14:51:30.605554+00:00
+    updated_at: 2025-08-01 14:51:30.605561+00:00
+    name: LEI Sales
+    slug: lei-sales
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: LEI Sales
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.leisales.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1338
+  fields:
+    created_at: 2025-08-01 14:51:30.612101+00:00
+    updated_at: 2025-08-01 14:51:30.612109+00:00
+    name: LS BioScience
+    slug: ls-bioscience
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: LS BioScience
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: ''
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1339
+  fields:
+    created_at: 2025-08-01 14:51:30.617501+00:00
+    updated_at: 2025-08-01 14:51:30.617751+00:00
+    name: Lyceum Insurance Services
+    slug: lyceum-insurance-services
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Lyceum Insurance Services
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.lyceumins.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1340
+  fields:
+    created_at: 2025-08-01 14:51:30.624108+00:00
+    updated_at: 2025-08-01 14:51:30.624121+00:00
+    name: Lyme Research & Healing Center
+    slug: lyme-research-healing-center
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Lyme Research & Healing Center creates natural treatments for chronic
+        infections using advanced electrical frequency diagnostics to identify underlying
+        infections, toxins, and inflammatory compounds. 
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://goodbyelyme.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1341
+  fields:
+    created_at: 2025-08-01 14:51:30.628517+00:00
+    updated_at: 2025-08-01 14:51:30.628529+00:00
+    name: MAIA Management Group
+    slug: maia-management-group
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: MAIA Management Group
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.maiamodels.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1342
+  fields:
+    created_at: 2025-08-01 14:51:30.632480+00:00
+    updated_at: 2025-08-01 14:51:30.632491+00:00
+    name: Mark Ford Visualization
+    slug: mark-ford-visualization
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Mark Ford Visualization
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.markfordvis.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1343
+  fields:
+    created_at: 2025-08-01 14:51:30.635578+00:00
+    updated_at: 2025-08-01 14:51:30.635651+00:00
+    name: Meridian Technology Systems
+    slug: meridian-technology-systems
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Meridian Technology Systems, Inc is an award-winning government
+        cybersecurity products and services company. Meridian provides expertise in
+        mobility, information assurance, biometrics and more.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.meridiantsi.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1344
+  fields:
+    created_at: 2025-08-01 14:51:30.640171+00:00
+    updated_at: 2025-08-01 14:51:30.640184+00:00
+    name: Mesa Green Pharmaceuticals
+    slug: mesa-green-pharmaceuticals
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Virtual animal health company developing a product for use at home
+        to rescue canines from breakthrough seizures. When the project is complete,
+        MGP will be able to offer at home treatments to over 3,000,000 dogs. 
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.mesagreenpharma.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1345
+  fields:
+    created_at: 2025-08-01 14:51:30.644222+00:00
+    updated_at: 2025-08-01 14:51:30.644236+00:00
+    name: Mesa Science Associates
+    slug: mesa-science-associates
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: MSA provides a comprehensive array of pharmaceutical development
+        solutions.  From product development planning to NDA submissions our expertise
+        touches all aspects of pharmaceutical development activities.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.mesascience.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1346
+  fields:
+    created_at: 2025-08-01 14:51:30.649040+00:00
+    updated_at: 2025-08-01 14:51:30.649058+00:00
+    name: Minnodi
+    slug: minnodi
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Minnodi
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://minnodillc.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1347
+  fields:
+    created_at: 2025-08-01 14:51:30.653433+00:00
+    updated_at: 2025-08-01 14:51:30.653444+00:00
+    name: Mpower Education
+    slug: mpower-education
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: We provides curriculum training and e-learning in the health, wellness,
+        and beauty space. Including in-house workforce development solutions for employers.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://mpowereducation.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1348
+  fields:
+    created_at: 2025-08-01 14:51:30.656345+00:00
+    updated_at: 2025-08-01 14:51:30.656355+00:00
+    name: Mycologics
+    slug: mycologics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Mycologics
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://mycologics.net/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1349
+  fields:
+    created_at: 2025-08-01 14:51:30.659335+00:00
+    updated_at: 2025-08-01 14:51:30.659346+00:00
+    name: NanoBioFab
+    slug: nanobiofab
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: NanoBioFab delivers an innovative, wearable solution to measuring
+        the physiological status of individuals through new smart scent technologies.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://nanobiofab.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1350
+  fields:
+    created_at: 2025-08-01 14:51:30.663256+00:00
+    updated_at: 2025-08-01 14:51:30.663269+00:00
+    name: Nanocrine, Inc.
+    slug: nanocrine-inc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Nanocrine products will give researchers the ability to monitor
+        the molecular communications of cells – a capability that will revolutionize
+        our understanding of human disease progression, injury recovery and maintaining
+        wellness.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.nanocrine.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1351
+  fields:
+    created_at: 2025-08-01 14:51:30.670501+00:00
+    updated_at: 2025-08-01 14:51:30.670529+00:00
+    name: Neopathology Corp.
+    slug: neopathology-corp
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Neopathology Corp.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://neopathology.bio/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1352
+  fields:
+    created_at: 2025-08-01 14:51:30.675384+00:00
+    updated_at: 2025-08-01 14:51:30.675397+00:00
+    name: NEOS Technologies
+    slug: neos-technologies
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Neos Technologies is a search fund that focuses on acquiring and
+        operating companies with a proven business model in the Information Technologies
+        (IT) and broad geographic area. 
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: ''
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1353
+  fields:
+    created_at: 2025-08-01 14:51:30.678927+00:00
+    updated_at: 2025-08-01 14:51:30.678937+00:00
+    name: Nowy
+    slug: nowy
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Nowy
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.nowy.io
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1354
+  fields:
+    created_at: 2025-08-01 14:51:30.681990+00:00
+    updated_at: 2025-08-01 14:51:30.682001+00:00
+    name: OncoGone, LLC
+    slug: oncogone-llc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: OncoGone, LLC helps researchers working with cancer and stem cells.
+        Their 3D cell culture system resembles the natural cell environment, making
+        the operation easier, with faster recovery.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: ''
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1355
+  fields:
+    created_at: 2025-08-01 14:51:30.685541+00:00
+    updated_at: 2025-08-01 14:51:30.685550+00:00
+    name: Osprey Bio
+    slug: osprey-bio
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Osprey Bio
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.ospreybio.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1356
+  fields:
+    created_at: 2025-08-01 14:51:30.688350+00:00
+    updated_at: 2025-08-01 14:51:30.688359+00:00
+    name: Outcess
+    slug: outcess
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Outcess
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.outcess.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1357
+  fields:
+    created_at: 2025-08-01 14:51:30.690903+00:00
+    updated_at: 2025-08-01 14:51:30.690909+00:00
+    name: Pace Life Sciences
+    slug: pace-life-sciences
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Pace Life Sciences
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://info.pacelabs.com/pls-mbg
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1358
+  fields:
+    created_at: 2025-08-01 14:51:30.693223+00:00
+    updated_at: 2025-08-01 14:51:30.693230+00:00
+    name: Phycin Inc.
+    slug: phycin-inc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Phycin is developing and commercializing proprietary algal expression
+        platforms that transform algae cells into powerhouses that address diverse
+        needs throughout the Life Sciences industry.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.phycin.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1359
+  fields:
+    created_at: 2025-08-01 14:51:30.695629+00:00
+    updated_at: 2025-08-01 14:51:30.695636+00:00
+    name: Potomac Affinity Proteins
+    slug: potomac-affinity-proteins
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Potomac Affinity Proteins
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.potomac-affinity-proteins.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1360
+  fields:
+    created_at: 2025-08-01 14:51:30.697690+00:00
+    updated_at: 2025-08-01 14:51:30.697696+00:00
+    name: Primo3D
+    slug: primo3d
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Primo3D
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.primo3d.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1361
+  fields:
+    created_at: 2025-08-01 14:51:30.700000+00:00
+    updated_at: 2025-08-01 14:51:30.700009+00:00
+    name: ProNav Clinical
+    slug: pronav-clinical
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: ProNav Clinical
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.pronavclinical.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1362
+  fields:
+    created_at: 2025-08-01 14:51:30.702178+00:00
+    updated_at: 2025-08-01 14:51:30.702186+00:00
+    name: Pulse AI Solutions
+    slug: pulse-ai-solutions
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Pulse AI Solutions
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.pulseaisolutions.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1363
+  fields:
+    created_at: 2025-08-01 14:51:30.705674+00:00
+    updated_at: 2025-08-01 14:51:30.705685+00:00
+    name: rfid Collect
+    slug: rfid-collect
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: rfid Collect
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://rfidcollect.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1364
+  fields:
+    created_at: 2025-08-01 14:51:30.708340+00:00
+    updated_at: 2025-08-01 14:51:30.708352+00:00
+    name: S.T.E.A.M. Powered Robotics
+    slug: steam-powered-robotics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: S.T.E.A.M. Powered Robotics
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://steampowered12873.github.io/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1365
+  fields:
+    created_at: 2025-08-01 14:51:30.710604+00:00
+    updated_at: 2025-08-01 14:51:30.710611+00:00
+    name: ScottLock Systems
+    slug: scottlock-systems
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: ScottLock Systems
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.scottlock.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1366
+  fields:
+    created_at: 2025-08-01 14:51:30.712562+00:00
+    updated_at: 2025-08-01 14:51:30.712568+00:00
+    name: Serious About Science
+    slug: serious-about-science
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Serious About Science
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.facebook.com/HobbsScienceTutorial/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1367
+  fields:
+    created_at: 2025-08-01 14:51:30.714642+00:00
+    updated_at: 2025-08-01 14:51:30.714649+00:00
+    name: Step Fusion Solutions
+    slug: step-fusion-solutions
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: We specialize in design and development of new products and technologies
+        promoting human wellness and Quality of Life. Our signature product line is
+        TATE Home Assistant. It is designed with an interface that interacts with
+        users to help with their routine.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://stepfusionsolutions.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1368
+  fields:
+    created_at: 2025-08-01 14:51:30.717164+00:00
+    updated_at: 2025-08-01 14:51:30.717173+00:00
+    name: Sumyatra
+    slug: sumyatra
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Sumyatra
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.sumyatra.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1369
+  fields:
+    created_at: 2025-08-01 14:51:30.719852+00:00
+    updated_at: 2025-08-01 14:51:30.719861+00:00
+    name: Synolus Medical, Inc.
+    slug: synolus-medical-inc
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Synolus Medical, Inc.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://synolusmed.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1370
+  fields:
+    created_at: 2025-08-01 14:51:30.722214+00:00
+    updated_at: 2025-08-01 14:51:30.722220+00:00
+    name: Synthesis Professional Services
+    slug: synthesis-professional-services
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: We help program officers make informed decisions, evaluate and
+        improve program performance, and communicate effectively about their work
+        with dynamic support through every phase.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.synthesisps.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1371
+  fields:
+    created_at: 2025-08-01 14:51:30.725085+00:00
+    updated_at: 2025-08-01 14:51:30.725093+00:00
+    name: Tellor
+    slug: tellor
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: The Decentralized Oracle for DeFi. An easy to implement solution
+        to get high-value data into your smart contracts.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://tellor.io/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1372
+  fields:
+    created_at: 2025-08-01 14:51:30.727527+00:00
+    updated_at: 2025-08-01 14:51:30.727535+00:00
+    name: TeloHealthDX
+    slug: telohealthdx
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: TeloHealthDX
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.telohealthdx.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1373
+  fields:
+    created_at: 2025-08-01 14:51:30.729869+00:00
+    updated_at: 2025-08-01 14:51:30.729876+00:00
+    name: The Geneva Foundation
+    slug: the-geneva-foundation
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: The Geneva Foundation
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://genevausa.org/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1374
+  fields:
+    created_at: 2025-08-01 14:51:30.732042+00:00
+    updated_at: 2025-08-01 14:51:30.732048+00:00
+    name: ThisTown
+    slug: thistown
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: ThisTown
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://dsxtwn.app/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1375
+  fields:
+    created_at: 2025-08-01 14:51:30.734865+00:00
+    updated_at: 2025-08-01 14:51:30.734873+00:00
+    name: Tvisha Technologies
+    slug: tvisha-technologies
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Tvisha Technologies
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: http://www.tvisha.com
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1376
+  fields:
+    created_at: 2025-08-01 14:51:30.737669+00:00
+    updated_at: 2025-08-01 14:51:30.737677+00:00
+    name: Unraveling Obesity
+    slug: unraveling-obesity
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Unraveling Obesity
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://unravelingobesity.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1377
+  fields:
+    created_at: 2025-08-01 14:51:30.740481+00:00
+    updated_at: 2025-08-01 14:51:30.740489+00:00
+    name: UP Therapeutics
+    slug: up-therapeutics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: UP Therapeutics
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.uptherapeutics.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1378
+  fields:
+    created_at: 2025-08-01 14:51:30.743240+00:00
+    updated_at: 2025-08-01 14:51:30.743249+00:00
+    name: Veralox Therapeutics
+    slug: veralox-therapeutics
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Veralox Therapeutics is a small molecule therapeutics company focused
+        on accelerating the development of first-in-class medicines for unmet medical
+        needs.
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://veralox.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1379
+  fields:
+    created_at: 2025-08-01 14:51:30.745430+00:00
+    updated_at: 2025-08-01 14:51:30.745436+00:00
+    name: Versagile
+    slug: versagile
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Versagile
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.versagile.training/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1380
+  fields:
+    created_at: 2025-08-01 14:51:30.747457+00:00
+    updated_at: 2025-08-01 14:51:30.747464+00:00
+    name: Viroforge Technologies
+    slug: viroforge-technologies
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: Viroforge Technologies
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://viroforge.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
+- model: app.business
+  pk: 1381
+  fields:
+    created_at: 2025-08-01 14:51:30.751593+00:00
+    updated_at: 2025-08-01 14:51:30.751600+00:00
+    name: WerlPower
+    slug: werlpower
+    address: null
+    contacts: []
+    phone_numbers: []
+    extra:
+      description: WerlPower
+    chamber_of_commerce_id: null
+    downtown_frederick_id: null
+    website_url: https://www.werlpower.com/
+    google_maps_url: ''
+    number_of_employees: null
+    categories:
+    - 273
 - model: app.socialmedialink
   pk: 1
   fields:
