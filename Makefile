@@ -40,6 +40,11 @@ scrape_downtown_frederick:
 	python manage.py run_scraper downtown_frederick
 
 
+scrape_visit_frederick:
+	# Scrape Visit Frederick using REST API
+	python manage.py run_scraper visit_frederick
+
+
 serve:
 	# Serve static files for frontend development
 	python -m http.server 8080

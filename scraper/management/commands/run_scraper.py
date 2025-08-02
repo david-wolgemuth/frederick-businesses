@@ -14,6 +14,7 @@ from scraper.spiders.business_in_frederick_top_employers import (
 from scraper.spiders.made_in_frederick import MadeInFrederickSpider
 from scraper.spiders.downtown_frederick import DowntownFrederickSpider
 from scraper.spiders.fitci import FitciSpider
+from scraper.spiders.visit_frederick import VisitFrederickSpider
 
 
 class ScraperName(StrEnum):
@@ -24,6 +25,7 @@ class ScraperName(StrEnum):
     BUSINESS_IN_FREDERICK_TOP_EMPLOYERS = auto()
     DOWNTOWN_FREDERICK = auto()
     FITCI = auto()
+    VISIT_FREDERICK = auto()
 
 
 class Command(BaseCommand):
@@ -69,6 +71,10 @@ class Command(BaseCommand):
             case ScraperName.FITCI:
                 self.stdout.write("Running FITCI scraper")
                 process.crawl(FitciSpider)
+                process.start()
+            case ScraperName.VISIT_FREDERICK:
+                self.stdout.write("Running Visit Frederick scraper")
+                process.crawl(VisitFrederickSpider)
                 process.start()
             case _:
                 self.stderr.write("Unknown scraper option")

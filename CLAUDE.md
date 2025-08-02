@@ -34,6 +34,9 @@ make scrape_frederick_chamber
 make scrape_discover_frederick  
 make scrape_discover_frederick_major_employers
 make scrape_made_in_frederick
+make scrape_business_in_frederick_top_employers
+make scrape_downtown_frederick
+make scrape_visit_frederick
 ```
 
 Django operations:

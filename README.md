@@ -128,4 +128,4 @@ make runserver
 - [ ] [https://goldenmilealliance.org/directory/](https://goldenmilealliance.org/directory/) - Golden Mile AllianceGolden Mile Alliance Directory
 - [ ] [https://eastfrederickrising.com/businesses/](https://eastfrederickrising.com/businesses/)  East Frederick Rising Businesses Archive - East Frederick Rising (160 kB)
 - [ ] [https://techfrederick.org/](https://techfrederick.org/)
-- [ ] [https://www.visitfrederick.org/](https://www.visitfrederick.org/) Official Tourism Website of Frederick County (170 kB)
+- [x] [https://www.visitfrederick.org/](https://www.visitfrederick.org/) Official Tourism Website of Frederick County (170 kB)
