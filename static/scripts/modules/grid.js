@@ -17,26 +17,15 @@ export class GridModule {
     getColumnDefinitions() {
         return [
             {
-                field: "mobileView",
-                headerName: "Business Directory",
-                filter: true,
-                sortable: true,
-                flex: 1,
-                cellClass: "mobile-column",
-                headerClass: "mobile-column",
-                cellRenderer: (params) => this.mobileViewRenderer(params),
-                valueGetter: (params) => this.mobileViewValueGetter(params)
-            },
-            { 
-                field: "name", 
+                field: "name",
                 headerName: "Business Name",
                 filter: true,
                 sortable: true,
                 flex: 3,
                 cellRenderer: (params) => this.businessNameRenderer(params)
             },
-            { 
-                field: "categoryNames", 
+            {
+                field: "categoryNames",
                 headerName: "Categories",
                 filter: 'agSetColumnFilter',
                 filterParams: {
@@ -47,23 +36,23 @@ export class GridModule {
                 valueFormatter: (params) => this.categoryValueFormatter(params),
                 cellRenderer: (params) => this.categoryRenderer(params)
             },
-            { 
-                field: "fullAddress", 
+            {
+                field: "fullAddress",
                 headerName: "Address",
                 filter: true,
                 flex: 2,
                 hide: true
             },
-            { 
-                field: "number_of_employees", 
+            {
+                field: "number_of_employees",
                 headerName: "Employees",
                 filter: 'agNumberColumnFilter',
                 sortable: true,
                 width: 130,
                 cellRenderer: (params) => this.employeeRenderer(params)
             },
-            { 
-                field: "phone_numbers", 
+            {
+                field: "phone_numbers",
                 headerName: "Phone",
                 filter: true,
                 width: 150,
@@ -74,48 +63,6 @@ export class GridModule {
         ];
     }
 
-    mobileViewRenderer(params) {
-        const business = params.data;
-        if (!business) return '';
-        
-        // Business name (top) - ensure full visibility
-        const businessName = business.website_url ? 
-            `<a href="${business.website_url}" target="_blank" class="cell-link" style="font-weight: 600; font-size: 15px; display: block; margin-bottom: 8px; line-height: 1.3; word-wrap: break-word;">${business.name}</a>` :
-            `<div style="font-weight: 600; font-size: 15px; color: #333; margin-bottom: 8px; line-height: 1.3; word-wrap: break-word;">${business.name}</div>`;
-        
-        // Categories (middle)
-        let categories = '';
-        if (business.categoryNames && business.categoryNames.length > 0) {
-            categories = `<div style="margin-bottom: 8px; line-height: 1.4;">${business.categoryNames.map(cat => 
-                `<span class="badge" style="background-color: ${this.categoryColors[cat] || '#6c757d'}; color: white; font-size: 10px; margin: 1px 3px 2px 0; padding: 3px 6px; display: inline-block;">${cat}</span>`
-            ).join('')}</div>`;
-        }
-        
-        // Contact info (bottom)
-        let contact = '';
-        const contactItems = [];
-        if (business.fullAddress) contactItems.push(`📍 ${business.fullAddress}`);
-        if (business.phone_numbers && business.phone_numbers.length > 0) contactItems.push(`📞 ${business.phone_numbers[0]}`);
-        if (business.number_of_employees) contactItems.push(`👥 ${business.number_of_employees.toLocaleString()} employees`);
-        
-        if (contactItems.length > 0) {
-            contact = `<div style="font-size: 12px; color: #666; line-height: 1.4; margin-top: 4px;">${contactItems.join('<br>')}</div>`;
-        }
-        
-        return `<div style="padding: 4px 0; min-height: 60px; display: flex; flex-direction: column; justify-content: flex-start;">${businessName}${categories}${contact}</div>`;
-    }
-
-    mobileViewValueGetter(params) {
-        // For filtering to work on all fields
-        const business = params.data;
-        if (!business) return '';
-        return [
-            business.name || '',
-            business.categoryNames ? business.categoryNames.join(' ') : '',
-            business.fullAddress || '',
-            business.phone_numbers ? business.phone_numbers.join(' ') : ''
-        ].join(' ').toLowerCase();
-    }
 
     businessNameRenderer(params) {
         if (params.data.website_url) {
@@ -133,7 +80,7 @@ export class GridModule {
 
     categoryRenderer(params) {
         if (params.value && Array.isArray(params.value) && params.value.length > 0) {
-            return params.value.map(cat => 
+            return params.value.map(cat =>
                 `<span class="badge category-tag" style="background-color: ${this.categoryColors[cat] || '#6c757d'}; color: white;">${cat}</span>`
             ).join(' ');
         }
@@ -193,11 +140,11 @@ export class GridModule {
 
     setupQuickFilter() {
         const quickFilterInput = document.getElementById('quickFilter');
-        
+
         quickFilterInput.addEventListener('input', (e) => {
             this.gridApi.setGridOption('quickFilterText', e.target.value);
         });
-        
+
         // Clear search with Escape key
         quickFilterInput.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
@@ -213,17 +160,17 @@ export class GridModule {
             const business = event.data;
             this.mapModule.highlightBusiness(business.id);
         });
-        
+
         // Listen for pagination changes
         this.gridApi.addEventListener('paginationChanged', () => {
             this.updateMapWithCurrentPage();
         });
-        
+
         // Listen for filter changes
         this.gridApi.addEventListener('filterChanged', () => {
             this.updateMapWithCurrentPage();
         });
-        
+
         // Listen for sort changes
         this.gridApi.addEventListener('sortChanged', () => {
             this.updateMapWithCurrentPage();
@@ -232,7 +179,7 @@ export class GridModule {
 
     updateMapWithCurrentPage() {
         if (!this.gridApi) return;
-        
+
         // Get the currently displayed rows from the grid
         const displayedRows = [];
         this.gridApi.forEachNodeAfterFilterAndSort((node, index) => {
@@ -241,12 +188,12 @@ export class GridModule {
             const pageSize = this.gridApi.paginationGetPageSize();
             const startIndex = currentPage * pageSize;
             const endIndex = startIndex + pageSize;
-            
+
             if (index >= startIndex && index < endIndex) {
                 displayedRows.push(node.data);
             }
         });
-        
+
         this.mapModule.addBusinessesToMap(displayedRows);
     }
 }
