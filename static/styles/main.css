@@ -1,0 +1,142 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    background: linear-gradient(135deg, #f94144 0%, #577590 100%);
+    color: white;
+}
+
+.ag-theme-alpine {
+    height: 600px;
+    --ag-cell-horizontal-padding: 6px;
+    --ag-header-height: 40px;
+    font-size: 13px;
+}
+
+/* Mobile-first: single cell layout */
+@media (max-width: 767px) {
+    .ag-theme-alpine {
+        --ag-row-height: auto;
+        --ag-cell-horizontal-padding: 8px;
+        --ag-cell-vertical-padding: 12px;
+    }
+    
+    /* Hide all columns except the mobile column on mobile */
+    .ag-header-cell:not(.mobile-column),
+    .ag-cell:not(.mobile-column) {
+        display: none !important;
+    }
+    
+    .mobile-column {
+        width: 100% !important;
+        flex: 1 !important;
+    }
+    
+    /* Ensure mobile cells are tall enough */
+    .ag-theme-alpine .ag-row {
+        min-height: 80px;
+    }
+    
+    .ag-theme-alpine .ag-cell {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        line-height: 1.4;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+}
+
+/* Desktop: show all columns, hide mobile column */
+@media (min-width: 768px) {
+    .mobile-column {
+        display: none !important;
+    }
+}
+
+/* Responsive grid heights */
+@media (max-width: 767px) {
+    .ag-theme-alpine {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .ag-theme-alpine {
+        height: 500px;
+    }
+}
+
+#map {
+    height: 600px;
+    border-radius: 8px;
+}
+
+/* Responsive map heights */
+@media (max-width: 767px) {
+    #map {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #map {
+        height: 500px;
+    }
+}
+
+.chart-container {
+    height: 400px;
+    margin-bottom: 0;
+}
+
+.chart-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+.bar-chart rect {
+    transition: fill 0.2s;
+}
+
+.bar-chart rect:hover {
+    opacity: 0.8;
+}
+
+.pie-chart path {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.axis {
+    font-size: 12px;
+}
+
+.axis text {
+    fill: #6c757d;
+}
+
+.axis line, .axis path {
+    stroke: #dee2e6;
+}
+
+.cell-link {
+    color: #577590;
+    text-decoration: none;
+}
+
+.cell-link:hover {
+    text-decoration: underline;
+}
+
+.category-tag {
+    display: inline-block;
+    margin: 1px;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+}

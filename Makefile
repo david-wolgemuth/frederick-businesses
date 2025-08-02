@@ -58,3 +58,8 @@ test_duplicates:
 detect_duplicates:
 	# Detect duplicate businesses in current data
 	python manage.py detect_duplicates --method=all --min-score=0.85
+
+
+scrape_fitci:
+	# Scrape FITCI Members Directory
+	python manage.py run_scraper fitci
