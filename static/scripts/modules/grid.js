@@ -123,9 +123,6 @@ export class GridModule {
             rowSelection: 'single',
             animateRows: true,
             sortingOrder: ['desc', 'asc'],
-            defaultSortModel: [
-                { colId: 'number_of_employees', sort: 'desc' }
-            ],
             suppressColumnVirtualisation: true
         };
 
@@ -136,6 +133,11 @@ export class GridModule {
 
     setRowData(data) {
         this.gridApi.setGridOption('rowData', data);
+        
+        // Apply initial sort by employee count (descending)
+        this.gridApi.applyColumnState({
+            state: [{ colId: 'number_of_employees', sort: 'desc' }]
+        });
     }
 
     setupQuickFilter() {
