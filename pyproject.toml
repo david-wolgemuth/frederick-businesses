@@ -1,0 +1,15 @@
+[project]
+name = "frederick-businesses"
+version = "0.1.0"
+description = "Frederick, Maryland business directory and scrapers"
+requires-python = ">=3.11"
+dependencies = [
+    "Django==5.1.2",
+    "django-extensions==3.2.3",
+    "PyYAML==6.0.2",
+    "Scrapy==2.11.2",
+    "Twisted<25",
+]
+
+[tool.uv]
+package = false

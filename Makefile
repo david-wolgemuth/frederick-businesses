@@ -1,6 +1,6 @@
 UV := /home/david/.local/bin/uv
 UV_CACHE_DIR ?= /tmp/frederick-businesses-uv-cache
-UV_RUN := UV_CACHE_DIR=$(UV_CACHE_DIR) $(UV) run --no-project --python .venv/bin/python
+UV_RUN := UV_CACHE_DIR=$(UV_CACHE_DIR) $(UV) run --locked --python .venv/bin/python
 
 scrape_frederick_chamber:
 	# Scrape Frederick Chamber of Commerce Members
