@@ -164,7 +164,9 @@ cython_debug/
 
 # -----------------------------
 # Project Specific
-scraper/output/
+scraper/output/*
+!scraper/output/__init__.py
+!scraper/output/csv_logger.py
 
 # -----------------------------
 # Frontend Development
