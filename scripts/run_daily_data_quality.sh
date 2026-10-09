@@ -8,6 +8,9 @@ NVM_DIR="${HOME}/.nvm"
 . "${NVM_DIR}/nvm.sh"
 nvm use --silent default >/dev/null
 
+# Avoid a host-injected SSH config symlink that OpenSSH rejects in systemd.
+export GIT_SSH_COMMAND="ssh -F /dev/null -o BatchMode=yes"
+
 # Do not branch or publish unless GitHub CLI can create the requested PR.
 gh auth status
 BASE_BRANCH="$(git -C "${REPO_DIR}" symbolic-ref --quiet --short refs/remotes/origin/HEAD 2>/dev/null || true)"
