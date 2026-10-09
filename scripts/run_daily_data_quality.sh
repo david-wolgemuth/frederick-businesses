@@ -57,11 +57,11 @@ export DJANGO_SETTINGS_MODULE=opencode_test_settings
 export PYTHONPATH="${TEST_DIR}:${REPO_DIR}${PYTHONPATH:+:${PYTHONPATH}}"
 
 cd "${REPO_DIR}"
+PROMPT_CONTENT="$(cat "${PROMPT_FILE}")"
 opencode run --auto \
   --dir "${REPO_DIR}" \
   --title "Daily Frederick Businesses data quality" \
-  --file "${PROMPT_FILE}" \
-  "Follow the contribution and data-quality instructions in the attached prompt. Make at most one narrowly scoped, tested improvement and one commit."
+  "${PROMPT_CONTENT}"
 
 STATUS_AFTER="$(git -C "${REPO_DIR}" status --porcelain --untracked-files=all)"
 DIFF_HASH_AFTER="$(git -C "${REPO_DIR}" diff --binary | sha256sum | cut -d ' ' -f 1)"
